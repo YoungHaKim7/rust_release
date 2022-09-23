@@ -1,1 +1,0 @@
-/Users/globalyoung/Documents/Project/Github/rust_project/rust_release/rust1_64/02_std_task_ready/future_poll/target/debug/future_poll: /Users/globalyoung/Documents/Project/Github/rust_project/rust_release/rust1_64/02_std_task_ready/future_poll/src/main.rs
