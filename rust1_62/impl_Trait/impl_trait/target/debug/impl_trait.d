@@ -1,1 +1,0 @@
-/Users/globalyoung/Documents/Project/Github/rust_project/rust_release/rust1_62/impl_Trait/impl_trait/target/debug/impl_trait: /Users/globalyoung/Documents/Project/Github/rust_project/rust_release/rust1_62/impl_Trait/impl_trait/src/main.rs
