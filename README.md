@@ -1,3 +1,17 @@
+# Rust version Setting
+
+```
+rustup update stable
+```
+
+- Version control
+
+```
+rustup default beta
+
+rustup default nightly
+```
+
 # rust_release
 
 rust release 제일 빨리 알려주는 트위터
