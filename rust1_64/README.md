@@ -1,3 +1,17 @@
+# Rust version Setting
+
+```
+rustup update stable
+```
+
+- Version control
+
+```
+rustup default beta
+
+rustup default nightly
+```
+
 # Rust 제일 빠른 소식
 
 Mara Bos
