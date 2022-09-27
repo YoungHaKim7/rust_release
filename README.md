@@ -7,6 +7,8 @@ rustup update stable
 - Version control
 
 ```
+rustup default stable
+
 rustup default beta
 
 rustup default nightly
