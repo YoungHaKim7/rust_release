@@ -84,6 +84,10 @@ c_ushort		Equivalent to C's unsigned short type.
 CStr			Representation of a borrowed C string.
 ```
 
+Rust 1.64.0 | Let's Get Rusty
+
+출처: https://youtu.be/CO5Xo76CVCk
+
 출처: https://economiceco.tistory.com/15091 [경제PLUS:티스토리]
 
 <hr>
