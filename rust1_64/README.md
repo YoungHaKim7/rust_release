@@ -58,3 +58,11 @@ https://runebook.dev/ko/docs/rust/std/sync/struct.arc
 
 - Old 버젼 Rust Memory Container
   [https://www.reddit.com/r/rust/comments/mgh9n9/ownership_concept_diagram/?utm_source=share&utm_medium=ios_app&utm_name=iossmf](https://www.reddit.com/r/rust/comments/mgh9n9/ownership_concept_diagram/?utm_source=share&utm_medium=ios_app&utm_name=iossmf)
+
+<br>
+
+# 내가 공부하려고 정리
+
+Rust 1.64 update 내용 정리
+
+https://economiceco.tistory.com/15091
