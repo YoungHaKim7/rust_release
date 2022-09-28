@@ -50,3 +50,23 @@ https://blog.rust-lang.org/
 # Asynchronous Programming in Rust \_1.63 부터 이해해야할 Async
 
 https://rust-lang.github.io/async-book/01_getting_started/04_async_await_primer.html
+
+# cargo add 활용법
+
+```
+$ cargo add serde -F serde/derive && cargo add tokio -F tokio/full
+```
+
+- 알아서 이쁘게 들어간다.
+
+Cargo.toml
+
+```
+[dependencies]
+serde = { version = "1.0.140", features = ["derive"] }
+tokio = { version = "1.20.1", features = ["full"] }
+```
+
+cargo add 활용법❤️귀찮은 features넣는 법 -F이게 좋네 ㅋ❤️(Cargo.toml 넣기 귀찮다. ㅋㅋ)
+
+https://economiceco.tistory.com/m/14544
