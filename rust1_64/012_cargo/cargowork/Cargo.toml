@@ -1,0 +1,19 @@
+[package]
+name = "cargowork"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[workspace]
+members = ["bar"]
+
+[workspace.package]
+version = "1.2.3"
+authors = ["Nice Folks"]
+description = "A short description of my pakage"
+documentation = "https://example.com/bar"#r> {}
+
+[workspace.dependencies]
+cc = "1.0.73"
+rand = "0.8.5"
+regex = { version = "1.6.0", default-features = false, features = ["std"] }
