@@ -61,6 +61,35 @@ https://runebook.dev/ko/docs/rust/std/sync/struct.arc
 
 <br>
 
+# core::ffi
+
+```
+core::ffi
+
+c_char			Equivalent to C's char type.
+c_double		Equivalent to C's double type.
+c_float			Equivalent to C's float type.
+c_int			Equivalent to C's signed int(int) type.
+c_long			Equivalent to C's signed long(long) type.
+c_longlong		Equivalent to C's signed long long(long long) type.
+
+c_schar			Equivalent to C's signed char type.
+c_short			Equivalent to C's signed short(short) type.
+c_uchar			Equivalent to C's unsigned char type.
+c_uint			Equivalent to C's unsigned int type.
+c_ulong			Equivalent to C's unsigned long type.
+c_ulonglong		Equivalent to C's unsigned long long type.
+c_ushort		Equivalent to C's unsigned short type.
+
+CStr			Representation of a borrowed C string.
+```
+
+출처: https://economiceco.tistory.com/15091 [경제PLUS:티스토리]
+
+<hr>
+
+<br>
+
 # 내가 공부하려고 정리
 
 Rust 1.64 update 내용 정리
