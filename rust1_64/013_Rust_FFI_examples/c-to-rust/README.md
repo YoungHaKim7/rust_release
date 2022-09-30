@@ -1,3 +1,13 @@
+# Rust 공식 문서
+
+- Struct alloc::ffi::CStringCopy
+
+A type representing an owned, C-compatible, nul-terminated string with no nul bytes in the middle.
+
+https://doc.rust-lang.org/nightly/alloc/ffi/struct.CString.html
+
+<br>
+
 # Unsafe & FFI in Rust | Ryan Levick
 
 https://youtu.be/LFFbTeU25pE
