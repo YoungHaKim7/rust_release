@@ -1,1 +1,0 @@
-/Users/globalyoung/Documents/Project/Github/rust_project/rust_release/rust1_64/013_Rust_FFI_examples/cstring_new_nulerror/target/debug/cstring_new_nulerror: /Users/globalyoung/Documents/Project/Github/rust_project/rust_release/rust1_64/013_Rust_FFI_examples/cstring_new_nulerror/src/main.rs
