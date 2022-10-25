@@ -70,3 +70,37 @@ tokio = { version = "1.20.1", features = ["full"] }
 cargo add 활용법❤️귀찮은 features넣는 법 -F이게 좋네 ㅋ❤️(Cargo.toml 넣기 귀찮다. ㅋㅋ)
 
 https://economiceco.tistory.com/m/14544
+
+<br>
+
+<hr>
+
+# 중국 사람이 정리한 Rust eBook 번역해서 볼만함
+
+https://github.com/sunface/rust-course
+
+<br>
+
+- 이거 eBook 장난아니게 버젼별 정리까지 최고
+
+https://course.rs/about-book.html
+
+<br>
+
+- Rust by practice
+
+영문 버전 중국어 보다 보기 편하다. ^^;
+
+https://practice.rs/why-exercise.html
+
+https://github.com/sunface/rust-by-practice
+
+<br>
+
+- Cook Book
+
+https://rusty.rs/about.html
+
+<br>
+
+-

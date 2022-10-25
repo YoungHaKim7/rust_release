@@ -7,5 +7,6 @@ int main(int argc, char *argv[]) {
   myvalue_free(mv);
   
   return 0;
+  myvalue_print(mv);
 
 }
