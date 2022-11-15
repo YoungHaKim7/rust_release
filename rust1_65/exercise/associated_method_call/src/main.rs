@@ -1,8 +1,7 @@
 // https://doc.rust-lang.org/reference/items/associated-items.html
 // Examples of methods implemented on struct `Example`.
-use std::pin::Pin;
-use std::rc::Rc;
-use std::sync::Arc;
+
+use std::{pin::Pin, rc::Rc, sync::Arc};
 
 struct Example;
 type Alias = Example;
