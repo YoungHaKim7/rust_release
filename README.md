@@ -14,6 +14,20 @@ rustup default beta
 rustup default nightly
 ```
 
+<br>
+
+<hr>
+
+# Rust Relese 노트 미리 알아보기
+
+https://releases.rs/docs/released/1.65.0/
+
+
+<hr>
+
+<br>
+
+
 # rust_release
 
 rust release 제일 빨리 알려주는 트위터
