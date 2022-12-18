@@ -50,6 +50,11 @@ https://www.whatrustisit.com/
 <br>
 - Releases 노트 지금까지 나온거 쭉 볼 수 있다.
 
+
+https://github.com/rust-lang/rust/blob/master/RELEASES.md
+
+<br>
+
 https://github.com/rust-lang/rust/blob/1.64.0/RELEASES.md
 
 <br>
