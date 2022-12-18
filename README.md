@@ -20,8 +20,7 @@ rustup default nightly
 
 # Rust Relese 노트 미리 알아보기
 
-https://releases.rs/docs/released/1.65.0/
-
+https://releases.rs/docs/
 
 <hr>
 
