@@ -1,3 +1,11 @@
+# Rust 1.66 Release 내용 
+
+https://blog.rust-lang.org/2022/12/15/Rust-1.66.0.html
+
+<br>
+
+<hr>
+
 # rust if_let_chains
 
 - 4 분 44초에 나옴
