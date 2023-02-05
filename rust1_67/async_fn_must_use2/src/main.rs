@@ -10,4 +10,5 @@ async fn get_int() -> u32 {
 
 async fn print_int() {
     let i = get_int().await;
+    println!("{i}");
 }
