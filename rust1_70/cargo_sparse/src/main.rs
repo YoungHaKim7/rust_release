@@ -1,12 +1,7 @@
-#[macro_use]
-extern crate rocket;
+use rayon::prelude::*;
 
-#[get("/")]
-fn index() -> &'static str {
-    "Hello, world!"
-}
-
-#[launch]
-fn rocket() -> _ {
-    rocket::build().mount("/", routes![index])
+fn main() {
+    let mut arr = [0, 7, 9, 11];
+    arr.par_iter_mut().for_each(|p| *p -= 1);
+    println!("{arr:?}");
 }
