@@ -8,5 +8,5 @@ edition = "2021"
 [dependencies]
 rocket = "0.4.11"
 
-[registies.crates-io]
-project = "sparse"
+[registries.crates-io]
+protocol = "sparse"
