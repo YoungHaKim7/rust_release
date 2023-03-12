@@ -1,3 +1,4 @@
+// https://rust-lang-nursery.github.io/rust-cookbook/concurrency/parallel.html
 use rayon::prelude::*;
 
 fn main() {
