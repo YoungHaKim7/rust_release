@@ -138,13 +138,14 @@ active toolchain
 1.68.0-x86_64-pc-windows-msvc (overridden by 'D:\rust-toolchain.toml')
 rustc 1.68.0 (2c8cc3432 2023-03-06)
 
-PS D:\rust_toolchain_toml> rustup toolchain remove nightly-202
-3-02-21 1.65.0
+PS D:\rust_toolchain_toml> rustup toolchain remove nightly-2023-02-21 1.65.0
+
 info: uninstalling toolchain 'nightly-2023-02-21-x86_64-pc-windows-msvc'
 info: toolchain 'nightly-2023-02-21-x86_64-pc-windows-msvc' uninstalled
 info: uninstalling toolchain '1.65.0-x86_64-pc-windows-msvc'
 info: toolchain '1.65.0-x86_64-pc-windows-msvc' uninstalled
-PS D:\young_project\rust_lang\rust_release\rust_toolchain_toml> rustup show
+
+PS D:\rust_toolchain_toml> rustup show
 Default host: x86_64-pc-windows-msvc
 rustup home:  C:\Users\user\.rustup
 
