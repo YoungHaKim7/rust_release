@@ -137,7 +137,11 @@ active toolchain
 
 1.68.0-x86_64-pc-windows-msvc (overridden by 'D:\rust-toolchain.toml')
 rustc 1.68.0 (2c8cc3432 2023-03-06)
+```
 
+# rustup toolchain remove nightly-2023-02-21 1.65.0(필요없는거 지우기)
+
+```
 PS D:\rust_toolchain_toml> rustup toolchain remove nightly-2023-02-21 1.65.0
 
 info: uninstalling toolchain 'nightly-2023-02-21-x86_64-pc-windows-msvc'
