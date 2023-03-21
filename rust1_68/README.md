@@ -12,8 +12,6 @@ https://youtu.be/SCM4AoOh-sk
 
 https://youtu.be/A6R_S_-m46M
 
-# Result
+# Rust | pin & unpin
 
-```
-
-```
+https://www.sobyte.net/post/2022-07/rust-pin-unpin/
