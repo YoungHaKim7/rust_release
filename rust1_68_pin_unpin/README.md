@@ -1,3 +1,7 @@
+# atomics_basics(marabos)
+
+https://marabos.nl/atomics/basics.html
+
 # Rust 1.68.0 Releases
 
 https://github.com/rust-lang/rust/blob/1.68.0/RELEASES.md
