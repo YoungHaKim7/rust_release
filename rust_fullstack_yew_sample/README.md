@@ -1,3 +1,7 @@
+# My rust-yew project
+
+https://github.com/YoungHaKim7/Rust_Yew_FullStack
+
 # Yew Turoial(Rust)
 
 https://yew.rs/docs/tutorial
