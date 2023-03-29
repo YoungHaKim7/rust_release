@@ -6,6 +6,8 @@ https://www.sobyte.net/post/2022-07/rust-pin-unpin/
 
   - https://rust-lang.github.io/async-book/04_pinning/01_chapter.html#summary
 
+  - https://rust-lang.github.io/async-book/04_pinning/01_chapter.html
+
   <hr>
 
 ## 요약
