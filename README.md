@@ -85,6 +85,35 @@ cargo add 활용법❤️귀찮은 features넣는 법 -F이게 좋네 ㅋ❤️(
 
 https://economiceco.tistory.com/m/14544
 
+- 다른 cargo add
+
+```
+$ cargo add serde tokio -F serde/derive -F tokio/full
+
+    Updating crates.io index
+      Adding serde v1.0.159 to dependencies.
+             Features:
+             + derive
+             + serde_derive
+             + std
+             - alloc
+             - rc
+             - unstable
+      Adding tokio v1.27.0 to dependencies.
+             Features:
+             + bytes
+             + fs
+             + full
+             + io-std
+             + io-util
+             + libc
+             + macros
+             + net
+             + num_cpus
+             + parking_lot
+             + process
+```
+
 <br>
 
 <hr>
