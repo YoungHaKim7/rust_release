@@ -1,6 +1,6 @@
 # Debug information is not included in build scripts by default anymore(속도 올리려고 1.69에서 디버그 정보 빠짐 다시 넣는 방법)
 
-- If you want to debug a build script, you can add this snippet to your Cargo.toml to emit debug information again:
+- If you want to debug a build script, you can add this snippet to your ```Cargo.toml``` to emit debug information again:
 - Cargo.toml https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html
 
 ```
