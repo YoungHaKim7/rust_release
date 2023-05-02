@@ -1,3 +1,17 @@
+# Debug information is not included in build scripts by default anymore(속도 올리려고 1.69에서 디버그 정보 빠짐 다시 넣는 방법)
+
+- Cargo.toml https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html
+
+```
+[profile.dev.build-override]
+debug = true
+[profile.release.build-override]
+debug = true
+```
+<br>
+
+<hr>
+
 # Rust version Setting
 
 ```
