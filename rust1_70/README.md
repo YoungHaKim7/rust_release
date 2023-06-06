@@ -1,3 +1,7 @@
+# Rust 1.70 들어간 sparse-protocol
+
+https://doc.rust-lang.org/stable/cargo/reference/registry-index.html#sparse-protocol
+
 Version 1.70.0 (2023-06-01)
 ==========================
 
