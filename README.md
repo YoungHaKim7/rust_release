@@ -1,5 +1,7 @@
 # rustc --version --verbose
 
+- test한 환경을 남에게 보여줄때 좋다.
+
 ```
 $ rustc --version --verbose
 rustc 1.70.0 (90c541806 2023-05-31)
