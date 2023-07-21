@@ -49,3 +49,13 @@ https://doc.rust-lang.org/cargo/reference/profiles.html
         <td>line-directives-only</td>
     </tr>
 </table>
+
+# 배열을 튜플로 튜플을 배열로 ㅎ 
+
+```rust
+- From<T; N> for (T...) // (array to N-tuple for N in 1..=12)
+- From(T...) for [T; N] // (N-tuple to array for N in 1..=12)
+
+```
+
+https://doc.rust-lang.org/stable/std/primitive.array.html#impl-From%3C%28T,%29%3E-for-%5BT;+1%5D
