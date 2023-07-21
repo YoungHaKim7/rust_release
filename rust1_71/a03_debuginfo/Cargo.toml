@@ -1,0 +1,14 @@
+[package]
+name = "a03_debuginfo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+# [profile.dev]
+# debug = "line-tables-only"
+
+[profile.dev]
+debug = "full"
