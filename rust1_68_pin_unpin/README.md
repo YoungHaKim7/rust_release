@@ -18,6 +18,8 @@ https://youtu.be/A6R_S_-m46M
 
 # Rust | pin & unpin
 
+https://cryptical.xyz/rust/pin-unpin
+
 https://www.sobyte.net/post/2022-07/rust-pin-unpin/
 
 # Pin Summary
