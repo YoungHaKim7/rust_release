@@ -1,1 +1,0 @@
-/Users/globalyoung/Documents/test/test/rust/rust_release/rust1_71/init_new_inherit_workspace/target/debug/init_new_inherit_workspace: /Users/globalyoung/Documents/test/test/rust/rust_release/rust1_71/init_new_inherit_workspace/src/main.rs
