@@ -12,6 +12,12 @@ https://blog.rust-lang.org/2023/03/09/Rust-1.68.0.html
 
 https://youtu.be/SCM4AoOh-sk
 
+<hr>
+
+# The Mystery of the Pin - Martin Hoffmann - RustNL 2023
+
+https://youtu.be/cVvZ0mJTkZ0
+
 # 프로그래밍 언어 러스트를 배웁시다! 184 Panic hook 설치하기
 
 https://youtu.be/A6R_S_-m46M
@@ -32,7 +38,7 @@ https://www.sobyte.net/post/2022-07/rust-pin-unpin/
 
   - https://rust-lang.github.io/async-book/04_pinning/01_chapter.html
 
-  <hr>
+<hr>
 
 ## 요약
 
