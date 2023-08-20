@@ -1,3 +1,9 @@
+# Rust 1.71.0 | Let's Get Rusty
+
+https://youtu.be/H8aHX-JkiZs
+
+<hr>
+
 # Rust Releases! Rust 1.71.0
 
 https://youtu.be/8DG1V9nNYeg
