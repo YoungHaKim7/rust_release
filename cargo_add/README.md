@@ -24,6 +24,20 @@ cargo add eframe -F "__screenshot"
     Updating crates.io index
 ```
 
+-cargo.toml
+
+```toml
+[package]
+name = "egui_window"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+eframe = { version = "0.22.0", features = ["__screenshot"] }
+
+```
 
 # Rust _____cargo add 2개 동시에 넣고 Features에 2개 동시에 추가하기 편하다.!!
 
