@@ -24,7 +24,7 @@ cargo add eframe -F "__screenshot"
     Updating crates.io index
 ```
 
--cargo.toml
+- cargo.toml
 
 ```toml
 [package]
