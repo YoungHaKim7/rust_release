@@ -1,3 +1,30 @@
+# cargo add 1개 편하게 넣기
+
+```bash
+cargo add eframe -F "__screenshot"
+    Updating crates.io index
+      Adding eframe v0.22.0 to dependencies.
+             Features:
+             + __screenshot
+             + accesskit
+             + default_fonts
+             + glow
+             - android-game-activity
+             - android-native-activity
+             - directories-next
+             - document-features
+             - persistence
+             - puffin
+             - ron
+             - serde
+             - tts
+             - wayland
+             - web_screen_reader
+             - wgpu
+    Updating crates.io index
+```
+
+
 # Rust _____cargo add 2개 동시에 넣고 Features에 2개 동시에 추가하기 편하다.!!
 
 ```
