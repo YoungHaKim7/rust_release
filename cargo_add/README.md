@@ -1,3 +1,12 @@
+# cargo.toml에 대한 모든 글
+
+https://doc.rust-lang.org/cargo/index.html
+
+- cargo add
+  - https://doc.rust-lang.org/cargo/commands/cargo-add.html
+
+<hr>
+
 # cargo add 1개 편하게 넣기
 
 ```bash
