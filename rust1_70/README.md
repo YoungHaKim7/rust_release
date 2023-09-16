@@ -3,6 +3,13 @@
 https://doc.rust-lang.org/stable/cargo/reference/registry-index.html#sparse-protocol
 
 Version 1.70.0 (2023-06-01)
+
+# lld 가 러스트 안으로 들어가서 빨라짐
+
+https://stackoverflow.com/questions/76398409/does-rust-use-lld-linker-as-standard
+
+- lld명령어 이해하기 https://shaeod.tistory.com/858
+
 ==========================
 
 <a id="1.70.0-Language"></a>
