@@ -4,3 +4,6 @@ https://youtu.be/tOQZlD-0Scc?si=qzcdO24BjkHR9NMd
 
 - ```lld``` 명령어 이해하기 https://shaeod.tistory.com/858
 
+# rust 1.72 RELEASES
+
+https://github.com/rust-lang/rust/blob/1.72.0/RELEASES.md
