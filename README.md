@@ -1,3 +1,9 @@
+<p align="center">
+    <img width=150px src="https://user-images.githubusercontent.com/67513038/213436632-820a1675-98d9-4626-979d-be63c60cdcb7.png" />
+</p>
+
+<hr>
+
 # rustc --version --verbose
 
 - test한 환경을 남에게 보여줄때 좋다.
