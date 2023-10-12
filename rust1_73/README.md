@@ -15,3 +15,5 @@ https://taegit.tistory.com/17
 # Rust 1.73.0: Everything Revealed in 16 Minutes | Nathan Stocks
 
 https://youtu.be/xXdfLNIHkPk?si=8L_gp1OC4ms8Esc4
+
+- Rust RFC3184 https://github.com/rust-lang/rfcs/blob/master/text/3184-thread-local-cell-methods.md
