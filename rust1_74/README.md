@@ -1,3 +1,9 @@
+# Rust 1.74.0 | Let's Get Rusty
+https://youtu.be/E0rPugR8s30?si=PqvJ4Lf-F0lcs-nw
+
+
+<hr>
+
 # Rust’s most wanted feature is coming!
 
 https://youtu.be/EA19neOCeCo
