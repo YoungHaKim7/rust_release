@@ -22,3 +22,8 @@ Alternatively, to opt in from a config.toml file (for one or more projects), add
 rustflags = ["-Z", "threads=8"]
 
 ```
+
+# Cpu 갯수 체크하기
+
+# SysInfo
+https://docs.rs/sysinfo/latest/sysinfo/
