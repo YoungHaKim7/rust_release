@@ -4,9 +4,11 @@ https://youtu.be/E0rPugR8s30?si=PqvJ4Lf-F0lcs-nw
 
 <hr>
 
-# Rust 1.74.0 공식 문저
+# Rust 1.74.0 공식 문서
 
-https://github.com/rust-lang/rust/blob/1.74.0/RELEASES.md
+- https://github.com/rust-lang/rust/blob/1.74.0/RELEASES.md
+
+- https://blog.rust-lang.org/2023/11/16/Rust-1.74.0.html
 
 # Rust’s most wanted feature is coming!
 
