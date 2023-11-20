@@ -1,6 +1,11 @@
 # Rust 1.74.0 | Let's Get Rusty
 https://youtu.be/E0rPugR8s30?si=PqvJ4Lf-F0lcs-nw
 
+<hr>
+
+# Rust 컴파일 속도 올리기
+
+https://doc.rust-lang.org/beta/cargo/reference/registry-authentication.html
 
 <hr>
 
