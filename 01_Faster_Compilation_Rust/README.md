@@ -1,5 +1,7 @@
 # How to use it(Nightly 231109 기준)
 
+https://doc.rust-lang.org/beta/cargo/reference/registry-authentication.html
+
 https://blog.rust-lang.org/2023/11/09/parallel-rustc.html
 
 The nightly compiler is now shipping with the parallel front-end enabled. However, by default it runs in single-threaded mode and won't reduce compile times.
