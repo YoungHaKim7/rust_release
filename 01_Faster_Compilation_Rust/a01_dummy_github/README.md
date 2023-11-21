@@ -98,7 +98,6 @@ TotalMilliseconds : 42663.4138
 ```
 $ systeminfo
 
-호스트 이름:             DESKTOP-7I5SIMF
 OS 이름:                 Microsoft Windows 10 Home
 OS 버전:                 10.0.19045 N/A 빌드 19045
 OS 제조업체:             Microsoft Corporation
