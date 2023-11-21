@@ -22,7 +22,7 @@ $ RUSTFLAGS="-Z threads=8" cargo build --release
 
 Alternatively, to opt in from a config.toml file (for one or more projects), add these lines:
 
-- 경로 맞는지는 테스트 해봐야함
+- 경로 폴더 잘 만들어주고 toml만들고 안에 넣어주면됨.
 - ```~/.cargo/config.toml```
 
 ```toml
