@@ -5,6 +5,7 @@
 
 - Nitghtly에서 하는거라 여러 보안점을 추가한 후에 추후에 정식 버젼으로 들어올듯 싶다.
   - https://github.com/rust-lang/compiler-team/issues/681
+  - 비교한 결과 자료 https://perf.rust-lang.org/compare.html?start=cf34adb0dd408d7b2f27a64484df63c36c1cc514&end=9148ca2269d942a02167b2ba918ed9e25467abe8&stat=wall-time&showRawData=true&secondary=false&nonRelevant=true&incrUnchanged=false&incrPatched=false
 
 
 # How to use it(Nightly 231109 기준)
