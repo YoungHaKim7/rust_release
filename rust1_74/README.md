@@ -3,6 +3,7 @@ https://youtu.be/E0rPugR8s30?si=PqvJ4Lf-F0lcs-nw
 
 - Stablize ```impl_trait_projections``` #115659
   - https://github.com/rust-lang/rust/pull/115659
+- https://rustc-dev-guide.rust-lang.org/return-position-impl-trait-in-trait.html#aside-opaque-lifetime-duplication
 
 <hr>
 
