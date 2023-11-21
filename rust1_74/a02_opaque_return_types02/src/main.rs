@@ -1,20 +1,27 @@
 struct Wrapper<'a, T>(&'a T);
 
+impl Wrapper<'_, ()> {
+    async fn async_fn() -> Self {
+        /* ... */
+        fn impl_trait() -> impl Iterator<Item = Self> { /* ... */
+        }
+    }
+}
 trait Trait<'a> {
     type Assoc;
     fn new() -> Self::Assoc;
 }
+
 impl Trait<'_> for () {
     type Assoc = ();
     fn new() {}
 }
 
-// Opaque return types that mention an associated type:
-// 관련된 유형을 언급하는 불투명 반환 유형:
 impl<'a, T: Trait<'a>> Wrapper<'a, T> {
     async fn mk_assoc() -> T::Assoc {
         // ..
     }
+
     fn a_few_assocs() -> impl Iterator<Item = T::Assoc> {
         // ..
     }
