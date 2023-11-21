@@ -1,4 +1,6 @@
+#![feature(type_alias_impl_trait)]
 trait MyTrait {}
+
 type Foo<T> = impl MyTrait;
 
 struct MyStruct<A, B, C> {
