@@ -182,6 +182,10 @@ $ cargo clean
 
 ```
 
+- target폴더 같은거 찾아서 지워준다 굿 👍Cleans dependencies and build artifacts from your projects. 
+  - https://github.com/tbillington/kondo
+
+
 <br>
 
 <hr>
