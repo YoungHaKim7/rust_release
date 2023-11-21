@@ -89,3 +89,34 @@ TotalSeconds      : 42.6634138
 TotalMilliseconds : 42663.4138
   
 ```
+
+# Windows Test환경 정보
+
+- ```systeminfo```  powershell.exe
+
+
+```
+$ systeminfo
+
+호스트 이름:             DESKTOP-7I5SIMF
+OS 이름:                 Microsoft Windows 10 Home
+OS 버전:                 10.0.19045 N/A 빌드 19045
+OS 제조업체:             Microsoft Corporation
+OS 구성:                 독립 실행형 워크스테이션
+OS 빌드 종류:            Multiprocessor Free
+
+시스템 모델:             PMBSB09A Samsung DeskTop
+시스템 종류:             x64-based PC
+프로세서:                프로세서 1개 설치됨
+                         [01]: Intel64 Family 6 Model 94 Stepping 3 GenuineIntel ~2900Mhz
+BIOS 버전:               American Megatrends Inc. P05MBS.097.180424.XJ, 2018-04-24
+
+시스템 로캘:             ko;한국어
+입력 로캘:               ko;한국어
+표준 시간대:             (UTC+09:00) 서울
+총 실제 메모리:          4,014MB
+사용 가능한 실제 메모리: 304MB
+가상 메모리: 최대 크기:  13,742MB
+가상 메모리: 사용 가능:  4,927MB
+가상 메모리: 사용 중:    8,815MB
+```
