@@ -1,5 +1,9 @@
 # Result
 
+- Stablize ```impl_trait_projections``` #115659
+
+https://github.com/rust-lang/rust/pull/115659
+
 ```
 $ cargo r
 info: syncing channel updates for 'nightly-aarch64-apple-darwin'
