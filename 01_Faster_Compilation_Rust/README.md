@@ -3,6 +3,9 @@
 - 여러가지 환경에서 test중..
 - 글을 잘 읽어보니 크기와 최적화에 따라서 효과 편찬가 큰듯 싶다.
 
+- Nitghtly에서 하는거라 여러 보안점을 추가한 후에 추후에 정식 버젼으로 들어올듯 싶다.
+  - https://github.com/rust-lang/compiler-team/issues/681
+
 
 # How to use it(Nightly 231109 기준)
 
