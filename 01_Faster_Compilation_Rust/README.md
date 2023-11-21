@@ -1,3 +1,8 @@
+# 멀티 쓰레드 숫자가 8이상은 되어야 효과가 있는듯 싶다.
+
+- 여러가지 환경에서 test중..
+
+
 # How to use it(Nightly 231109 기준)
 
 https://doc.rust-lang.org/beta/cargo/reference/registry-authentication.html
