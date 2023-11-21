@@ -124,6 +124,10 @@ https://rust-lang.github.io/async-book/01_getting_started/04_async_await_primer.
 
 ```
 $ cargo add serde -F serde/derive && cargo add tokio -F tokio/full
+
+
+// short ver.
+$ cargo add serde -F derive && cargo add tokio -F full
 ```
 
 - 알아서 이쁘게 들어간다.
