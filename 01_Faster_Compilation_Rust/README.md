@@ -23,7 +23,16 @@ rustflags = ["-Z", "threads=8"]
 
 ```
 
-# Cpu 갯수 체크하기
+# Available Parallelism : Cpu 갯수 체크하기
+
+```rs
+fn main() {
+    println!(
+        "You can use {:?} threads(available_parallelism) now.  ",
+        std::thread::available_parallelism().unwrap()
+    );
+}
+```
 
 # SysInfo
 https://docs.rs/sysinfo/latest/sysinfo/
