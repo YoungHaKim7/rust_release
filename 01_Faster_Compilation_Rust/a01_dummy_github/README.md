@@ -92,6 +92,13 @@ TotalMilliseconds : 42663.4138
 
 # Windows Test환경 정보
 
+- 쓰레드 4개로 Test함
+```toml
+[build]
+rustflags = ["-Z", "threads=4"]
+```
+
+
 - ```systeminfo```  powershell.exe
 
 
