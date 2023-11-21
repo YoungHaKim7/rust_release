@@ -1,3 +1,8 @@
+# Source
+- Create a Dummy GitHub CLI in Rust!| Ghamza
+  - https://youtu.be/pyeUkQg8z9A?si=rY1ztAy7drxEWNAH
+
+
 # Result
 
 - WindowsOS 테스트 함(15초 대박 ㅋ)
