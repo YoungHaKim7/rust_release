@@ -169,6 +169,15 @@ $ cargo add serde tokio -F serde/derive -F tokio/full
              + process
 ```
 
+# ```cargo clean``` 활용법(target을 그냥 지우기 보단 cargo clean을 활용하자)
+
+```
+$ cargo clean
+
+     Removed 347 files, 102.8MiB total
+
+```
+
 <br>
 
 <hr>
