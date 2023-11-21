@@ -1,6 +1,9 @@
 # Rust 1.74.0 | Let's Get Rusty
 https://youtu.be/E0rPugR8s30?si=PqvJ4Lf-F0lcs-nw
 
+- Stablize ```impl_trait_projections``` #115659
+  - https://github.com/rust-lang/rust/pull/115659
+
 <hr>
 
 # Rust 컴파일 속도 올리기 How to use it(Nightly 231109 기준)
