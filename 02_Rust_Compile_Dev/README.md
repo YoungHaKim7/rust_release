@@ -10,3 +10,6 @@ https://rustc-dev-guide.rust-lang.org/getting-started.html
  
 - Rice's theorem
   - https://en.wikipedia.org/wiki/Rice%27s_theorem
+
+# Background topics
+https://rustc-dev-guide.rust-lang.org/appendix/background.html
