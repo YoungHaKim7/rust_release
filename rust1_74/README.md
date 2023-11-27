@@ -1,3 +1,7 @@
+# Rust 1.74.0: All 45 changes in 19 minutes! | Nathan Stocks
+- https://youtu.be/MOzuShpnUm8?si=djG0xOSm77XJHHGT
+
+
 # Rust 1.74.0 | Let's Get Rusty
 https://youtu.be/E0rPugR8s30?si=PqvJ4Lf-F0lcs-nw
 
