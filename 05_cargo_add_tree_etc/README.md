@@ -119,6 +119,10 @@ https://doc.rust-lang.org/cargo/commands/cargo-add.html
 
 https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html#development-dependencies
 
+<br>
+
+<hr>
+
 # ```cargo tree```
 
 ```bash
