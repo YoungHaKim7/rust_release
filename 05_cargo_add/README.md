@@ -119,6 +119,40 @@ https://doc.rust-lang.org/cargo/commands/cargo-add.html
 
 https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html#development-dependencies
 
+# ```cargo tree```
+
+```bash
+  
+
+$ cargo tree
+
+tsoding_4at_simple_multi_User_Chat v0.1.0 (/home/gy/my_project/rust/111222/tsoding_4at_simple_multi_User_Chat)
+└── crossterm v0.27.0
+    ├── bitflags v2.4.1
+    ├── libc v0.2.150
+    ├── mio v0.8.10
+    │   ├── libc v0.2.150
+    │   └── log v0.4.20
+    ├── parking_lot v0.12.1
+    │   ├── lock_api v0.4.11
+    │   │   └── scopeguard v1.2.0
+    │   │   [build-dependencies]
+    │   │   └── autocfg v1.1.0
+    │   └── parking_lot_core v0.9.9
+    │       ├── cfg-if v1.0.0
+    │       ├── libc v0.2.150
+    │       └── smallvec v1.11.2
+    ├── signal-hook v0.3.17
+    │   ├── libc v0.2.150
+    │   └── signal-hook-registry v1.4.1
+    │       └── libc v0.2.150
+    └── signal-hook-mio v0.2.3
+        ├── libc v0.2.150
+        ├── mio v0.8.10 (*)
+        └── signal-hook v0.3.17 (*)
+
+```
+
 
 # rustup 활용법 & 업데이드 및 기타etc
 
