@@ -2,6 +2,10 @@
 
 https://blog.rust-lang.org/2023/12/28/Rust-1.75.0.html
 
+# Rust Clippy
+
+https://rust-lang.github.io/rust-clippy/rust-1.75.0/index.html
+
 # Rust 1.75.0: 54 highlights in 20 minutes | Nathan Stocks
 
 https://youtu.be/Z8xig7wEV68?si=BUMlC4v5tvMQxaj0
@@ -153,6 +157,7 @@ File::set_times
 - 51. struct_field_names
 
 - 52. into_iter_without_iter
+  - clippy::iter_without_into_iter
 
 - 53. iter_without_into_iter
 
