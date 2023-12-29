@@ -13,7 +13,7 @@ https://youtu.be/Z8xig7wEV68?si=BUMlC4v5tvMQxaj0
   - 사용자는 반환 유형에 추가 경계를 추가할 수 없습니다.
 
 - Don't use ```-> impl Trait``` or ```async fn``` in public traits.
-  - 공공의 특성에서 ````-> impl Trait```이나 ```asyncfn```을 사용하지 마십시오.
+  - 공공의 특성에서 ```-> impl Trait```이나 ```asyncfn```을 사용하지 마십시오.
 
 - Dynamic dispatch is not yet supported(use #[async_trait])
   - 동적 전송이 아직 지원되지 않습니다(#[async_trait] 사용)
