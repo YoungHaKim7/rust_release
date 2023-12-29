@@ -4,6 +4,10 @@
 
 <hr>
 
+# 공부할게 많은 버젼별 Rust-clippy
+
+https://rust-lang.github.io/rust-clippy/
+
 # rustc --version --verbose
 
 - test한 환경을 남에게 보여줄때 좋다.
