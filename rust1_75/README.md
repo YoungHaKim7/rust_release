@@ -85,6 +85,13 @@ wrapping_byte_sub
 - 28. Atomic*::from_ptr
 
 - 29. File time struct, trait, and methods.
+```rs
+FileTimes
+FileTimesExt
+File::set_modified
+File::set_times
+  
+```
 
 - 30. IpAddr::to_canonical & Ipv6Addr::to_canonical
 
