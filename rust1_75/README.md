@@ -1,6 +1,11 @@
 # Rust-1.75.0
 
-https://blog.rust-lang.org/2023/12/28/Rust-1.75.0.html
+- https://blog.rust-lang.org/2023/12/28/Rust-1.75.0.html
+
+  - https://blog.rust-lang.org/2023/12/21/async-fn-rpit-in-traits.html
+  - https://blog.rust-lang.org/2023/12/11/cargo-cache-cleaning.html
+
+
 
 # Rust Clippy
 
