@@ -28,6 +28,8 @@ wrapping_byte_sub
   - 함수 포인터 서명에 const 컨텍스트에서 &mutT 포함 허용
 
 - 5. Match usize/isize exhautively with half-open ranges.
+  - 반열린 범위로 "usize/isize"을 전체적으로 일치시킵니다.
+    - exhaustively(부사 1.철저하게 2.남김 없이 3.속속들이)Adverb adv.부사
 
 - 6. Guarantee char has same size and alignment as u32.
 
