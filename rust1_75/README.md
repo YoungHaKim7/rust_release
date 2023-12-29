@@ -46,54 +46,104 @@ wrapping_byte_sub
 - 10. Stabilize ratified RISC-V target features.
 
 - 11. Negative coherence properly consider impls that only partly overlap
+  - 음의 일관성은 부분적으로만 겹치는 임펄스를 적절하게 고려합니다
+
 - 12. Deny-by-default coinductive_overlap_in_coherence
+
 - 13. Consider alias bounds when computing liveness in NLL
+
 - 14. Add V (vector) extension to the riscv64-linux-android target spec.
+
 - 15. Automatically enable cross-crate inlining for small functions
+
 - 16. Three New Tier 3 Targets
+
 - 17. Waker::clone_from avoids unnecessary clones
+
 - 18. Implement BufRead for VecDeque{u8}
+
 - 19. Implement FusedIterator for DecodeUtf16 when the inner iterator does
+
 - 20. impl Not, Bit{And,Or}{,Assign} for IP addresses
+
 - 21. Implement Default for ExitCode
+
 - 22. Guarantee representation of None in NPO
+
 - 23. Document when atomic loads are guaranteed read-only
+
 - 24. Better document effects of recursive thread local storage initialization
+
 - 25. Support sub-millisecond sleep on Windows 10+
+
 - 26. Fix reverse searching after calling str::split_inclusive
+
 - 27. Fix exit status on non-Unix cfg(unix) platforms
+
 - Stabilized APIs
+
 - 28. Atomic*::from_ptr
+
 - 29. File time struct, trait, and methods.
+
 - 30. IpAddr::to_canonical & Ipv6Addr::to_canonical
+
 - 31. Option::as_slice & Option::as_mut_slice
+
 - Const Stabilized APIs
+
 - 32. Ipv6Addr::to_ipv4_mapped
+
 - 33. MaybeUninit::assume_init_read & MaybeUninit::zeroed
+
 - 34. mem::discriminant
+
 - 35. mem::zeroed
+
 - Cargo Changes
+
 - 36. Add new packages to [workspace.members] automatically
+
 - 37. Allow version-less manifests
+
 - 38. Print the generated docs links
+
 - 39. Make browser links out of HTML file paths
+
 - 40. Print environment variables for build script executions with -vv
+
 - 41. Rustdoc accepts less invalid Rust
+
 - 42. Show enum discriminant if it is a C-like variant
+
 - Compatibility Notes
+
 - 43. FreeBSD targets now require at least version 12
+
 - 44. All MIPS targets dropped to Tier 3 support
+
 - 45. invalid_alignment lint promoted to an error
+
 - 46. Fix detecting references to packed unsized fields
+
 - 47. Compiler plugin support removed
+
 - New Clippy Lints
+
 - 48. unused_enumerate_index
+
 - 49. unnecessary_fallible_conversions
+
 - 50. waker_clone_wake
+
 - 51. struct_field_names
+
 - 52. into_iter_without_iter
+
 - 53. iter_without_into_iter
+
 - 54. manual_hash_one
+
 - Outro
 
 
