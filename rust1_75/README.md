@@ -32,8 +32,10 @@ wrapping_byte_sub
     - exhaustively(부사 1.철저하게 2.남김 없이 3.속속들이)Adverb adv.부사
 
 - 6. Guarantee char has same size and alignment as u32.
+  - 보증 char는 u32와 같은 크기와 정렬을 가지고 있습니다.
 
 - 7. Null pointer has the 0 address.
+  - Null 포인터의 주소는 0입니다.
 
 - 8. Allow parially-moved values in match
   - 일치하는 부분에서 부분적으로 이동된 값 허용
