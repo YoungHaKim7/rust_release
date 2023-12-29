@@ -97,6 +97,8 @@ File::set_times
 
 - 31. Option::as_slice & Option::as_mut_slice
 
+<hr>
+
 - Const Stabilized APIs
 
 - 32. Ipv6Addr::to_ipv4_mapped
@@ -106,6 +108,8 @@ File::set_times
 - 34. mem::discriminant
 
 - 35. mem::zeroed
+
+<hr>
 
 - Cargo Changes
 
@@ -122,6 +126,8 @@ File::set_times
 - 41. Rustdoc accepts less invalid Rust
 
 - 42. Show enum discriminant if it is a C-like variant
+
+<hr>
 
 - Compatibility Notes
 
@@ -140,6 +146,7 @@ File::set_times
 - 48. unused_enumerate_index
 
 - 49. unnecessary_fallible_conversions
+  - https://rust-lang.github.io/rust-clippy/master/index.html#/unnecessary
 
 - 50. waker_clone_wake
 
