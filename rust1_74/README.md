@@ -58,53 +58,53 @@
 
 
 
-0:00 Intro
-0:17 0. Correction from 1.73.0 -- fancy colors are now available!
-0:32 1. Lint configuration through Cargo
-2:18 2. Self and associated types allowed in Opaque Return types
-2:54 3. Minimum Apple Versions Raised
-3:24 4. private_in_public lint replaced with two new lints
-3:59 5. (Docs) Lifetime parameters do not affect enum discrimanants
-4:50 6. Allow explicit #[repr(Rust)]
-5:35 7. Fix closure field captures depending on packed field alignment
-6:00 8. Enable MIR-based drop-tracking for async blocks
-6:34 9. Allow combining +bundle and +whole-archive link modifiers
-7:04 10. Stabilize PATH for --print KIND=PATH
-7:27 11. Enable ASAN, LSAN, & TSAN for *-apple-ios-macabi
-7:50 12. New Platform Support
-8:18 13. core::num::Saturating
-8:46 14. Stdio stuff
-9:15 15. Convert OS strings to/from encoded bytes
-9:36 16. std::io::Error::other
-9:51 17. impl TryFrom(char) for u16
-10:04 18. Convert array reference to Vec
-10:29 19. Convert array to reference-counted array
-10:49 20. Const Stabilized APIs
-11:29 21. MSRV for Cargo the library
-11:46 22. Cargo changes how arrays in config are merged
-12:15 23. cargo update --aggressive renamed to --recursive
-12:34 24. -p optional in cargo update
-12:51 25. Allow incomplete versions
-13:15 26. Stabilize registry-auth with credential-process
-13:39 27. Add -n alias for --dry-run
-13:51 28. target.(cfg).linker
-14:07 29. --keep-going
-14:28 30. Rustdoc "warning" syntax
-14:52 31. Rustdoc custom code CSS
-15:12 32. Rustdoc search by generic type signature
-15:31 33. Enum alias doc improvements
-15:45 34. Cell::swap panics if cells overlap
-15:58 35. rustc --extern requires valid ascii
-16:08 36. redundant_as_str
-16:24 37. needless_borrow_for_generic_args
-16:36 38. path_ends_with_ext
-17:03 39. unnecessary_map_on_constructor
-17:20 40. missing_asserts_for_indexing
-18:08 41. iter_out_of_bounds
-18:26 42. implied_bounds_in_impls
-18:55 43. reserve_after_initialization
-19:08 44. should_panic_without_expect
-19:25 Buy my courses to be awesome at Rust
+0:00 Intro<br>
+0:17 0. Correction from 1.73.0 -- fancy colors are now available!<br>
+0:32 1. Lint configuration through Cargo<br>
+2:18 2. Self and associated types allowed in Opaque Return types<br>
+2:54 3. Minimum Apple Versions Raised<br>
+3:24 4. private_in_public lint replaced with two new lints<br>
+3:59 5. (Docs) Lifetime parameters do not affect enum discrimanants<br>
+4:50 6. Allow explicit #[repr(Rust)]<br>
+5:35 7. Fix closure field captures depending on packed field alignment<br>
+6:00 8. Enable MIR-based drop-tracking for async blocks<br>
+6:34 9. Allow combining +bundle and +whole-archive link modifiers<br>
+7:04 10. Stabilize PATH for --print KIND=PATH<br>
+7:27 11. Enable ASAN, LSAN, & TSAN for *-apple-ios-macabi<br>
+7:50 12. New Platform Support<br>
+8:18 13. core::num::Saturating<br>
+8:46 14. Stdio stuff<br>
+9:15 15. Convert OS strings to/from encoded bytes<br>
+9:36 16. std::io::Error::other<br>
+9:51 17. impl TryFrom(char) for u16<br>
+10:04 18. Convert array reference to Vec<br>
+10:29 19. Convert array to reference-counted array<br>
+10:49 20. Const Stabilized APIs<br>
+11:29 21. MSRV for Cargo the library<br>
+11:46 22. Cargo changes how arrays in config are merged<br>
+12:15 23. cargo update --aggressive renamed to --recursive<br>
+12:34 24. -p optional in cargo update<br>
+12:51 25. Allow incomplete versions<br>
+13:15 26. Stabilize registry-auth with credential-process<br>
+13:39 27. Add -n alias for --dry-run<br>
+13:51 28. target.(cfg).linker<br>
+14:07 29. --keep-going<br>
+14:28 30. Rustdoc "warning" syntax<br>
+14:52 31. Rustdoc custom code CSS<br>
+15:12 32. Rustdoc search by generic type signature<br>
+15:31 33. Enum alias doc improvements<br>
+15:45 34. Cell::swap panics if cells overlap<br>
+15:58 35. rustc --extern requires valid ascii<br>
+16:08 36. redundant_as_str<br>
+16:24 37. needless_borrow_for_generic_args<br>
+16:36 38. path_ends_with_ext<br>
+17:03 39. unnecessary_map_on_constructor<br>
+17:20 40. missing_asserts_for_indexing<br>
+18:08 41. iter_out_of_bounds<br>
+18:26 42. implied_bounds_in_impls<br>
+18:55 43. reserve_after_initialization<br>
+19:08 44. should_panic_without_expect<br>
+19:25 Buy my courses to be awesome at Rust<br>
 
 
 <hr>
