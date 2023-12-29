@@ -9,6 +9,7 @@ https://youtu.be/Z8xig7wEV68?si=BUMlC4v5tvMQxaj0
 - 1. "async fn" and "return-position impl Trait" in Traits
 
 - 2. Pointer byte offset APIs
+  - byte_add  https://doc.rust-lang.org/std/primitive.pointer.html
 
 ```rs
 byte_add  
@@ -19,11 +20,12 @@ wrapping_byte_add
 wrapping_byte_offset
 wrapping_byte_sub
 ```
-  - byte_add  https://doc.rust-lang.org/std/primitive.pointer.html
+
   
 - 3. Code layout optimizations for ructc
 
 - 4. Allow function pointer signatures to contain ```&mut T``` in const contexts
+  - 함수 포인터 서명에 const 컨텍스트에서 &mutT 포함 허용
 
 - 5. Match usize/isize exhautively with half-open ranges.
 
