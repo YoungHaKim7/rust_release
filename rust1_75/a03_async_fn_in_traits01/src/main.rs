@@ -20,8 +20,6 @@
 //     println!("url : {}", HttpService.fetch("127.0.0.0".to_string()));
 // }
 
-use std::future::Future;
-
 // Define the structures with appropriate fields
 #[derive(Debug)]
 struct Url(String);
