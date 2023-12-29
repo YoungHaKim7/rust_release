@@ -14,6 +14,7 @@
 - 2. Self and associated types allowed in Opaque Return types
 - 3. Minimum Apple Versions Raised
 - 4. private_in_public lint replaced with two new lints
+  - https://rust-lang.github.io/rfcs/2145-type-privacy.html
 - 5. (Docs) Lifetime parameters do not affect enum discrimanants
 - 6. Allow explicit #[repr(Rust)]
 - 7. Fix closure field captures depending on packed field alignment
