@@ -2,6 +2,12 @@
 
 https://blog.rust-lang.org/2023/10/05/Rust-1.73.0.html
 
+# Rust 1.73.0: Everything Revealed in 16 Minutes | Nathan Stocks
+
+https://youtu.be/xXdfLNIHkPk?si=uAlToft-RMW-_nsg
+
+<hr>
+
 
 # Rc - Reference Cycles Can Leak Memory
 
