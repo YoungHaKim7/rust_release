@@ -4,6 +4,7 @@
 
   - https://blog.rust-lang.org/2023/12/21/async-fn-rpit-in-traits.html
   - https://blog.rust-lang.org/2023/12/11/cargo-cache-cleaning.html
+  - https://rust-lang.github.io/rfcs/3425-return-position-impl-trait-in-traits.html
 
 
 
