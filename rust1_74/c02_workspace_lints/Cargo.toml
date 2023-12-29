@@ -1,0 +1,19 @@
+[package]
+name = "c02_workspace_lints"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+# workspace = { members = ["crates/glitter_machine"] }
+
+[workspace]
+members = ["crates/glitter_machine"]
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+enum_glob_use = "deny"
