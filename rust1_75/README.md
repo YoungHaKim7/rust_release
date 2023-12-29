@@ -10,6 +10,17 @@ https://youtu.be/Z8xig7wEV68?si=BUMlC4v5tvMQxaj0
 
 - 2. Pointer byte offset APIs
 
+```rs
+byte_add  
+byte_offset
+byte_offset_from
+byte_sub
+wrapping_byte_add
+wrapping_byte_offset
+wrapping_byte_sub
+```
+  - byte_add  https://doc.rust-lang.org/std/primitive.pointer.html
+  
 - 3. Code layout optimizations for ructc
 
 - 4. Allow function pointer signatures to contain ```&mut T``` in const contexts
