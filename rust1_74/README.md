@@ -1,6 +1,11 @@
 # Rust 1.74.0: All 45 changes in 19 minutes! | Nathan Stocks
 - https://youtu.be/MOzuShpnUm8?si=djG0xOSm77XJHHGT
 
+- 1. Add a [lints] table to Cargo.toml #3389  
+  - https://github.com/rust-lang/rfcs/pull/3389
+    - https://rust-lang.github.io/rfcs/
+  - https://rust-lang.github.io/rfcs/3389-manifest-lint.html
+
 
 # Rust 1.74.0 | Let's Get Rusty
 https://youtu.be/E0rPugR8s30?si=PqvJ4Lf-F0lcs-nw
