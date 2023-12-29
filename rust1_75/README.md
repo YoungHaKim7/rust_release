@@ -36,8 +36,10 @@ wrapping_byte_sub
 - 7. Null pointer has the 0 address.
 
 - 8. Allow parially-moved values in match
+  - 일치하는 부분에서 부분적으로 이동된 값 허용
 
 - 9. Document non-compliant floating-point behavior on 32-bit x86 targets
+  - 32비트 x86 대상의 비준수 부동 소수점 동작 문서화
 
 - 10. Stabilize ratified RISC-V target features.
 
