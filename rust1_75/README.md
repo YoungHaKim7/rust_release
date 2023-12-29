@@ -21,8 +21,8 @@ wrapping_byte_offset
 wrapping_byte_sub
 ```
 
-  
-- 3. Code layout optimizations for ructc
+- 3. Code layout optimizations for rusctc
+  - Rustc에 대한 코드 레이아웃 최적화
 
 - 4. Allow function pointer signatures to contain ```&mut T``` in const contexts
   - 함수 포인터 서명에 const 컨텍스트에서 &mutT 포함 허용
