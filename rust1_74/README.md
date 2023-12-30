@@ -82,11 +82,26 @@ std::is_ascii
 
 - 23. cargo update --aggressive renamed to --recursive
 - 24. -p optional in cargo update
+```bash
+cargo update -p mypackage
+```
 - 25. Allow incomplete versions
+```bash
+cargo update mypackage@5
+```
 - 26. Stabilize registry-auth with credential-process
 - 27. Add -n alias for --dry-run
 - 28. target.(cfg).linker
+```rs
+[target.'cfg(not(target_arch= "avr"))']
+linker = "some-linker"
+```
 - 29. --keep-going
+  - 컴파일 할때 에러나도 무시하고 계속 컴파일하라는 거 같음
+```bash
+cargo run --keep-going
+  
+```
 - 30. Rustdoc "warning" syntax
 - 31. Rustdoc custom code CSS
 - 32. Rustdoc search by generic type signature
