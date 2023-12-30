@@ -41,7 +41,7 @@ impl From<OwnedHandle> for std::process::ChildStderr
 ```
 
 - 15. Convert OS strings to/from encoded bytes
-```
+```rs
 std::ffi::OsString::from_encoded_bytes_unchecked
 std::ffi::OsString::into_encoded_bytes
 std::ffi::OsStr::from_encoded_bytes_unchecked
@@ -49,6 +49,12 @@ std::ffi::OsStr::as_encoded_bytes
   
 ```
 - 16. std::io::Error::other
+```rs
+std::io::Error::other(err)
+
+std::io::Error::new(io::ErrorKind::Other, err)
+  
+```
 - 17. impl TryFrom(char) for u16
 - 18. Convert array reference to Vec
 - 19. Convert array to reference-counted array
