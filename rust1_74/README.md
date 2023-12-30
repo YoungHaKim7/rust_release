@@ -25,6 +25,21 @@
 - 12. New Platform Support
 - 13. core::num::Saturating
 - 14. Stdio stuff
+
+```rs
+impl From<io::Stdout> for std::process::Stdio
+impl From<io::Stderr> for std::process::Stdio
+
+impl From<OwnedFd> for std::process::ChildStdin
+impl From<OwnedFd> for std::process::ChildStdout
+impl From<OwnedFd> for std::process::ChildStderr
+
+impl From<OwnedHandle> for std::process::ChildStdin
+impl From<OwnedHandle> for std::process::ChildStdout
+impl From<OwnedHandle> for std::process::ChildStderr
+    
+```
+
 - 15. Convert OS strings to/from encoded bytes
 - 16. std::io::Error::other
 - 17. impl TryFrom(char) for u16
