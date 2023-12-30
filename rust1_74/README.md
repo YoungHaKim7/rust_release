@@ -57,10 +57,29 @@ std::io::Error::new(io::ErrorKind::Other, err)
 ```
 - 17. impl TryFrom(char) for u16
 - 18. Convert array reference to Vec
+```rs
+impl<T: Clone, const N: usize> From<&[T; N]> for Vec<T>
+impl<T: Clone, const N: usize> From<&mut [T; N]> for Vec<T>
+```
+
 - 19. Convert array to reference-counted array
+
+```rs
+impl<T, const N: usize> From<[T; N]> for Arc<T>
+impl<T, const N: usize> From<[T; N]> for Rc<T>
+```
 - 20. Const Stabilized APIs
+```rs
+core::mem::transmut_copy
+std::is_ascii
+[u8]::is_ascii
+```
+
 - 21. MSRV for Cargo the library
 - 22. Cargo changes how arrays in config are merged
+  - Cargo changes how arrays in config are merged
+    - https://blog.rust-lang.org/inside-rust/2023/08/24/cargo-config-merging.html
+
 - 23. cargo update --aggressive renamed to --recursive
 - 24. -p optional in cargo update
 - 25. Allow incomplete versions
