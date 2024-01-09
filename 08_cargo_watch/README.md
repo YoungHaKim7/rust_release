@@ -1,3 +1,7 @@
+- https://github.com/watchexec/cargo-watch
+
+<hr>
+
 # cargo watch
 
 ```
