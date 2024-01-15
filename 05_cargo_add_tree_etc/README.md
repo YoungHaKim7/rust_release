@@ -83,6 +83,8 @@ https://youtu.be/S-O9QkrlfYw
 
 ```
 $ cargo add tokio --features macros,rt-multi-thread
+
+$ cargo add tokio -F macros,rt-multi-thread
 ```
 
 ```
