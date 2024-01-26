@@ -54,6 +54,7 @@ https://docs.rs/sysinfo/latest/sysinfo/
 # echo 로 빠르게 넣기
 
 ```bash
+mkdir .cargo
 echo "[toolchain]" >> rust-toolchain.toml
 echo "channel ="\"nightly"\"" >> rust-toolchain.toml
 echo "components = ["\"rustfmt\"", "\"rust-src"\"]" >> rust-toolchain.toml
