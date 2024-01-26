@@ -57,4 +57,7 @@ https://docs.rs/sysinfo/latest/sysinfo/
 echo "[toolchain]" >> rust-toolchain.toml
 echo "channel ="\"nightly"\"" >> rust-toolchain.toml
 echo "components = ["\"rustfmt\"", "\"rust-src"\"]" >> rust-toolchain.toml
+
+echo "[build]" >> .cargo/config.toml
+echo "rustflags = ["\"-Z\"", "\"threads=8"\"]" >> .cargo/config.toml
 ```
