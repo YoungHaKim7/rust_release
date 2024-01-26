@@ -1,3 +1,7 @@
+- [echo로 빠르게 넣기 rust-toolchain.toml & .cargo](#echo-%EB%A1%9C-%EB%B9%A0%EB%A5%B4%EA%B2%8C-%EB%84%A3%EA%B8%B0)
+
+<hr>
+
 # 멀티 쓰레드 숫자가 8이상은 되어야 효과가 있는듯 싶다.
 
 - 여러가지 환경에서 test중..
