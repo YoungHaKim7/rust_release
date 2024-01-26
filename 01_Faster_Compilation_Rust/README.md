@@ -52,6 +52,8 @@ fn main() {
 https://docs.rs/sysinfo/latest/sysinfo/
 
 # echo 로 빠르게 넣기
+- https://github.com/YoungHaKim7/rust_vim_setting/blob/main/01_Vim_NeoVim_etc_Rust_settings/snippets_Lunar_NeoVim/rust/rust.json
+- https://github.com/YoungHaKim7/rust_vim_setting/tree/main/01_Vim_NeoVim_etc_Rust_settings/snippets_Lunar_NeoVim
 
 ```bash
 rm -rf .cargo rust-toolchain.toml
