@@ -106,6 +106,8 @@ File::set_times
 - 30. IpAddr::to_canonical & Ipv6Addr::to_canonical
 
 - 31. Option::as_slice & Option::as_mut_slice
+  - easy rust Rust1.75 as_slice영상
+    - https://youtube.com/shorts/yyS8MH7sI1E?si=6xYcI2qvK6FwTTTc
 
 <hr>
 
