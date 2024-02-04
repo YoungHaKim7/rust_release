@@ -272,3 +272,39 @@ rustc 1.68.0 (2c8cc3432 2023-03-06)
 
 
 ```
+
+- rustup show
+```
+rustup show
+Default host: x86_64-unknown-linux-gnu
+rustup home:  /home/gy/.rustup
+
+installed toolchains
+--------------------
+
+stable-x86_64-unknown-linux-gnu (default)
+nightly-x86_64-unknown-linux-gnu
+
+installed targets for active toolchain
+--------------------------------------
+
+wasm32-unknown-unknown
+x86_64-apple-ios
+x86_64-unknown-linux-gnu
+
+active toolchain
+----------------
+
+stable-x86_64-unknown-linux-gnu (default)
+rustc 1.75.0 (82e1608df 2023-12-21)
+
+
+```
+
+- rustup target remove
+
+```
+rustup target remove x86_64-apple-ios   
+info: removing component 'rust-std' for 'x86_64-apple-ios'
+
+```
