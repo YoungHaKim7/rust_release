@@ -3,7 +3,8 @@ fn iter_to_array<Element, const N: usize>(mut iter: impl Iterator<Item = Element
     // `map` creates new array, which we fill by values of iterator.
     let res: [_; N] = std::array::from_fn(|_| iter.next().unwrap());
     // Ensure that iterator finished
-    assert!(matches!(iter.next(), None));
+    // assert!(matches!(iter.next(), None));
+    assert!(iter.next().is_none());
     res
 }
 
