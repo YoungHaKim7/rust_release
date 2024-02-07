@@ -1,3 +1,8 @@
+# Cargo.toml세팅
+- https://doc.rust-lang.org/cargo/reference/manifest.html
+
+<hr>
+
 # rustfmt doc 
 
 - https://rust-lang.github.io/rustfmt/
