@@ -308,3 +308,7 @@ rustup target remove x86_64-apple-ios
 info: removing component 'rust-std' for 'x86_64-apple-ios'
 
 ```
+
+# crates.io관련 뉴스
+- crates.io: API status code changes(240206)
+  - https://blog.rust-lang.org/2024/02/06/crates-io-status-codes.html
