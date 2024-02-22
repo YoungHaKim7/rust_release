@@ -1,5 +1,5 @@
 [package]
-name = "cargo_rustc_test"
+name = "rust_llvm_hir_mir_obj"
 version = "0.1.0"
 edition = "2021"
 
