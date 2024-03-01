@@ -39,3 +39,9 @@ https://www.reddit.com/r/rust/comments/iksmgk/psa_what_is_const_fn/
 - 이 시점에서 제가 왜 "compile 시간"이라는 문구를 언급하지 않았는지 궁금하실 것입니다. const fn이 실제로 그런 것이 아니기 때문입니다. 거의 모든 함수는 컴파일 시 부분적으로 또는 전체적으로 실행될 수 있으며(옵티마이저 허용) const fn은 런타임에 실행될 수 있습니다. 물론 때로는 함수가 컴파일 시 실행되는지 100% 확인하고 싶을 때도 있는데, 이는 const BAR의 유용한 부작용입니다: usize = foo (); (foo는 const fn입니다). bar = foo ()을 그냥 두면 컴파일 시 실행될 수도 있고 실행되지 않을 수도 있는 일반 함수를 사용하는 것과 거의 같습니다.
 
 - 미래에는 컴파일 시 프로그램의 일부를 실행할 것을 명시적으로 선언하는 인라인 컨스트럭트가 있을 수 있습니다. 예를 들어, 다음과 같습니다:
+
+# inline-const 더 알아보기
+
+- https://github.com/ecstatic-morse/rfcs/blob/inline-const/text/0000-inline-const.md
+
+- https://github.com/rust-lang/rfcs/pull/2920
