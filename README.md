@@ -91,6 +91,14 @@ https://releases.rs/docs/
 
 <br>
 
+# 러스트 라이브러리 찾기(lib.rs & crates.io)
+
+- 라이브러리 다운로드 수 같은거 볼 수 있음 러스트 라이브러리 정리
+  - https://lib.rs/
+
+-  The Rust community’s crate registry
+  - https://crates.io/
+
 # rust_release
 
 rust release 제일 빨리 알려주는 트위터
