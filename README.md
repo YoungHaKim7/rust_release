@@ -78,7 +78,7 @@ https://releases.rs/docs/
 
 <hr>
 
-# 최근 러스트 업데이트 뉴스
+# 최근 러스트 업데이트 etc뉴스
 
 - crates.io: Download changes
   - Mar. 11, 2024 · Tobias Bieniek on behalf of the crates.io team
