@@ -1,6 +1,10 @@
 <p align="center">
-    <img width=150px src="https://user-images.githubusercontent.com/67513038/213436632-820a1675-98d9-4626-979d-be63c60cdcb7.png" />
+    <img width=70px src="https://user-images.githubusercontent.com/67513038/213436632-820a1675-98d9-4626-979d-be63c60cdcb7.png" />
 </p>
+
+# link
+
+- [최근-러스트-업데이트-뉴스](#최근-러스트-업데이트-뉴스)
 
 <hr>
 
