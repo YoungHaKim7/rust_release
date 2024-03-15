@@ -74,6 +74,14 @@ https://releases.rs/docs/
 
 <hr>
 
+# 최근 러스트 업데이트 뉴스
+
+- crates.io: Download changes
+  - Mar. 11, 2024 · Tobias Bieniek on behalf of the crates.io team
+    - https://blog.rust-lang.org/2024/03/11/crates-io-download-changes.html
+
+<hr>
+
 <br>
 
 # rust_release
