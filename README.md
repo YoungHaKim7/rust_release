@@ -8,6 +8,8 @@
   - [cratesio관련-뉴스](#cratesio관련-뉴스)
 - [러스트-라이브러리-찾기librs--cratesio](#러스트-라이브러리-찾기librs--cratesio)
 
+- [WASM-빌드하기target-add](#wasm-빌드하기target-add)
+
 <hr>
 
 # 공부할게 많은 버젼별 Rust-clippy
