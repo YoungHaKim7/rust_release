@@ -336,3 +336,14 @@ info: removing component 'rust-std' for 'x86_64-apple-ios'
 # crates.io관련 뉴스
 - crates.io: API status code changes(240206)
   - https://blog.rust-lang.org/2024/02/06/crates-io-status-codes.html
+
+
+# WASM 빌드하기(target add)
+
+```bash
+rustup update
+rustup update nightly
+rustup target add wasm32-unknown-unknown --toolchain nightly
+```
+
+https://stackoverflow.com/questions/66180416/rust-nightly-not-installed-please-install-it
