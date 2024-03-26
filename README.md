@@ -348,6 +348,32 @@ rustup target add wasm32-unknown-unknown --toolchain nightly
 
 - https://stackoverflow.com/questions/66180416/rust-nightly-not-installed-please-install-it
 
+- A simple main app(러스트 코드를 WASM 빌드하기_확장자명 .wasm)
+- [여기에 정리중](https://github.com/YoungHaKim7/Rust_Tutorial_Full_course/tree/main/17_Rust_WASM_Web_Dev_FullStack#a-simple-main-app)
+
+  - The Hello World example is a standalone Rust application that can be executed by the WasmEdge CLI. The full source code for the Rust main.rs file is as follows. It echoes the command line arguments passed to this program at runtime.
+
+```rs
+fn main() {
+  let s : &str = "Hello WasmEdge!";
+  println!("{}", s);
+}
+```
+
+- Build the WASM bytecode:
+
+  - `cargo build --target wasm32-wasi --release`
+
+```
+cargo build --target wasm32-wasi --release
+```
+
+- We will use the wasmedge command to run the program.
+```bash
+$ wasmedge target/wasm32-wasi/release/hello.wasm
+Hello WasmEdg
+```
+
 # cargo ructc mir, hir보는법
 
 - 여기에 자세히 정리중
