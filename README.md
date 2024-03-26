@@ -351,6 +351,7 @@ rustup target add wasm32-unknown-unknown --toolchain nightly
 # cargo ructc mir, hir보는법
 
 - 여기에 자세히 정리중
+  - [여기에 자세히 정리중 mir, hir, llvm](./07_cargo_rustc_mir_hir_llvm)
   - https://github.com/YoungHaKim7/Rust_Tutorial_Full_course/tree/main/23_Rust_LLVM_IR
 
 
