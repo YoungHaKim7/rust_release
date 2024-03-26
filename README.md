@@ -346,4 +346,150 @@ rustup update nightly
 rustup target add wasm32-unknown-unknown --toolchain nightly
 ```
 
-https://stackoverflow.com/questions/66180416/rust-nightly-not-installed-please-install-it
+- https://stackoverflow.com/questions/66180416/rust-nightly-not-installed-please-install-it
+
+# cargo ructc mir, hir보는법
+
+- 여기에 자세히 정리중
+  - https://github.com/YoungHaKim7/Rust_Tutorial_Full_course/tree/main/23_Rust_LLVM_IR
+
+
+- cargo asm
+  - https://github.com/gnzlbg/cargo-asm
+
+- ```cargo rustc -- -Zunpretty=mir```
+
+```bash
+cargo rustc -- -Zunpretty=mir
+   Compiling testrust01 v0.1.0 (D:\young_linux\11111\testrust01)
+// WARNING: This output format is intended for human consumers only
+// and is subject to change without notice. Knock yourself out.
+fn main() -> () {
+    let mut _0: ();
+    let _1: std::result::Result<ndarray::ArrayBase<ndarray::OwnedRepr<f64>, ndarray::Di
+m<[usize; 2]>>, ndarray::ShapeError>;
+    let mut _2: (usize, usize);
+    let mut _3: std::vec::Vec<f64>;
+    let mut _4: &ndarray::ArrayBase<ndarray::OwnedRepr<f64>, ndarray::Dim<[usize; 1]>>;
+    let _5: ndarray::ArrayBase<ndarray::OwnedRepr<f64>, ndarray::Dim<[usize; 1]>>;
+
+...
+...
+...
+
+promoted[1] in main: &[&str; 2] = {
+    let mut _0: &[&str; 2];
+    let mut _1: [&str; 2];
+
+    bb0: {
+        _1 = [const "create array 01 bool : ", const "\n"];
+        _0 = &_1;
+        return;
+    }
+}
+    Finished dev [unoptimized + debuginfo] target(s) in 0.67s
+```
+
+- ```cargo rustc -- --emit llvm-ir && cat .\target\debug\deps\testrust01.ll```
+
+```bash
+
+$ cargo rustc -- --emit llvm-ir && cat .\target\debug\deps\testrust01.ll
+
+
+...
+...
+...
+
+코드가 겁나게 많다. 
+
+...
+!12775 = distinct !DISubprogram(name: "new<ndarray::ArrayBase<ndar
+ray::data_repr::OwnedRepr<f64>,ndarray::dimension::dim::Dim<array$
+<usize,2> > > >", linkageName: "_ZN4core3fmt2rt8Argument3new17h0fb
+bb2618fd00175E", scope: !3030, file: !3029, line: 83, type: !12776
+, scopeLine: 83, flags: DIFlagPrototyped, spFlags: DISPFlagLocalTo
+Unit | DISPFlagDefinition, unit: !330, templateParams: !3989, decl
+aration: !12779, retainedNodes: !12780)
+!12776 = !DISubroutineType(types: !12777)
+!12777 = !{!3030, !8337, !12778}
+!12778 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "enum2$<co
+re::result::Result<tuple$<>,core::fmt::Error> > (*)(ref$<ndarray::
+ArrayBase<ndarray::data_repr::OwnedRepr<f64>,ndarray::dimension::d
+im::Dim<array$<usize,2> > > >,ref_mut$<core::fmt::Formatter>)", ba
+seType: !8553, size: 64, align: 64, dwarfAddressSpace: 0)
+!12779 = !DISubprogram(name: "new<ndarray::ArrayBase<ndarray::data
+_repr::OwnedRepr<f64>,ndarray::dimension::dim::Dim<array$<usize,2>
+ > > >", linkageName: "_ZN4core3fmt2rt8Argument3new17h0fbbb2618fd0
+0175E", scope: !3030, file: !3029, line: 83, type: !12776, scopeLi
+ne: 83, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit, tem
+plateParams: !3989)
+!12780 = !{!12773, !12781}
+!12781 = !DILocalVariable(name: "f", arg: 2, scope: !12774, file:
+!3029, line: 83, type: !12778)
+!12782 = !DILocation(line: 83, scope: !12774, inlinedAt: !12783)
+!12783 = distinct !DILocation(line: 101, scope: !12766, inlinedAt:
+ !12772)
+!12784 = !DILocation(line: 101, scope: !12766, inlinedAt: !12772)
+!12785 = !DILocation(line: 92, scope: !12774, inlinedAt: !12783)
+!12786 = !DILocation(line: 102, scope: !12766, inlinedAt: !12772)
+!12787 = !DILocation(line: 7, scope: !12733)
+!12788 = !DILocation(line: 3, scope: !12727)
+
+```
+
+- cargo hir
+  - https://gist.github.com/niklasad1/b838695ef436a0a16d5cd80cf462905f
+
+# Expand macros
+`$ cargo rustc --profile=check -- -Zunpretty=expanded`
+<br>`$ cargo expand`
+
+- https://github.com/dtolnay/cargo-expand
+
+# Emit asm
+`$ cargo rustc -- --emit asm && cat target/debug/deps/project_name-hash.s`
+<br>`$ cargo rustc -- --emit asm=asssembly.s`
+
+# Emit llvm-ir
+`$ cargo rustc -- --emit llvm-ir && cat target/debug/deps/project_name-hash.ll`
+<br>`$ cargo rustc -- --emit llvm-ir=testrust.ll`
+
+# Emit HIR
+`$ cargo rustc -- -Zunpretty=hir`
+
+# Emit MIR
+`$ cargo rustc -- -Zunpretty=mir`
+<br>`$ cargo rustc -- --emit mir=testrust.mir`
+
+# cargo rustc -- --emit dep-info=testrust.depinfo
+
+```
+cargo rustc -- --emit dep-info=testrust.depinfo
+```
+
+# cargo rustc -- --emit help
+
+```
+cargo rustc -- --emit help
+   Compiling testrust01 v0.1.0 (D:\young_linux\11111\testrust01)
+error: unknown emission type: `help` - expected one of:
+
+`llvm-bc`,
+`asm`,
+`llvm-ir`,
+ `mir`,
+`obj`,
+`metadata`,
+`link`,
+`dep-info`
+```
+# .pdb
+
+- Microsoft released the source code of their PDB formats, so other compiler developers like the LLVM team can implement the PDB format easier.
+  - https://github.com/Microsoft/microsoft-pdb/
+    - To actually dump the output of a file, just use this:
+       - https://github.com/Microsoft/microsoft-pdb/blob/master/cvdump/cvdump.exe
+
+
+<hr>
