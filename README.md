@@ -9,6 +9,7 @@
 - [러스트-라이브러리-찾기librs--cratesio](#러스트-라이브러리-찾기librs--cratesio)
 
 - [WASM-빌드하기target-add](#wasm-빌드하기target-add)
+- [cargo-ructc-mir-hir보는법](#cargo-ructc-mir-hir보는법)
 
 <hr>
 
