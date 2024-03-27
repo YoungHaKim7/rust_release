@@ -18,7 +18,7 @@
 
 https://rust-lang.github.io/rust-clippy/
 
-# rustc --version --verbose
+# rustc --version --verbose[[🔝]](#link)
 
 - test한 환경을 남에게 보여줄때 좋다.
 
@@ -35,7 +35,7 @@ LLVM version: 16.0.2
 
 <hr>
 
-# Rust 러스트 업데이트 내용 미리 보기
+# Rust 러스트 업데이트 내용 미리 보기[[🔝]](#link)
 
 - spoiler book ㅋㅋ 
 
@@ -45,7 +45,7 @@ Luca Palmieri. Zero To Production In Rust (Kindle Locations 595-596). Kindle Edi
 
 https://doc.rust-lang.org/nightly/unstable-book/the-unstable-book.html
 
-# Debug information is not included in build scripts by default anymore(속도 올리려고 1.69에서 디버그 정보 빠짐 다시 넣는 방법)
+# Debug information is not included in build scripts by default anymore(속도 올리려고 1.69에서 디버그 정보 빠짐 다시 넣는 방법)[[🔝]](#link)
 
 - If you want to debug a build script, you can add this snippet to your ```Cargo.toml``` to emit debug information again:
 - Cargo.toml https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html
@@ -60,7 +60,7 @@ debug = true
 
 <hr>
 
-# Rust version Setting
+# Rust version Setting[[🔝]](#link)
 
 ```
 rustup update stable
@@ -78,20 +78,20 @@ rustup default nightly
 
 <hr>
 
-# Rust Relese 노트 미리 알아보기
+# Rust Relese 노트 미리 알아보기[[🔝]](#link)
 
 https://releases.rs/docs/
 
 <hr>
 
-# 최근 러스트 업데이트 weekly&etc뉴스
+# 최근 러스트 업데이트 weekly&etc뉴스[[🔝]](#link)
 
 - 러스트 Weekly
   - https://this-week-in-rust.org/
 
 
 
-# crates.io관련 뉴스
+# crates.io관련 뉴스[[🔝]](#link)
 - (Official)Improved API tokens for crates.io
   - https://blog.rust-lang.org/2023/06/23/improved-api-tokens-for-crates-io.html
 
@@ -107,7 +107,7 @@ https://releases.rs/docs/
 
 <br>
 
-# 러스트 라이브러리 찾기(lib.rs & crates.io)
+# 러스트 라이브러리 찾기(lib.rs & crates.io)[[🔝]](#link)
 
 - 라이브러리 다운로드 수 같은거 볼 수 있음 러스트 라이브러리 정리
   - https://lib.rs/
@@ -115,7 +115,7 @@ https://releases.rs/docs/
 -  The Rust community’s crate registry
   - https://crates.io/
 
-# rust_release
+# rust_release[[🔝]](#link)
 
 rust release 제일 빨리 알려주는 트위터
 
@@ -129,7 +129,7 @@ https://blog.m-ou.se/rust-cpp-concurrency/
 
 <br>
 
-# What Rust is it
+# What Rust is it[[🔝]](#link)
 
 https://www.whatrustisit.com/
 
@@ -147,24 +147,24 @@ https://github.com/rust-lang/rust/blob/1.64.0/RELEASES.md
 
 <br>
 
-# Rust 공식 Blog
+# Rust 공식 Blog[[🔝]](#link)
 
 https://blog.rust-lang.org/
 
 <hr>
 
-# Rust Code 배울게 많다.
+# Rust Code 배울게 많다.[[🔝]](#link)
 https://github.com/oli-obk
 
 <hr>
 
 <br>
 
-# Asynchronous Programming in Rust \_1.63 부터 이해해야할 Async
+# Asynchronous Programming in Rust \_1.63 부터 이해해야할 Async[[🔝]](#link)
 
 https://rust-lang.github.io/async-book/01_getting_started/04_async_await_primer.html
 
-# cargo add 활용법
+# cargo add 활용법[[🔝]](#link)
 
 ```
 $ cargo add serde -F serde/derive && cargo add tokio -F tokio/full
@@ -217,7 +217,7 @@ $ cargo add serde tokio -F serde/derive -F tokio/full
              + process
 ```
 
-# ```cargo clean``` 활용법(target을 그냥 지우기 보단 cargo clean을 활용하자)
+# ```cargo clean``` 활용법(target을 그냥 지우기 보단 cargo clean을 활용하자)[[🔝]](#link)
 
 ```
 $ cargo clean
@@ -234,7 +234,7 @@ $ cargo clean
 
 <hr>
 
-# 중국 사람이 정리한 Rust eBook 번역해서 볼만함
+# 중국 사람이 정리한 Rust eBook 번역해서 볼만함[[🔝]](#link)
 
 https://github.com/sunface/rust-course
 
@@ -262,7 +262,7 @@ https://rusty.rs/about.html
 
 <br>
 
-# Rustup show
+# Rustup show[[🔝]](#link)
 
 ```
 PS D:\rust_toolchain_toml> rustup show
@@ -284,7 +284,7 @@ active toolchain
 rustc 1.68.0 (2c8cc3432 2023-03-06)
 ```
 
-# rustup toolchain remove nightly-2023-02-21 1.65.0(필요없는거 지우기)
+# rustup toolchain remove nightly-2023-02-21 1.65.0(필요없는거 지우기)[[🔝]](#link)
 
 ```
 PS D:\rust_toolchain_toml> rustup toolchain remove nightly-2023-02-21 1.65.0
@@ -349,7 +349,7 @@ info: removing component 'rust-std' for 'x86_64-apple-ios'
 
 ```
 
-# WASM 빌드하기(target add)
+# WASM 빌드하기(target add)[[🔝]](#link)
 
 ```bash
 rustup update
@@ -385,7 +385,7 @@ $ wasmedge target/wasm32-wasi/release/hello.wasm
 Hello WasmEdg
 ```
 
-# cargo ructc mir, hir보는법
+# cargo ructc mir, hir보는법[[🔝]](#link)
 
 - 여기에 자세히 정리중
   - [여기에 자세히 정리중 mir, hir, llvm](./07_cargo_rustc_mir_hir_llvm)
@@ -479,34 +479,34 @@ plateParams: !3989)
 - cargo hir
   - https://gist.github.com/niklasad1/b838695ef436a0a16d5cd80cf462905f
 
-# Expand macros
+# Expand macros[[🔝]](#link)
 `$ cargo rustc --profile=check -- -Zunpretty=expanded`
 <br>`$ cargo expand`
 
 - https://github.com/dtolnay/cargo-expand
 
-# Emit asm
+# Emit asm[[🔝]](#link)
 `$ cargo rustc -- --emit asm && cat target/debug/deps/project_name-hash.s`
 <br>`$ cargo rustc -- --emit asm=asssembly.s`
 
-# Emit llvm-ir
+# Emit llvm-ir[[🔝]](#link)
 `$ cargo rustc -- --emit llvm-ir && cat target/debug/deps/project_name-hash.ll`
 <br>`$ cargo rustc -- --emit llvm-ir=testrust.ll`
 
-# Emit HIR
+# Emit HIR[[🔝]](#link)
 `$ cargo rustc -- -Zunpretty=hir`
 
-# Emit MIR
+# Emit MIR[[🔝]](#link)
 `$ cargo rustc -- -Zunpretty=mir`
 <br>`$ cargo rustc -- --emit mir=testrust.mir`
 
-# cargo rustc -- --emit dep-info=testrust.depinfo
+# cargo rustc -- --emit dep-info=testrust.depinfo[[🔝]](#link)
 
 ```
 cargo rustc -- --emit dep-info=testrust.depinfo
 ```
 
-# cargo rustc -- --emit help
+# cargo rustc -- --emit help[[🔝]](#link)
 
 ```
 cargo rustc -- --emit help
@@ -522,7 +522,7 @@ error: unknown emission type: `help` - expected one of:
 `link`,
 `dep-info`
 ```
-# .pdb
+# .pdb[[🔝]](#link)
 
 - Microsoft released the source code of their PDB formats, so other compiler developers like the LLVM team can implement the PDB format easier.
   - https://github.com/Microsoft/microsoft-pdb/
