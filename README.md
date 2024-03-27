@@ -78,12 +78,6 @@ rustup default nightly
 
 <hr>
 
-# Rust Relese 노트 미리 알아보기[[🔝]](#link)
-
-https://releases.rs/docs/
-
-<hr>
-
 # 최근 러스트 업데이트 weekly&etc뉴스[[🔝]](#link)
 
 - 러스트 Weekly
@@ -114,6 +108,14 @@ https://releases.rs/docs/
 
 -  The Rust community’s crate registry
   - https://crates.io/
+
+<hr>
+
+# Rust Relese 노트 미리 알아보기[[🔝]](#link)
+
+https://releases.rs/docs/
+
+
 
 # rust_release[[🔝]](#link)
 
@@ -146,6 +148,8 @@ https://github.com/rust-lang/rust/blob/master/RELEASES.md
 https://github.com/rust-lang/rust/blob/1.64.0/RELEASES.md
 
 <br>
+
+<hr>
 
 # Rust 공식 Blog[[🔝]](#link)
 
