@@ -89,9 +89,19 @@ https://releases.rs/docs/
 - 러스트 Weekly
   - https://this-week-in-rust.org/
 
+
+
+# crates.io관련 뉴스
+- (Official)Improved API tokens for crates.io
+  - https://blog.rust-lang.org/2023/06/23/improved-api-tokens-for-crates-io.html
+
+- crates.io: API status code changes(240206)
+  - https://blog.rust-lang.org/2024/02/06/crates-io-status-codes.html
+
 - crates.io: Download changes
   - Mar. 11, 2024 · Tobias Bieniek on behalf of the crates.io team
     - https://blog.rust-lang.org/2024/03/11/crates-io-download-changes.html
+
 
 <hr>
 
@@ -338,14 +348,6 @@ rustup target remove x86_64-apple-ios
 info: removing component 'rust-std' for 'x86_64-apple-ios'
 
 ```
-
-# crates.io관련 뉴스
-- (Official)Improved API tokens for crates.io
-  - https://blog.rust-lang.org/2023/06/23/improved-api-tokens-for-crates-io.html
-
-- crates.io: API status code changes(240206)
-  - https://blog.rust-lang.org/2024/02/06/crates-io-status-codes.html
-
 
 # WASM 빌드하기(target add)
 
