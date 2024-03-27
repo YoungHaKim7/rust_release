@@ -35,16 +35,6 @@ LLVM version: 16.0.2
 
 <hr>
 
-# Rust 러스트 업데이트 내용 미리 보기[[🔝]](#link)
-
-- spoiler book ㅋㅋ 
-
-- Spoiler: there are loads.↩︎
-
-Luca Palmieri. Zero To Production In Rust (Kindle Locations 595-596). Kindle Edition. 
-
-https://doc.rust-lang.org/nightly/unstable-book/the-unstable-book.html
-
 # Debug information is not included in build scripts by default anymore(속도 올리려고 1.69에서 디버그 정보 빠짐 다시 넣는 방법)[[🔝]](#link)
 
 - If you want to debug a build script, you can add this snippet to your ```Cargo.toml``` to emit debug information again:
@@ -148,6 +138,16 @@ https://github.com/rust-lang/rust/blob/master/RELEASES.md
 https://github.com/rust-lang/rust/blob/1.64.0/RELEASES.md
 
 <br>
+
+# Rust 러스트 업데이트 내용 미리 보기[[🔝]](#link)
+
+- spoiler book ㅋㅋ 
+
+- Spoiler: there are loads.↩︎
+
+Luca Palmieri. Zero To Production In Rust (Kindle Locations 595-596). Kindle Edition. 
+
+https://doc.rust-lang.org/nightly/unstable-book/the-unstable-book.html
 
 <hr>
 
