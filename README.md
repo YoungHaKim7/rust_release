@@ -126,6 +126,7 @@ https://www.whatrustisit.com/
 <br>
 
 <br>
+
 - Releases 노트 지금까지 나온거 쭉 볼 수 있다.
 
 https://github.com/rust-lang/rust/blob/master/RELEASES.md
@@ -339,6 +340,9 @@ info: removing component 'rust-std' for 'x86_64-apple-ios'
 ```
 
 # crates.io관련 뉴스
+- (Official)Improved API tokens for crates.io
+  - https://blog.rust-lang.org/2023/06/23/improved-api-tokens-for-crates-io.html
+
 - crates.io: API status code changes(240206)
   - https://blog.rust-lang.org/2024/02/06/crates-io-status-codes.html
 
