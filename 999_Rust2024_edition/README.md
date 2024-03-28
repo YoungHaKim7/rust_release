@@ -15,6 +15,16 @@
 
 <hr>
 
+# Async Rust roadmap
+
+|Year|Language|
+|-|-|
+|2019| Async fns|
+|2019-2022| Ecosystem development|
+|2023| Async fn in traits|
+|2024| Async closures, generators....|
+
+<hr>
 
 # Rust 2024맛보기
 
