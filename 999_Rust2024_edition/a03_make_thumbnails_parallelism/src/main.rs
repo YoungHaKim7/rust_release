@@ -1,8 +1,8 @@
-use std::sync::atomic::AtomicIsize;
+use std::sync::atomic::AtomicUsize;
 
 // Parallelizing with Rayon
 fn make_thumbnails(images: &[Image]) -> Vec<Image> {
-    let counter = AtomicIsize::new();
+    let counter = AtomicUsize::new();
     let vec = images
         .par_iter()
         .map(|image| {
