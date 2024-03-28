@@ -68,6 +68,10 @@ Change "ASCIIbetical" sort to Unicode-aware "non-lowercase before lowercase".
 
 https://crates.io/crates/image
 
+# Blazingly 🔥 fast 🚀 memory vulnerabilities, written in 100% safe Rust. 🦀 
+
+https://github.com/Speykious/cve-rs
+
 
 # Hack without fear (Seth Markle, Senior Principal Engineer, S3)
 
