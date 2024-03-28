@@ -48,7 +48,7 @@ Change "ASCIIbetical" sort to Unicode-aware "non-lowercase before lowercase".
 https://crates.io/crates/image
 
 
-# Hack without fear
+# Hack without fear (Seth Markle, Senior Principal Engineer, S3)
 
 - We had a lot of ideas to improve performance, but we were hesitant to introduce them into critical systems given the risk of subtle bugs.
   - 성능 향상을 위한 아이디어는 많았지만, 미묘한 버그의 위험을 고려하여 중요한 시스템에 도입하는 것을 주저했습니다.
