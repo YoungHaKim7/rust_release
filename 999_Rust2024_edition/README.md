@@ -24,6 +24,17 @@
 |2023| Async fn in traits|
 |2024| Async closures, generators....|
 
+- Standard way to write async Rust that...비동기 Rust를 작성하는 표준 방법은...
+  - lets you gracefully handle cancellation and streams
+    - 취소 및 스트림을 우아하게 처리할 수 있습니다
+  - supports a rich, interopable ecosystem of middleware, logging,etc
+    - 미들웨어, 로깅 등의 풍부하고 상호 운용 가능한 에코시스템을 지원합니다
+  - works everywhere, from embedded to servers
+    - 내장된 서버에서 서버까지 모든 곳에서 작동합니다
+  - is easy to learn, well documented, and free of footguns
+    - 배우기 쉽고, 잘 문서화되어 있으며, 발총이 없습니다 
+      - C++은 코드를 잘못 만들면 내 발에 총을 쏜다는걸 이야기하는듯 그래서 코드가 터져버리는 ㅋㅋㅋ
+
 <hr>
 
 # Rust 2024맛보기
