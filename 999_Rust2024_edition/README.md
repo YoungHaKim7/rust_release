@@ -18,7 +18,7 @@
 
 # Rust 2024맛보기
 
-- https://nikomatsakis.github.io/rustnation-24/ 
+- https://nikomatsakis.github.io/rustnation-24/
 
   - https://www.youtube.com/live/RQSZ3wLsjNM?si=GZ9UoAfQ7b3s-JOg
 
@@ -33,5 +33,9 @@
 Miscellaneous rustfmt bugfixes.
 Use version-sort (sort x8, x16, x32, x64, x128 in that order).
 Change "ASCIIbetical" sort to Unicode-aware "non-lowercase before lowercase".
- 
+
 - https://github.com/rust-lang/rust/pull/114764
+
+# Image(Rust crates.io)
+
+https://crates.io/crates/image
