@@ -1,3 +1,9 @@
+# Edition Guide(Rust)
+
+- https://doc.rust-lang.org/nightly/edition-guide/editions/index.html
+
+<hr>
+
 # Rust Version
 - 🚀 Cutting-edge Features with 'Editions'
 - Rust introduces significant changes or new features through ‘Editions’, which are released every 3 years.
