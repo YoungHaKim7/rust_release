@@ -6,6 +6,24 @@
   - https://blog.rust-lang.org/2023/12/11/cargo-cache-cleaning.html
   - https://rust-lang.github.io/rfcs/3425-return-position-impl-trait-in-traits.html
 
+- https://github.com/rust-lang/rust/pull/104134
+
+```rs
+
+#![allow(unreachable_code)]
+ 
+async fn f(_: u8) {}
+ 
+async fn g() {
+    f(todo!("...")).await;
+}
+ 
+fn require_send(_: impl Send) {}
+ 
+fn main() {
+    require_send(g());
+}
+```
 
 
 # Rust Clippy
