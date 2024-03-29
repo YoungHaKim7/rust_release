@@ -37,6 +37,10 @@
 
 <hr>
 
+# 2024 Edition Update
+Mar. 22, 2024 · Eric Huss on behalf of Edition 2024 Project Group
+- https://blog.rust-lang.org/inside-rust/2024/03/22/2024-edition-update.html
+
 # Rust 2024맛보기
 
 - https://nikomatsakis.github.io/rustnation-24/
