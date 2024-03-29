@@ -52,6 +52,12 @@ debug = true
 
 <hr>
 
+# llvm downloads
+
+- https://releases.llvm.org/
+
+<hr>
+
 # Rust version Setting[[🔝]](#link)
 
 ```
