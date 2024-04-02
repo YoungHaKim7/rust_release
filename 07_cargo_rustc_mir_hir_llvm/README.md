@@ -2,6 +2,14 @@
 
 <hr>
 
+# Rust❤️러스트 .o 오브젝트(obj❤️) 파일 만드는 방법How create .obj file from Rust code
+
+- https://users.rust-lang.org/t/how-create-obj-file-from-rust-code-without-core-panic/40441/15
+
+- https://modexp.wordpress.com/2018/10/30/arm64-assembly/
+
+<hr>
+
 # 1.74 cargo rustc 내용
 
 https://github.com/rust-lang/rust/pull/114183/
