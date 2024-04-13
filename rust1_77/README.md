@@ -9,14 +9,14 @@
 https://blog.rust-lang.org/2024/04/09/updates-to-rusts-wasi-targets.html
 
 - WASM 젤 기대되는 기술 이번에 새로운 넘들 추가됨
-`wasm32-wasip1`(tier 2)
 
-`wasm32-wasip2` (tier 3)
+- `wasm32-wasip1` (tier 2)
+
+- `wasm32-wasip2` (tier 3)
 
 티어 2하고 3이라 안전성은 좀 떨어지지만 나름 좋네 ㅎ
 
 ```
-
 date    Rust Stable    Rust Beta    Rust Nightly    Notes
 2024-02-08    1.76    1.77    1.78    wasm32-wasip1 available on nightly
 2024-03-21    1.77    1.78    1.79    wasm32-wasip1 available on beta
