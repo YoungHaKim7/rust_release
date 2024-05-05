@@ -1,0 +1,6 @@
+[package]
+name = "a01_casting_to_bigger_memory"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
