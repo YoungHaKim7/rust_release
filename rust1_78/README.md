@@ -7,3 +7,8 @@
 
 # 한국분 잘 정리 하심 역시 경직님 최고
 - https://m.blog.naver.com/sssang97/223434631240
+
+<hr>
+
+# 역시 배울게 많은 곳What's New in Rust 1.72-1.78 Rustacean Station marathon | Jon Gjengset
+- https://www.youtube.com/live/VpSXTJXX1YA?si=wMeL3VgQQG30uBYx
