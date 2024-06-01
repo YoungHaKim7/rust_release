@@ -9,3 +9,7 @@ https://youtu.be/tOQZlD-0Scc?si=qzcdO24BjkHR9NMd
 https://github.com/rust-lang/rust/blob/1.72.0/RELEASES.md
 
 - https://blog.rust-lang.org/2023/08/24/Rust-1.72.0.html
+
+# Box::leak을 쓰는경우
+- When to Use Box::leak in Rust?
+  - https://www.reddit.com/r/rust/comments/176tfy8/when_to_use_boxleak_in_rust/
