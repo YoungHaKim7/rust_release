@@ -4,6 +4,12 @@ https://rustc-dev-guide.rust-lang.org/getting-started.html
 
 <hr>
 
+# Standard library developers Guide
+
+- https://std-dev-guide.rust-lang.org/
+
+<hr>
+
 # What is a dataflow analysis?
 - Static Program Analysis by Anders Møller and Michael I. Schwartzbach is an incredible resource!
   - https://cs.au.dk/~amoeller/spa/
