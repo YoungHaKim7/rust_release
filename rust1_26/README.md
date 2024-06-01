@@ -1,0 +1,1 @@
+- https://doc.rust-lang.org/stable/alloc/boxed/struct.Box.html#method.leak
