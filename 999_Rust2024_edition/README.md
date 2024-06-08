@@ -41,6 +41,10 @@
     - 배우기 쉽고, 잘 문서화되어 있으며, 발총이 없습니다 
       - C++은 코드를 잘못 만들면 내 발에 총을 쏜다는걸 이야기하는듯 그래서 코드가 터져버리는 ㅋㅋㅋ
 
+- Stabilizing async fn in traits in 2023(async fn 안정화했다는 러스트 블로그 글)
+  - May 3, 2023 · Niko Matsakis and Tyler Mandry on behalf of The Rust Async Working Group
+  - https://blog.rust-lang.org/inside-rust/2023/05/03/stabilizing-async-fn-in-trait.html
+
 <hr>
 
 # 2024 Edition Update
