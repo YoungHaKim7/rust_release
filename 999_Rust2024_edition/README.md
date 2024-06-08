@@ -44,6 +44,8 @@
 - Stabilizing async fn in traits in 2023(async fn 안정화했다는 러스트 블로그 글)
   - May 3, 2023 · Niko Matsakis and Tyler Mandry on behalf of The Rust Async Working Group
   - https://blog.rust-lang.org/inside-rust/2023/05/03/stabilizing-async-fn-in-trait.html
+  - 관련 Reddit글
+    - https://www.reddit.com/r/rust/comments/136o73k/stabilizing_async_fn_in_traits_in_2023_inside/
 
 <hr>
 
