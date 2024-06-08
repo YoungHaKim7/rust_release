@@ -1,3 +1,8 @@
+# Async Rust한국분이 설명 잘 해 놨음.
+- https://blog.cro.sh/slides/async-rust-programming-20220801-redistributable.pdf
+
+<hr>
+
 # Rust-1.75.0
 
 - https://blog.rust-lang.org/2023/12/28/Rust-1.75.0.html
