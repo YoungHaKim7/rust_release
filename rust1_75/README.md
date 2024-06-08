@@ -1,6 +1,9 @@
 # Async Rust한국분이 설명 잘 해 놨음.
 - https://blog.cro.sh/slides/async-rust-programming-20220801-redistributable.pdf
 
+- The Future Trait
+  - https://doc.rust-lang.org/std/future/trait.Future.html
+
 <hr>
 
 # Rust-1.75.0
