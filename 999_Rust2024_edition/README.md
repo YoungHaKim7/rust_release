@@ -47,6 +47,11 @@
   - 관련 Reddit글
     - https://www.reddit.com/r/rust/comments/136o73k/stabilizing_async_fn_in_traits_in_2023_inside/
 
+- Rust Async GAT관련
+  - https://rust-lang.github.io/rfcs/3185-static-async-fn-in-trait.html
+    - Try using GAT to improve Future's failed: How to declare the life cycle?
+      -  https://stackoverflow.com/questions/74441311/try-using-gat-to-improve-futures-failed-how-to-declare-the-life-cycle
+
 <hr>
 
 # 2024 Edition Update
