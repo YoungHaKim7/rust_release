@@ -1,5 +1,5 @@
 [package]
-name = "a01_x86_64_night_faster_compilation"
+name = "a01_x86_64_nightly_faster_compilation"
 version = "0.1.0"
 edition = "2021"
 
