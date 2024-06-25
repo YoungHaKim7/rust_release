@@ -544,3 +544,13 @@ error: unknown emission type: `help` - expected one of:
 
 
 <hr>
+
+# rust-analyzer LSP설치하기[[🔝]](#link)
+  - https://rust-analyzer.github.io/
+```
+# rustup
+# rust-analyzer is available in rustup:
+```
+$ rustup component add rust-analyzer
+
+<hr>
