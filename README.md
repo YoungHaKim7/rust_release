@@ -550,7 +550,7 @@ error: unknown emission type: `help` - expected one of:
 ```
 # rustup
 # rust-analyzer is available in rustup:
-```
-$ rustup component add rust-analyzer
 
+$ rustup component add rust-analyzer
+```
 <hr>
