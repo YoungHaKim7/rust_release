@@ -8,7 +8,8 @@
 
 <hr>
 
-# readonly_write_lock 
+# readonly_write_lock (rust1.79)
+- https://rust-lang.github.io/rust-clippy/master/
 
 - Looks for calls to RwLock::write where the lock is only used for reading.
 Why is this bad?
