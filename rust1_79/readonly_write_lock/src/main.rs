@@ -43,15 +43,6 @@ fn main() {
     .join()
     .unwrap();
 
-    // Read the value and assert it is 15
-    // println!("get_value : 15 {}", get_value(&lock_clone02));
-
-    // Reset the value to zero
-    // reset_to_zero(&lock_clone);
-
-    // // Assert the value is zero
-    // assert_is_zero(&lock);
-
     let lock2 = RwLock::new(0);
 
     let lock2_clone = Arc::new(lock2);
