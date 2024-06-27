@@ -34,7 +34,10 @@ fn main() {
     std::thread::spawn(move || {
         increment(&lock_clone, 20);
         {
-            println!("get_value : 15 {}", get_value(&lock_clone))
+            println!(
+                "get_value : 30이 나오나 확인 :   {}",
+                get_value(&lock_clone)
+            )
         }
     })
     .join()
@@ -51,10 +54,48 @@ fn main() {
 
     let lock2 = RwLock::new(0);
 
-    // Perform operations on the RwLock
-    increment(&lock2, 10);
-    assert_eq!(get_value(&lock2), 10);
+    let lock2_clone = Arc::new(lock2);
 
-    reset_to_zero(&lock2);
-    assert_is_zero(&lock2);
+    // Perform operations on the RwLock
+    std::thread::spawn(move || {
+        increment(&lock2_clone, 200);
+        {
+            println!(
+                "get_value : 200이 나오나 확인 :   {}",
+                get_value(&lock2_clone)
+            )
+        }
+    })
+    .join()
+    .unwrap();
+
+    let lock3 = RwLock::new(1000);
+    let lock3_clone = Arc::new(lock3);
+
+    std::thread::spawn(move || {
+        reset_to_zero(&lock3_clone);
+        {
+            println!(
+                "get_value(reset_to_zero) : 0이 나오나 확인 :   {}",
+                get_value(&lock3_clone)
+            )
+        }
+    })
+    .join()
+    .unwrap();
+
+    let lock4 = RwLock::new(0);
+    let lock4_clone = Arc::new(lock4);
+
+    std::thread::spawn(move || {
+        assert_is_zero(&lock4_clone);
+        {
+            println!(
+                "get_value(assert_is_zero) : 0으로 초기화 되었는지 assert 확인  :   {}",
+                get_value(&lock4_clone)
+            )
+        }
+    })
+    .join()
+    .unwrap();
 }
