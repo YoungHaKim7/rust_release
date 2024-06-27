@@ -76,17 +76,7 @@ fn main() {
     .unwrap();
 
     let lock4 = RwLock::new(0);
-    let lock4_clone = Arc::new(lock4);
-
-    std::thread::spawn(move || {
-        assert_is_zero(&lock4_clone);
-        {
-            println!(
-                "get_value(assert_is_zero) : 0으로 초기화 되었는지 assert 확인  :   {}",
-                get_value(&lock4_clone)
-            )
-        }
-    })
-    .join()
-    .unwrap();
+    // Perform the assertion
+    assert_is_zero(&lock4);
+    println!("assert_is_zero 문제 없음 : 0 으로 초기화 잘됨");
 }
