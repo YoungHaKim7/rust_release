@@ -16,7 +16,7 @@ gif = { version = "0.11.1", optional = true }
 gif = ["dep:gif"]
 ```
 
-- This means that this dependency will only be included if the gif feature is enabled. The same cfg(feature = "gif") syntax can be used in the code, and the dependency can be enabled just like any feature such as --features gif (see Command-line feature options below).
+- This means that this dependency will only be included if the gif feature is enabled. The same `cfg(feature = "gif")` syntax can be used in the code, and the dependency can be enabled just like any feature such as `--features gif` (see Command-line feature options below).
 
 In some cases, you may not want to expose a feature that has the same name as the optional dependency. For example, perhaps the optional dependency is an internal detail, or you want to group multiple optional dependencies together, or you just want to use a better name. If you specify the optional dependency with the dep: prefix anywhere in the [features] table, that disables the implicit feature.
 
