@@ -181,12 +181,12 @@ https://rust-lang.github.io/async-book/01_getting_started/04_async_await_primer.
 
 
 - 여러개 넣는거 다른 방법
-```
+```bash
 cargo add tokio -F rt,rt-multi-thread,macros
 ```
 
 - 여러개 && 활용해서 하기
-```
+```bash
 $ cargo add serde -F serde/derive && cargo add tokio -F tokio/full
 
 
@@ -198,7 +198,7 @@ $ cargo add serde -F derive && cargo add tokio -F full
 
 Cargo.toml
 
-```
+```toml
 [dependencies]
 serde = { version = "1.0.140", features = ["derive"] }
 tokio = { version = "1.20.1", features = ["full"] }
@@ -210,7 +210,7 @@ https://economiceco.tistory.com/m/14544
 
 - 다른 cargo add
 
-```
+```bash
 $ cargo add serde tokio -F serde/derive -F tokio/full
 
     Updating crates.io index
@@ -240,26 +240,26 @@ $ cargo add serde tokio -F serde/derive -F tokio/full
 - `cargo add` EXAMPLES
   - Add regex as a dependency
 
-```
+```bash
 cargo add regex
 ```
 
 - Add trybuild as a dev-dependency
-```
+```bash
 cargo add --dev trybuild
 ```
 
 - Add an older version of nom as a dependency
-```
+```bash
 cargo add nom@5
 ```
 
 - Add support for serializing data structures to json with derives
-```
+```bash
 cargo add serde serde_json -F serde/derive
 ```
 - Add windows as a platform specific dependency on cfg(windows)
-```
+```bash
 cargo add windows --target 'cfg(windows)'
 ```
 
@@ -267,7 +267,7 @@ cargo add windows --target 'cfg(windows)'
 
 # ```cargo clean``` 활용법(target을 그냥 지우기 보단 cargo clean을 활용하자)[[🔝]](#link)
 
-```
+```bash
 $ cargo clean
 
      Removed 347 files, 102.8MiB total
