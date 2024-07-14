@@ -179,6 +179,13 @@ https://rust-lang.github.io/async-book/01_getting_started/04_async_await_primer.
 
 # cargo add 활용법[[🔝]](#link)
 
+
+- 여러개 넣는거 다른 방법
+```
+cargo add tokio -F rt,rt-multi-thread,macros
+```
+
+- 여러개 && 활용해서 하기
 ```
 $ cargo add serde -F serde/derive && cargo add tokio -F tokio/full
 
@@ -197,7 +204,7 @@ serde = { version = "1.0.140", features = ["derive"] }
 tokio = { version = "1.20.1", features = ["full"] }
 ```
 
-cargo add 활용법❤️귀찮은 features넣는 법 -F이게 좋네 ㅋ❤️(Cargo.toml 넣기 귀찮다. ㅋㅋ)
+- cargo add 활용법❤️귀찮은 features넣는 법 -F이게 좋네 ㅋ❤️(Cargo.toml 넣기 귀찮다. ㅋㅋ)
 
 https://economiceco.tistory.com/m/14544
 
@@ -229,6 +236,34 @@ $ cargo add serde tokio -F serde/derive -F tokio/full
              + parking_lot
              + process
 ```
+
+- `cargo add` EXAMPLES
+  - Add regex as a dependency
+
+```
+cargo add regex
+```
+
+- Add trybuild as a dev-dependency
+```
+cargo add --dev trybuild
+```
+
+- Add an older version of nom as a dependency
+```
+cargo add nom@5
+```
+
+- Add support for serializing data structures to json with derives
+```
+cargo add serde serde_json -F serde/derive
+```
+- Add windows as a platform specific dependency on cfg(windows)
+```
+cargo add windows --target 'cfg(windows)'
+```
+
+<hr>
 
 # ```cargo clean``` 활용법(target을 그냥 지우기 보단 cargo clean을 활용하자)[[🔝]](#link)
 
