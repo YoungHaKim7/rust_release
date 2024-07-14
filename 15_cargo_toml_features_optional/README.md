@@ -18,7 +18,7 @@ gif = ["dep:gif"]
 ```
 
 - This means that this dependency will only be included if the gif feature is enabled. The same `cfg(feature = "gif")` syntax can be used in the code, and the dependency can be enabled just like any feature such as `--features gif` (see Command-line feature options below).
-  - 이는 gif 기능이 활성화된 경우에만 이 종속성이 포함된다는 것을 의미합니다. 코드에서 동일한 cfg(기능 = "gif") 구문을 사용할 수 있으며, 종속성은 -- features gif와 같은 기능과 마찬가지로 활성화될 수 있습니다(아래 명령줄 기능 옵션 참조).
+  - 이는 gif 기능이 활성화된 경우에만 이 종속성이 포함된다는 것을 의미합니다. 코드에서 동일한 `cfg(feature = "gif")` 구문을 사용할 수 있으며, 종속성은 `--features gif` 와 같은 기능과 마찬가지로 활성화될 수 있습니다(아래 명령줄 기능 옵션 참조).
 
 - In some cases, you may not want to expose a feature that has the same name as the optional dependency. For example, perhaps the optional dependency is an internal detail, or you want to group multiple optional dependencies together, or you just want to use a better name. If you specify the optional dependency with the dep: prefix anywhere in the [features] table, that disables the implicit feature.
   - 경우에 따라 선택적 종속성과 동일한 이름을 가진 기능을 노출하지 않을 수 있습니다. 예를 들어, 선택적 종속성이 내부 세부 정보이거나 여러 선택적 종속성을 함께 그룹화하거나 더 나은 이름을 사용하기를 원할 수 있습니다. [기능] 테이블의 어느 위치에서나 dep: 접두사를 사용하여 선택적 종속성을 지정하면 암시적 기능이 비활성화됩니다.
