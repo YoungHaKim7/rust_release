@@ -178,7 +178,7 @@ https://github.com/oli-obk
 https://rust-lang.github.io/async-book/01_getting_started/04_async_await_primer.html
 
 # cargo add 활용법[[🔝]](#link)
-
+- https://doc.rust-lang.org/cargo/commands/cargo-add.html
 
 - 여러개 넣는거 다른 방법
 ```bash
