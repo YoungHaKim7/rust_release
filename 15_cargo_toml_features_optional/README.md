@@ -10,7 +10,7 @@
 [dependencies]
 gif = { version = "0.11.1", optional = true }
 
-By default, this optional dependency implicitly defines a feature that looks like this:
+# By default, this optional dependency implicitly defines a feature that looks like this:
 
 [features]
 gif = ["dep:gif"]
