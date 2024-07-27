@@ -1,0 +1,4 @@
+[package]
+name = "a02_checked_cfg"
+version = "0.1.0"
+edition = "2021"
