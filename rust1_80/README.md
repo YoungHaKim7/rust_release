@@ -4,6 +4,7 @@ This release brings you LazyCell, LazyLock, checked cfg names & values, exclusiv
 
 Check out the announcement and release notes:
 - https://blog.rust-lang.org/2024/07/25/Rust-1.80.0.html
+- https://github.com/rust-lang/rust/blob/1.80.0/RELEASES.md
 
 <hr>
 
@@ -23,6 +24,8 @@ Check out the announcement and release notes:
 
 # Support C23's variadics without a named parameter(ISO/IEC 9899:2024)
 - 명명된 매개변수 없이 C23의 변형을 지원합니다(ISO/IEC 9899:2024)
+  - https://github.com/rust-lang/rust/pull/124048/
+    -  https://www.open-std.org/jtc1/sc22/wg14/www/docs/n2975.pdf
 
 - C23 is the informal name for ISO/IEC 9899:2024
   - https://en.wikipedia.org/wiki/C23_(C_standard_revision)
