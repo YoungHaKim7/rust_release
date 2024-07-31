@@ -4,6 +4,7 @@ This release brings you LazyCell, LazyLock, checked cfg names & values, exclusiv
 
 Check out the announcement and release notes:
 - https://blog.rust-lang.org/2024/07/25/Rust-1.80.0.html
+  - https://releases.rs/ 
 - https://github.com/rust-lang/rust/blob/1.80.0/RELEASES.md
 
 <hr>
