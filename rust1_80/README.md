@@ -18,3 +18,12 @@ Check out the announcement and release notes:
       - 즉, 술어가 true를 반환하면 self를 None으로 대체합니다. 이 방법은 Option::take와 유사하게 작동하지만 조건부입니다.
 
 - https://doc.rust-lang.org/std/option/enum.Option.html#method.take_if
+
+<hr>
+
+# Support C23's variadics without a named parameter(ISO/IEC 9899:2024)
+- 명명된 매개변수 없이 C23의 변형을 지원합니다(ISO/IEC 9899:2024)
+
+- C23 is the informal name for ISO/IEC 9899:2024
+  - https://en.wikipedia.org/wiki/C23_(C_standard_revision)
+  - https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3220.pdf
