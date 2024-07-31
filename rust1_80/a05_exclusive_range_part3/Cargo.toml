@@ -1,0 +1,6 @@
+[package]
+name = "a05_exclusive_range_part3"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
