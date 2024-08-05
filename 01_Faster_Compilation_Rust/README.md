@@ -56,12 +56,12 @@ https://docs.rs/sysinfo/latest/sysinfo/
 - https://github.com/YoungHaKim7/rust_vim_setting/tree/main/01_Vim_NeoVim_etc_Rust_settings/snippets_Lunar_NeoVim
 
 ```bash
-rm -rf .cargo rust-toolchain.toml
-mkdir .cargo
-echo "[toolchain]" >> rust-toolchain.toml
-echo "channel ="\"nightly"\"" >> rust-toolchain.toml
-echo "components = ["\"rustfmt\"", "\"rust-src"\"]" >> rust-toolchain.toml
+rm -rf .cargo rust-toolchain.toml &&
+mkdir .cargo &&
+echo "[toolchain]" >> rust-toolchain.toml &&
+echo "channel ="\"nightly"\"" >> rust-toolchain.toml &&
+echo "components = ["\"rustfmt\"", "\"rust-src"\"]" >> rust-toolchain.toml &&
 
-echo "[build]" >> .cargo/config.toml
+echo "[build]" >> .cargo/config.toml &&
 echo "rustflags = ["\"-Z\"", "\"threads=8"\"]" >> .cargo/config.toml
 ```
