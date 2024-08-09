@@ -105,4 +105,81 @@ https://github.com/Speykious/cve-rs
 
 Apr. 9, 2024 · Yosh Wuyts
 
-https://blog.rust-lang.org/2024/04/09/updates-to-rusts-wasi-targets.html
+- https://blog.rust-lang.org/2024/04/09/updates-to-rusts-wasi-targets.html
+
+<table>
+<thead>
+<tr>
+<th>date</th>
+<th>Rust Stable</th>
+<th>Rust Beta</th>
+<th>Rust Nightly</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-02-08</td>
+<td>1.76</td>
+<td>1.77</td>
+<td>1.78</td>
+<td><code>wasm32-wasip1</code> available on nightly</td>
+</tr>
+<tr>
+<td>2024-03-21</td>
+<td>1.77</td>
+<td>1.78</td>
+<td>1.79</td>
+<td><code>wasm32-wasip1</code> available on beta</td>
+</tr>
+<tr>
+<td>2024-05-02</td>
+<td>1.78</td>
+<td>1.79</td>
+<td>1.80</td>
+<td><code>wasm32-wasip1</code> available on stable</td>
+</tr>
+<tr>
+<td>2024-06-13</td>
+<td>1.79</td>
+<td>1.80</td>
+<td>1.81</td>
+<td>warn if <code>wasm32-wasi</code> is used on nightly</td>
+</tr>
+<tr>
+<td>2024-07-25</td>
+<td>1.80</td>
+<td>1.81</td>
+<td>1.82</td>
+<td>warn if <code>wasm32-wasi</code> is used on beta</td>
+</tr>
+<tr>
+<td>2024-09-05</td>
+<td>1.81</td>
+<td>1.82</td>
+<td>1.83</td>
+<td>warn if <code>wasm32-wasi</code> is used on stable</td>
+</tr>
+<tr>
+<td>2024-10-17</td>
+<td>1.82</td>
+<td>1.83</td>
+<td>1.84</td>
+<td><code>wasm32-wasi</code> unavailable on nightly</td>
+</tr>
+<tr>
+<td>2024-11-28</td>
+<td>1.83</td>
+<td>1.84</td>
+<td>1.85</td>
+<td><code>wasm32-wasi</code> unavailable on beta</td>
+</tr>
+<tr>
+<td>2025-01-09</td>
+<td>1.84</td>
+<td>1.85</td>
+<td>1.86</td>
+<td><code>wasm32-wasi</code> unavailable on stable</td>
+</tr>
+</tbody>
+</table>
