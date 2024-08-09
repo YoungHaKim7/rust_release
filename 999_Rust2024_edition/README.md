@@ -101,3 +101,8 @@ https://github.com/Speykious/cve-rs
 - With Rust, we achieved up to double-digit percentage performance improvements. Rust’s type system provides a structure which we used to safely optimize our code.
   - Rust를 통해 최대 두 자릿수의 성능 향상을 달성했습니다. Rust의 유형 시스템은 코드를 안전하게 최적화하는 데 사용했던 구조를 제공합니다.
 
+# Changes to Rust's WASI targets
+
+Apr. 9, 2024 · Yosh Wuyts
+
+https://blog.rust-lang.org/2024/04/09/updates-to-rusts-wasi-targets.html
