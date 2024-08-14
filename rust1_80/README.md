@@ -31,3 +31,11 @@ Check out the announcement and release notes:
 - C23 is the informal name for ISO/IEC 9899:2024
   - https://en.wikipedia.org/wiki/C23_(C_standard_revision)
   - https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3220.pdf
+
+<hr>
+
+# libc 종속성 제거 - 윈도우쪽 업데이트-이건 속이 시원하다 ㅋ
+- Internal Changes
+- These changes do not affect any public interfaces of Rust, but they represent significant improvements to the performance or internals of rustc and related tools.
+  - Misc improvements to size of generated html by rustdoc e.g. [#124738](https://github.com/rust-lang/rust/pull/124738/) and [#123734](https://github.com/rust-lang/rust/pull/123734/)
+  - [MSVC targets no longer depend on libc](https://github.com/rust-lang/rust/pull/124050/)
