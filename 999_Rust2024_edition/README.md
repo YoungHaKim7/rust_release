@@ -19,6 +19,8 @@
   - Rust2024 Edition (2024년 하반기 출시 예정)
       - (231215) https://blog.rust-lang.org/2023/12/15/2024-Edition-CFP.html
       - (240812)https://rust-lang.github.io/rust-project-goals/2024h2/Rust-2024-Edition.html
+        - Async
+          - https://rust-lang.github.io/rust-project-goals/2024h2/async.html 
 
 <hr>
 
