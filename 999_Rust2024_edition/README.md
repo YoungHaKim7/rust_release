@@ -54,6 +54,12 @@
 
 <hr>
 
+# Rust Project goals for 2024
+Aug. 12, 2024 · Niko Matsakis on behalf of Leadership Council 
+- https://blog.rust-lang.org/2024/08/12/Project-goals.html
+
+<hr>
+
 # 2024 Edition Update
 Mar. 22, 2024 · Eric Huss on behalf of Edition 2024 Project Group
 - https://blog.rust-lang.org/inside-rust/2024/03/22/2024-edition-update.html
