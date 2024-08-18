@@ -30,6 +30,7 @@
               - github
                 - https://github.com/rust-lang/rust-project-goals
 - Rust 2024 목표(중요한 3가지 목표)
+
 |Goal|
 |-|
 |Bring the Async Rust experience closer to parity with sync Rust|
