@@ -12,6 +12,13 @@ Check out the announcement and release notes:
 # Rust 1.80.0: Top 10 Most Interesting Things & Blog Highlights | Nathan Stocks
 - https://youtu.be/iwV-T5yHJQw?si=8oQ6SI9gAo2EqhBF
 
+<hr>
+
+# Announcing Rust 1.80.1 | Aug. 8, 2024 · The Rust Release Team 
+- https://blog.rust-lang.org/2024/08/08/Rust-1.80.1.html
+
+<hr>
+
 # Option(method. take_if)
 
 - Takes the value out of the option, but only if the predicate evaluates to true on a mutable reference to the value.
