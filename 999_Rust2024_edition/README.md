@@ -29,6 +29,16 @@
               - https://rust-lang.github.io/rust-project-goals/2024h2/index.html#project-goals
               - github
                 - https://github.com/rust-lang/rust-project-goals
+- Rust 2024 목표(중요한 3가지 목표)
+|Goal|
+|-|
+|Bring the Async Rust experience closer to parity with sync Rust|
+|Resolve the biggest blockers to Linux building on stable Rust|
+|Rust 2024 Edition|
+
+출처: https://rust-lang.github.io/rust-project-goals/2024h2/flagship.html
+
+- Rust 2024 목표(그외에 23가지 목표)
 
 <hr>
 
