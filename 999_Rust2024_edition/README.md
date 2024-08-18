@@ -35,7 +35,7 @@
 # Rust 2024 목표(중요한 3가지 목표)
 
 ||Goal 러스트 에디션 2024 핵심 3가지 목표|
-|_|-|
+|-|-|
 |1|Bring the Async Rust experience closer to parity with sync Rust|
 |2|Resolve the biggest blockers to Linux building on stable Rust|
 |3|Rust 2024 Edition|
@@ -46,7 +46,7 @@
 
 - Rust 2024 목표(그외에 23가지 목표)
 ||Goal 러스트 에디션 2024 핵심 목표외 23가지 목표|
-|_|-|
+|-|-|
 |1|"Stabilizable" prototype for expanded const generics|
 |2|Administrator-provided reasons for yanked crates|
 |3|Assemble project goal slate|
