@@ -27,6 +27,8 @@
           - https://rust-lang.github.io/rust-project-goals/2024h2/rfl_stable.html
             - Rust(2024) 23가지 목표
               - https://rust-lang.github.io/rust-project-goals/2024h2/index.html#project-goals
+              - github
+                - https://github.com/rust-lang/rust-project-goals
 
 <hr>
 
