@@ -45,6 +45,7 @@
 <hr>
 
 - Rust 2024 목표(그외에 23가지 목표)
+
 ||Goal 러스트 에디션 2024 핵심 목표외 23가지 목표|
 |-|-|
 |1|"Stabilizable" prototype for expanded const generics|
