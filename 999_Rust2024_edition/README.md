@@ -29,17 +29,51 @@
               - https://rust-lang.github.io/rust-project-goals/2024h2/index.html#project-goals
               - github
                 - https://github.com/rust-lang/rust-project-goals
-- Rust 2024 목표(중요한 3가지 목표)
 
-|Goal|
-|-|
-|Bring the Async Rust experience closer to parity with sync Rust|
-|Resolve the biggest blockers to Linux building on stable Rust|
-|Rust 2024 Edition|
+<hr>
 
-출처: https://rust-lang.github.io/rust-project-goals/2024h2/flagship.html
+# Rust 2024 목표(중요한 3가지 목표)
+
+||Goal 러스트 에디션 2024 핵심 3가지 목표|
+|_|-|
+|1|Bring the Async Rust experience closer to parity with sync Rust|
+|2|Resolve the biggest blockers to Linux building on stable Rust|
+|3|Rust 2024 Edition|
+
+- 출처: https://rust-lang.github.io/rust-project-goals/2024h2/flagship.html
+
+<hr>
 
 - Rust 2024 목표(그외에 23가지 목표)
+||Goal 러스트 에디션 2024 핵심 목표외 23가지 목표|
+|_|-|
+|1|"Stabilizable" prototype for expanded const generics|
+|2|Administrator-provided reasons for yanked crates|
+|3|Assemble project goal slate|
+|4|Associated type position impl trait|
+|5|Begin resolving cargo-semver-checks blockers for merging into cargo|
+|6|Const traits|
+|7|Ergonomic ref-counting|
+|8|Explore sandboxed build scripts|
+|9|Expose experimental LLVM features for automatic differentiation and GPU offloading|
+|10|Extend pubgrub to match cargo's dependency resolution|
+|11|Implement "merged doctests" to save doctest time|
+|12|Make Rustdoc Search easier to learn|
+|13|Next-generation trait solver|
+|14|Optimizing Clippy & linting|
+|15|Patterns of empty types|
+|16|Scalable Polonius support on nightly|
+|17|Stabilize cargo-script|
+|18|Stabilize doc_cfg|
+|19|Stabilize parallel front end|
+|20|Survey tools suitability for Std safety verification|
+|21|Testing infra + contributors for a-mir-formality|
+|22|Use annotate-snippets for rustc diagnostic output|
+|23|User-wide build cache|
+
+
+
+- 출처 : https://rust-lang.github.io/rust-project-goals/2024h2/accepted.html
 
 <hr>
 
