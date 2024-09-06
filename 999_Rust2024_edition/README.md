@@ -32,6 +32,11 @@
 
 <hr>
 
+# Rust 2024 edition | LGR
+- https://youtu.be/7ZU8kQNjAcc?si=9a2_F9aWdtSgi5ED
+
+<hr>
+
 # Rust 2024 목표(중요한 3가지 목표)
 
 ||Goal 러스트 에디션 2024 핵심 3가지 목표|
