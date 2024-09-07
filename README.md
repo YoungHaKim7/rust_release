@@ -112,8 +112,8 @@ rustup default nightly
 
 # Rust Relese 노트 미리 알아보기[[🔝]](#link)
 
-https://releases.rs/docs/
-
+- https://releases.rs/docs/
+- https://doc.rust-lang.org/nightly/releases.html
 
 
 # rust_release[[🔝]](#link)
