@@ -32,6 +32,10 @@
 
 <hr>
 
+# Rust 2024 최신뉴스
+- Changes to `impl Trait` in Rust 2024( Sept. 5, 2024) | Niko Matsakis 
+  - https://blog.rust-lang.org/2024/09/05/impl-trait-capture-rules.html
+
 # Rust 2024 edition | LGR
 - https://youtu.be/7ZU8kQNjAcc?si=9a2_F9aWdtSgi5ED
 
