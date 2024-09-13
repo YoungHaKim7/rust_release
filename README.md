@@ -4,6 +4,8 @@
 
 # link
 
+- [Version 변경하기 (nightly & 버젼 낮게 만들기)]()
+  - [nightly 세팅]()
 - [LLVM-downloads다운로드(LLVM)](#llvm-downloads)
 - [rust-relese-노트-미리-알아보기](#rust-relese-노트-미리-알아보기)
 - [최근-러스트-업데이트-러스트Weekly & etc뉴스](#최근-러스트-업데이트-weeklyetc뉴스)
@@ -53,7 +55,21 @@ debug = true
 
 <hr>
 
-# llvm downloads
+<hr>
+
+# 강제로 버젼 낮추기 rust-toolchain.toml에서 통제함[|🔝|](#link)
+
+- `rust-toolchain.toml`
+
+```toml
+[toolchain]
+channel = "1.76"
+components = ["rustfmt", "clippy"]
+targets = ["wasm32-unknown-unknown"]
+```
+
+
+# llvm downloads[|🔝|](#link)
 
 - https://releases.llvm.org/
 
