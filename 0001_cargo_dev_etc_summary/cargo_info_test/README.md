@@ -40,6 +40,7 @@ Version history:
 
 
 # `cargo-tree`
+- https://doc.rust-lang.org/cargo/commands/cargo-tree.html
 
 ```bash
 $ cargo tree
