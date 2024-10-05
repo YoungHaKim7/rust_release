@@ -3,6 +3,13 @@
 
 # `cargo info`
 
+- https://crates.io/crates/cargo-info
+  - Install
+
+```bash
+cargo install cargo-info
+```
+
 ```bash
 $ cargo info tokio
 
