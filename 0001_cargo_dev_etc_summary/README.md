@@ -24,6 +24,9 @@
 
 <hr />
 
+# cargo-tree
+- https://doc.rust-lang.org/cargo/commands/cargo-tree.html
+
 <hr />
 
 # This Development-cycle in Cargo: 1.80
