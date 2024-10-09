@@ -36,6 +36,40 @@ Version history:
 
   ... use -VV to show all 157 versions
 
+
+# cargo winit
+
+$ cargo info winit
+Crate:          winit
+Version:        0.30.5
+Description:    Cross-platform window creation library.
+Downloads:      12252300
+Homepage:
+Documentation:  https://docs.rs/winit
+Repository:     https://github.com/rust-windowing/winit
+Updated:        Thu Aug  8 18:27:20 2024    (2 months ago)
+Version history:
+
+  VERSION  RELEASED        DOWNLOADS
+
+  0.30.5   2 months ago    270856
+  0.30.4   2 months ago    97117
+  0.30.3   3 months ago    82975
+  0.30.2   3 months ago    16314
+  0.30.1   4 months ago    8503
+
+  ... use -VV to show all 109 versions
+
+
+# 다 나오게 하기
+$ cargo info winit -VV
+VERSION        RELEASED        DOWNLOADS
+
+0.30.5         2 months ago    270856
+0.30.4         2 months ago    97117
+0.30.3         3 months ago    82975
+0.30.2         3 months ago    16314
+0.30.1         4 months ago    8503
 ```
 
 
