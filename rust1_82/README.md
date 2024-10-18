@@ -7,6 +7,9 @@
 - "RPIT lifetime capture rules" 
   - https://doc.rust-lang.org/nightly/edition-guide/rust-2024/rpit-lifetime-capture.html
 
+- "Changes to impl Trait in Rust 2024"
+  - https://blog.rust-lang.org/2024/09/05/impl-trait-capture-rules.html
+
 <hr />
 
 # This Development-cycle in Cargo: 1.82
