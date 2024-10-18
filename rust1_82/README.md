@@ -1,3 +1,11 @@
+# Rust 1.82 Releases
+
+- https://github.com/rust-lang/rust/blob/1.82.0/RELEASES.md
+
+- https://blog.rust-lang.org/2024/10/17/Rust-1.82.0.html
+
+<hr />
+
 # This Development-cycle in Cargo: 1.82
 - Oct. 1, 2024 · Ed Page on behalf of The Cargo Team
 - https://blog.rust-lang.org/inside-rust/2024/10/01/this-development-cycle-in-cargo-1.82.html
