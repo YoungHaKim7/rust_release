@@ -4,7 +4,7 @@
 
 - https://blog.rust-lang.org/2024/10/17/Rust-1.82.0.html
 
--  "RPIT lifetime capture rules" 
+- "RPIT lifetime capture rules" 
   - https://doc.rust-lang.org/nightly/edition-guide/rust-2024/rpit-lifetime-capture.html
 
 <hr />
