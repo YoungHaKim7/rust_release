@@ -1,0 +1,1 @@
+/home/gy/my_project/Rust_Lang/111/1111_bevy_avian/rust_release/rust1_82/constants_as_assembly_immediates/target/debug/constants_as_assembly_immediates: /home/gy/my_project/Rust_Lang/111/1111_bevy_avian/rust_release/rust1_82/constants_as_assembly_immediates/src/main.rs

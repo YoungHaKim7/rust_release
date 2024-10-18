@@ -1,0 +1,1 @@
+/home/gy/my_project/Rust_Lang/111/1111_bevy_avian/rust_release/rust1_82/rawpointer/target/debug/rawpointer: /home/gy/my_project/Rust_Lang/111/1111_bevy_avian/rust_release/rust1_82/rawpointer/src/main.rs
