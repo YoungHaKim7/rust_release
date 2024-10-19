@@ -1,28 +1,22 @@
-section.text
-global _start
+section .text
+global  _start
 
 _start:
-    ; mov rax, WRITE_SYSCALL // rax holds the syscall number
-    mov rax, 1
+    mov rax, 1 ; mov rax, WRITE_SYSCALL // rax holds the syscall number
 
-    ; mov rdi, STDOUT_HANDLE  // rdi is `fd` (first argument)
-    mov rdi, 1
+    mov rdi, 1 ; mov rdi, STDOUT_HANDLE  // rdi is `fd` (first argument)
 
-    ; mov rdx, MSG.len()     // rdx is `count` (third argument)
-    mov rdx, 13
+    mov rdx, 13 ; mov rdx, MSG.len()     // rdx is `count` (third argument)
 
-    ; mov rsi, MSG           // rsi is `buf *` (second argument)
-    mov rsi, msg
+    mov rsi, msg ; mov rsi, MSG           // rsi is `buf *` (second argument)
 
-    ; syscall            // invoke the syscall
-    syscall
+    syscall ; syscall            // invoke the syscall
 
-    ; exit
-    mov rax, 60
+    mov rax, 60 ; exit
     xor rdi, rdi
     syscall
 
-section.data
+section .data
+
 msg:
     db "Hello, world!\n", 0
-    
