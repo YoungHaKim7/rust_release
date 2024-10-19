@@ -1,0 +1,53 @@
+# Source and target directories
+src_dir := "./src"
+target_dir := "./target"
+
+# Files
+source := src_dir+"/main.asm"
+target := target_dir+"/main"
+
+# Common flags
+ldflags_common := "-f elf64"
+ldflags_common_32 := "-f elf32"
+ld_elf_i386 := "-m elf_i386"
+
+r:
+	rm -rf target
+	mkdir -p target
+	nasm {{ldflags_common}} {{source}} -o {{target}}.o
+	ld -o {{target}} {{target}}.o
+	{{target}}
+
+r32:
+	rm -rf target
+	mkdir -p target
+	nasm {{ldflags_common_32}} {{source}} -o {{target}}.o
+	ld {{ld_elf_i386}} {{target}}.o -o {{target}}
+	{{target}}
+
+clean:
+	rm -rf {{target_dir}}
+
+init:
+	mkdir -p src
+	echo 'section	.data' >> src/main.asm
+	echo "	msg db 'Hello, World! assembly x86_64', 0" >> src/main.asm
+	echo '' >> src/main.asm
+
+	echo 'section	.text' >> src/main.asm
+	echo '	global _start' >> src/main.asm
+	echo '' >> src/main.asm
+
+	echo '_start:' >> src/main.asm
+	echo '	; print the message' >> src/main.asm
+	echo '	mov rax, 1          ; sys_write' >> src/main.asm
+	echo '	mov rdi, 1          ; file descriptor (stdout)' >> src/main.asm
+	echo '	mov rsi, msg        ; message address' >> src/main.asm
+	echo '	mov rdx, 13         ; message length' >> src/main.asm
+	echo '	syscall' >> src/main.asm
+	echo '' >> src/main.asm
+
+	echo '	; exit the program' >> src/main.asm
+	echo '	mov rax, 60         ; sys_exit' >> src/main.asm
+	echo '	xor rdi, rdi        ; return code 0' >> src/main.asm
+	echo '	syscall' >> src/main.asm
