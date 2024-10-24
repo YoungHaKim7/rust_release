@@ -1,3 +1,10 @@
+# link
+
+- [`rustfmt.toml`세팅예시_러스트fmt세팅](https://github.com/taiki-e/pin-project/blob/main/.rustfmt.toml)
+
+<hr />
+
+
 # This Development-cycle in Cargo: 1.82
 - Oct. 1, 2024 · Ed Page on behalf of The Cargo Team
 - https://blog.rust-lang.org/inside-rust/2024/10/01/this-development-cycle-in-cargo-1.82.html
