@@ -73,7 +73,7 @@ targets = ["wasm32-unknown-unknown"]
 channel ="nightly-2024-04-04"
 ```
 
-- 버젼 체크 https://github.com/rust-lang/rust/blob/master/RELEASES.md
+- 버젼 체크(날짜체크해서 날짜 바꿔주면됨) https://github.com/rust-lang/rust/blob/master/RELEASES.md
   -  https://github.com/rust-lang/rust/blob/master/RELEASES.md
 
 
