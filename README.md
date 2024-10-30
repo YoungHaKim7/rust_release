@@ -68,6 +68,11 @@ components = ["rustfmt", "clippy"]
 targets = ["wasm32-unknown-unknown"]
 ```
 
+```toml
+# nfo: latest update on 2024-04-04, rust version 1.79.0-nightly (4fd4797c2 2024-04-03)
+channel ="nightly-2024-04-04"
+```
+
 
 # llvm downloads[|🔝|](#link)
 
