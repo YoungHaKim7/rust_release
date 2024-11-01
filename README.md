@@ -17,7 +17,14 @@
 - [cargo-ructc-mir-hir보는법](#cargo-ructc-mir-hir보는법)
 - [cargo asm사용법_07폴더](/07_cargo_rustc_mir_hir_llvm#cargo-asm-기타-등등)
 
-<hr>
+<hr />
+
+- Rust doc문서 빨리 찾기
+  - [[docs.rs/std)std(Standard Library 문서)](https://doc.rust-lang.org/stable/std/)
+  - [docs.rs/찾고 싶은 crates(라이브러리 치면됨)https://docs.rs/](https://docs.rs/)
+
+
+<hr />
 
 # 공부할게 많은 버젼별 Rust-clippy[|🔝|](#link)
 
