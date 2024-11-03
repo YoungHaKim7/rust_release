@@ -56,6 +56,10 @@ LLVM version: 16.0.2
 debug = true
 [profile.release.build-override]
 debug = true
+
+# Link-Time Optimizations, or LTOs in short, is that while Rust compiles the code file by file,
+[profile.release]
+lto = true
 ```
 <br>
 
