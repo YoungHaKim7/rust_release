@@ -830,3 +830,35 @@ tools.
 - [Optimize `Vec::insert` for the case where `index == len`.](https://github.com/rust-lang/rust/pull/98755/)
 - [Convert rust-analyzer to an in-tree tool](https://github.com/rust-lang/rust/pull/99603/)
 
+<hr />
+
+# Hashmap, with_hasher
+
+- https://doc.rust-lang.org/stable/std/collections/hash_map/struct.HashMap.html#method.with_hasher
+- https://doc.rust-lang.org/stable/std/hash/trait.BuildHasher.html
+
+```rs
+impl<K, V, S> HashMap<K, V, S>
+```
+
+1.7.0 (const: unstable) · source
+
+```rs
+pub fn with_hasher(hash_builder: S) -> HashMap<K, V, S>
+```
+
+Creates an empty HashMap which will use the given hash builder to hash keys.
+
+The created map has the default initial capacity.
+
+Warning: hash_builder is normally randomly generated, and is designed to allow HashMaps to be resistant to attacks that cause many collisions and very poor performance. Setting it manually using this function can expose a DoS attack vector.
+
+The hash_builder passed should implement the BuildHasher trait for the HashMap to be useful, see its documentation for details.
+주어진 해시 빌더를 사용하여 해시 키를 해시할 빈 해시맵을 만듭니다.
+
+생성된 지도에는 기본 초기 용량이 있습니다.
+
+경고: 해시빌더는 일반적으로 무작위로 생성되며, 해시맵이 많은 충돌과 매우 낮은 성능을 유발하는 공격에 저항할 수 있도록 설계되었습니다. 이 함수를 사용하여 수동으로 설정하면 DoS 공격 벡터가 노출될 수 있습니다.
+
+합격한 해시_빌더는 해시맵이 유용하도록 빌드해셔 특성을 구현해야 하며, 자세한 내용은 설명서를 참조하세요.
+
