@@ -14,6 +14,7 @@
 # Shell completions
 - Update from 1.82
   - With clap's new completion system integrated into nightly Cargo in [#14493](https://github.com/rust-lang/cargo/pull/14493), shannmu added custom completers in an effort to get parity with the hand-maintained completion scripts, including:
+    - cargo 명령어 https://github.com/rust-lang/cargo/tree/master/tests/testsuite
 
 <ul>
 <li><code>--example &lt;TAB&gt;</code> (<a href="https://github.com/rust-lang/cargo/pull/14531">#14531</a>)</li>
