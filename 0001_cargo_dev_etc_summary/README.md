@@ -11,6 +11,21 @@
 
 <hr />
 
+<ul>
+<li><code>--example &lt;TAB&gt;</code> (<a href="https://github.com/rust-lang/cargo/pull/14531">#14531</a>)</li>
+<li><code>--bench &lt;TAB&gt;</code> (<a href="https://github.com/rust-lang/cargo/pull/14532">#14532</a>)</li>
+<li><code>--bin &lt;TAB&gt;</code> (<a href="https://github.com/rust-lang/cargo/pull/14533">#14533</a>)</li>
+<li><code>--test &lt;TAB&gt;</code> (<a href="https://github.com/rust-lang/cargo/pull/14548">#14548</a>)</li>
+<li><code>--target &lt;TAB&gt;</code> (<a href="https://github.com/rust-lang/cargo/pull/14535">#14535</a>)</li>
+<li><code>--registry &lt;TAB&gt;</code> (<a href="https://github.com/rust-lang/cargo/pull/14656">#14656</a>)</li>
+<li><code>cargo update &lt;TAB&gt;</code> (<a href="https://github.com/rust-lang/cargo/pull/14552">#14552</a>)</li>
+<li><code>cargo uninstall &lt;TAB&gt;</code> (<a href="https://github.com/rust-lang/cargo/pull/14534">#14534</a>)</li>
+<li><code>-Z &lt;TAB&gt;</code> (<a href="https://github.com/rust-lang/cargo/pull/14536">#14536</a>)</li>
+<li><code>cargo help &lt;TAB&gt;</code> (<a href="https://github.com/rust-lang/cargo/pull/14557">#14557</a>)</li>
+</ul>
+
+<hr />
+
 # This Development-cycle in Cargo: 1.83[|🔝|](#link)
 - Oct. 31, 2024 · Ed Page on behalf of The Cargo Team
 - https://blog.rust-lang.org/inside-rust/2024/10/31/this-development-cycle-in-cargo-1.83.html
