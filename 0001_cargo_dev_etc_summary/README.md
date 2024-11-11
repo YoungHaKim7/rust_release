@@ -7,7 +7,7 @@
   - [This Development-cycle in Cargo: 1.82](#this-development-cycle-in-cargo-182)
   - [This Development-cycle in Cargo: 1.80](#this-development-cycle-in-cargo-180-1)
 
-- [cargo-tree]
+- [cargo-tree](#cargo-tree)
 
 <hr />
 
