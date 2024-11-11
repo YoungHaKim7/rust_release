@@ -1,11 +1,23 @@
 # link
 
 - [`rustfmt.toml`세팅예시_러스트fmt세팅](https://github.com/taiki-e/pin-project/blob/main/.rustfmt.toml)
+- [gccrs: Rust를 위한 대체 컴파일러_LLVM없이도 된다 신기..]
+- This Development-cycle in Cargo
+  - [This Development-cycle in Cargo: 1.83]
+  - [This Development-cycle in Cargo: 1.82]
+  - [This Development-cycle in Cargo: 1.80]
+
+- [cargo-tree]
 
 <hr />
 
+# This Development-cycle in Cargo: 1.83[|🔝|](#link)
+- Oct. 31, 2024 · Ed Page on behalf of The Cargo Team
+- https://blog.rust-lang.org/inside-rust/2024/10/31/this-development-cycle-in-cargo-1.83.html
 
-# This Development-cycle in Cargo: 1.82
+<hr />
+
+# This Development-cycle in Cargo: 1.82[|🔝|](#link)
 - Oct. 1, 2024 · Ed Page on behalf of The Cargo Team
 - https://blog.rust-lang.org/inside-rust/2024/10/01/this-development-cycle-in-cargo-1.82.html
 - This Development-cycle in Cargo: 1.82
@@ -31,12 +43,12 @@
 
 <hr />
 
-# cargo-tree
+# cargo-tree[|🔝|](#link)
 - https://doc.rust-lang.org/cargo/commands/cargo-tree.html
 
 <hr />
 
-# This Development-cycle in Cargo: 1.80
+# This Development-cycle in Cargo: 1.80[|🔝|](#link)
 - June 19, 2024 · Ed Page on behalf of The Cargo Team
   - https://blog.rust-lang.org/inside-rust/2024/06/19/this-development-cycle-in-cargo-1.80.html
 
@@ -83,7 +95,7 @@
 
 <hr />
 
-# **[gccrs: Rust를 위한 대체 컴파일러](<https://news.hada.io/topic?id=17681&utm_source=discord&utm_medium=bot&utm_campaign=1480>)**
+# **[gccrs: Rust를 위한 대체 컴파일러](<https://news.hada.io/topic?id=17681&utm_source=discord&utm_medium=bot&utm_campaign=1480>)**[|🔝|](#link)
 - `gccrs`는 GCC 프로젝트의 일환으로 개발 중인 대체 Rust 컴파일러입니다.  
 - 이 프로젝트는 GNU 컴파일러 컬렉션 내에서 Rust를 지원하는 것을 목표로 하며, `rustc`와 동일한 동작을 목표로 합니다.  
 - 주요 목표는 특히 LLVM이 지원하지 않는 플랫폼에서 Rust를 컴파일할 수 있는 대안을 제공하는 것입니다.  
