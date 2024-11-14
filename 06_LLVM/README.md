@@ -14,6 +14,11 @@
 - 100초 설명
   - [LLVM in 100 Seconds | Fireship](https://youtu.be/BT2Cv-Tjq7Q?si=Hkiy6NyFNuZ5VTMm)
 
+- 언어별 LLVM과정 그림으로
+  - https://github.com/YoungHaKim7/Rust_Tutorial_Full_course/tree/main/23_Rust_LLVM_IR#llvm-ir-and-rust
+
+- Rust의 대략 적인 컴파일 과정 IR, HIR, MIR
+  - https://github.com/YoungHaKim7/Rust_Tutorial_Full_course/tree/main/23_Rust_LLVM_IR
 
 # Install 
 
