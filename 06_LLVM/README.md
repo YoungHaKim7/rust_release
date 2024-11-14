@@ -10,3 +10,11 @@
 |Assembler|"Integrated"|as|
 |Linker|ld.lld|ld|
 |Binary utilities|llvm-nm,<br />llvm-objcopy,<br />llvm-objdump,<br />llvm-strip, ...<br />|nv, objcopy,<br /> objdump,<br /> strip, ...<br />|
+
+# clang
+• C language frontend for LLVM (other language frontends exist, such as rustc)
+Advertised as generally drop-in compatible with GCC
+• Somewhat the case in reality, some flags may not be implemented, so kernel handles this in a few different ways
+• Multi-targeted binary, change target with - target instead of separate binaries
+clang --target=aarch64-linux-gnu vs. aarch64-linux-gnu-gcc
+• Takes C files, generates LLVM IR (intermediate representation), mutates that through a series of optimization passes, then hands it off for a target specific backend to perform target specific optimizations and actually generate the machine code
