@@ -11,6 +11,16 @@
 |Linker|ld.lld|ld|
 |Binary utilities|llvm-nm,<br />llvm-objcopy,<br />llvm-objdump,<br />llvm-strip, ...<br />|nv, objcopy,<br /> objdump,<br /> strip, ...<br />|
 
+# Install 
+
+- Debian /Ubuntu
+
+```bash
+apt install clang lld llvm
+```
+
+- or apt.llvm.org for newer releases(https://apt.llvm.org/)
+
 # clang
 • C language frontend for LLVM (other language frontends exist, such as rustc)
 Advertised as generally drop-in compatible with GCC
