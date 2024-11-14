@@ -11,6 +11,10 @@
 |Linker|ld.lld|ld|
 |Binary utilities|llvm-nm,<br />llvm-objcopy,<br />llvm-objdump,<br />llvm-strip, ...<br />|nv, objcopy,<br /> objdump,<br /> strip, ...<br />|
 
+- 100초 설명
+  - [LLVM in 100 Seconds | Fireship](https://youtu.be/BT2Cv-Tjq7Q?si=Hkiy6NyFNuZ5VTMm)
+
+
 # Install 
 
 - Debian /Ubuntu
