@@ -8,7 +8,7 @@ fn is_legal_ident(s: &str) -> bool {
         .all(|c| ('a'..='z').contains(&c) || ('A'..='Z').contains(&c))
 }
 
-#[feature(let_chains)]
+#![feature(let_chains)]
 impl<'a> FnCall<'a> {
     fn parse(s: &'a str) -> Option<Self> {
         if let Some((fn_name, after_name)) = s.split_once("(")
