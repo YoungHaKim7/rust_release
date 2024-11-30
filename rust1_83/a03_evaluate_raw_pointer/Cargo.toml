@@ -1,0 +1,6 @@
+[package]
+name = "a03_evaluate_raw_pointer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
