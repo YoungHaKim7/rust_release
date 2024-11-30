@@ -1,0 +1,1 @@
+- https://doc.rust-lang.org/nightly/edition-guide/rust-2024/rpit-lifetime-capture.html
