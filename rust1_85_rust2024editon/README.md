@@ -4,6 +4,8 @@
 - https://github.com/rust-lang/rust/pull/133349
   - https://github.com/ehuss/rust/commit/31c922263922cc3e74f9c732677946521299ea99
 
+- https://releases.rs/docs/1.85.0/
+
 <hr />
 
 # Rust2024 Edition (2025년 beta버젼에 출시 예정250109 beta version에서 사용가능)
