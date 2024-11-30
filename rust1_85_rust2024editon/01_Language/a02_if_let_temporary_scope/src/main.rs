@@ -21,4 +21,17 @@ fn main() {
     })
     .join()
     .unwrap();
+    thread::spawn(move || {
+        let my_val: &RwLock<Option<bool>> = &RwLock::new(Some(true));
+        f(my_val);
+    })
+    .join()
+    .unwrap();
+    // 교착상태 됨  해결해야함. DeadLock
+    // thread::spawn(move || {
+    //     let my_val: &RwLock<Option<bool>> = &RwLock::new(None);
+    //     f(my_val);
+    // })
+    // .join()
+    // .unwrap();
 }
