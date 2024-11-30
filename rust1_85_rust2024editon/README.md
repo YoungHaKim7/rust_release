@@ -1,4 +1,6 @@
 # (241130기준)현재는 nightly로 사용가능한듯 찾아보자
+- https://doc.rust-lang.org/nightly/edition-guide/rust-2024/index.html
+
 - https://blog.rust-lang.org/2024/11/27/Rust-2024-public-testing.html
 
 - https://github.com/rust-lang/rust/pull/133349
