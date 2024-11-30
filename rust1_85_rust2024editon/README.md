@@ -1,6 +1,9 @@
 # (241130기준)현재는 nightly로 사용가능한듯 찾아보자
 - https://blog.rust-lang.org/2024/11/27/Rust-2024-public-testing.html
 
+- https://github.com/rust-lang/rust/pull/133349
+  - https://github.com/ehuss/rust/commit/31c922263922cc3e74f9c732677946521299ea99
+
 <hr />
 
 # Rust2024 Edition (2025년 beta버젼에 출시 예정250109 beta version에서 사용가능)
