@@ -16,7 +16,10 @@
     - https://doc.rust-lang.org/edition-guide/rust-2021/index.html
     - (211021) https://blog.rust-lang.org/2021/10/21/Rust-1.56.0.html
       - https://news.hada.io/topic?id=5240
-  - Rust2024 Edition (2024년 하반기 출시 예정)
+  - Rust2024 Edition (2025년 beta버젼에 출시 예정250109 beta version에서 사용가능)
+      - [241127뉴스_rust2024 beta version에 250109 적용예정.](https://blog.rust-lang.org/2024/11/27/Rust-2024-public-testing.html)
+        - Stable버젼은  Rust 1.85 on 2025-02-20
+          - Rust 2024 will enter the beta channel on 2025-01-09, and will be released to stable Rust with Rust 1.85 on 2025-02-20.
       - (231215) https://blog.rust-lang.org/2023/12/15/2024-Edition-CFP.html
       - (240812) [(러스트 Blog)Rust Project goals for 2024](https://blog.rust-lang.org/2024/08/12/Project-goals.html)
         - Rust 2024 Edition 
@@ -33,8 +36,12 @@
 <hr>
 
 # Rust 2024 최신뉴스
+- Rust 2024 call for testing Nov. 27, 2024 · Eric Huss & TC on behalf of the Edition 2024 Project Group
+  - [Rust 2024 call for testing](https://blog.rust-lang.org/2024/11/27/Rust-2024-public-testing.html)
+
 - Changes to `impl Trait` in Rust 2024( Sept. 5, 2024) | Niko Matsakis 
   - https://blog.rust-lang.org/2024/09/05/impl-trait-capture-rules.html
+
 
 # Rust 2024 edition | LGR
 - https://youtu.be/7ZU8kQNjAcc?si=9a2_F9aWdtSgi5ED
