@@ -1,0 +1,6 @@
+[package]
+name = "a01_rust2024"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
