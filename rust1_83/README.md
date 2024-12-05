@@ -1,5 +1,13 @@
 - https://blog.rust-lang.org/2024/11/28/Rust-1.83.0.html
 
+# ust 1.83.0 has been released! 🦀✨
+
+- This release includes mutable references and pointers in const, references to statics in const, new `ErrorKind`s, and many new const methods on pointers, slices, floats, and more!
+  - 이 릴리스에는 불변 참조 및 상수의 포인터, 상수의 정적 참조, 새로운 '에러카인드' 및 포인터, 슬라이스, 플로트 등에 대한 많은 새로운 구성 방법이 포함되어 있습니다!
+
+Check out the announcement:
+- https://x.com/rustlang/status/1864244334880538903?s=46&t=eqXzUZSI8uSaWxT8Lcp3Pw
+
 <hr />
 
 Version 1.83.0 (2024-11-28)
