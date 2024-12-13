@@ -1,0 +1,14 @@
+# This line needs to come before anything else in Cargo.toml
+cargo-features = ["codegen-backend"]
+
+[package]
+name = "a01_cranelift_backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.42.0", features = ["full"] }
+
+
+[profile.dev]
+codegen-backend = "cranelift"
