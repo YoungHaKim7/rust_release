@@ -1,3 +1,8 @@
+# (250109)Announcing Rust 1.84.0
+- https://blog.rust-lang.org/2025/01/09/Rust-1.84.0.html
+
+<hr />
+
 # Rust9x update: Rust 1.84.0-beta
 - Posted: 2024-12-03
   - https://seri.tools/blog/rust9x-1-84/
