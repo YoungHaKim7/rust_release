@@ -27,4 +27,6 @@
           - github
             - https://github.com/rust-lang/rust-project-goals
 
+# The gen auto-trait problem (— 2025-01-13)
+- https://blog.yoshuawuyts.com/gen-auto-trait-problem/
 
