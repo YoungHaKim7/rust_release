@@ -30,3 +30,6 @@
 # The gen auto-trait problem (— 2025-01-13)
 - https://blog.yoshuawuyts.com/gen-auto-trait-problem/
 
+# This Development-cycle in Cargo: 1.85
+Jan. 17, 2025 · Ed Page on behalf of The Cargo Team
+- https://blog.rust-lang.org/inside-rust/2025/01/17/this-development-cycle-in-cargo-1.85.html
