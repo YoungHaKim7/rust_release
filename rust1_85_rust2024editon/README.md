@@ -5,6 +5,7 @@
 <hr />
 
 # (241130기준)현재는 nightly로 사용가능한듯 찾아보자
+- [베타에서 테스트 해보자https://blog.rust-lang.org/2025/01/22/rust-2024-beta.html](https://blog.rust-lang.org/2025/01/22/rust-2024-beta.html)
 - https://www.reddit.com/r/rust/comments/1gxyhkx/the_2024_edition_was_just_stabilized/?rdt=46903
 - https://doc.rust-lang.org/nightly/edition-guide/rust-2024/index.html
 
