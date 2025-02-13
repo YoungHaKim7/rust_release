@@ -22,6 +22,10 @@
 
 - Rust doc문서 빨리 찾기
   - [(docs.rs/std)std(Standard Library 문서)](https://doc.rust-lang.org/stable/std/)
+  ```
+  # local에서 문서 보기 (인터넷 안되는 환경에서 볼수 있음 굿)
+  rustup doc
+  ``` 
   - [docs.rs/찾고 싶은 crates(라이브러리 치면됨)https://docs.rs/ (crates.io: Rust Package Registry)](https://docs.rs/)
 
 <hr />
