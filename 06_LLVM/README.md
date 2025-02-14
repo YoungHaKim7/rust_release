@@ -106,7 +106,7 @@ clang --target=aarch64-linux-gnu-gcc
 
 - 출처 : https://blog.rust-lang.org/2016/04/19/MIR.html
 
- 
+- LLVM 
 ```mermaid
 flowchart TB
     LLVM_IR-->LLVM_Optimizer
@@ -128,5 +128,33 @@ flowchart TB
     zig_build-exe --> LLVM_IR
     mojo --> mojo_build
     mojo_build --> LLVM_IR
+    end
+```
+
+<hr />
+
+- Cranelift
+
+```mermaid
+flowchart TB
+    Cranelift-->Cranelift_Optimizer
+    Cranelift_Optimizer-->Cranelift_IR_
+    subgraph Back-End
+    Cranelift_IR_-->Cranelift
+    Cranelift-->x86 & ARM & RISC-V & MIPS & PowerPC
+    end
+    subgraph Middle-End
+    Cranelift_IR-->LLVM_Optimizer
+    Cranelift_Optimizer-->Cranelift_IR_
+    end
+    subgraph Front-End
+    C & C++--> Clang/g++
+    Clang/g++ --> Cranelift_IR
+    rust --> rustc
+    rustc --> Cranelift_IR
+    zig--> zig_build-exe
+    zig_build-exe --> Cranelift_IR
+    mojo --> mojo_build
+    mojo_build --> Cranelift_IR
     end
 ```
