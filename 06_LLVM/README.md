@@ -136,8 +136,9 @@ flowchart TB
 <hr />
 
 # Cranelift[|🔝|](#link)
-  - https://cranelift.dev/
+- https://cranelift.dev/
   - https://github.com/bytecodealliance/wasmtime/tree/main/cranelift/docs/
+- [(241014)Compilers in Rust: Cranelift, the All-Rust Codegen Alternative to LLVM (No C/C++, Part 1) ||regionaltantrums](https://youtu.be/ilhSdmv6bAY?si=-MFAacNFzRw0oQ_j)
 
 ```mermaid
 flowchart TB
