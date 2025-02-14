@@ -11,6 +11,10 @@
 
 <br />
 
+# 러스트에서 LLVM 어떻게 돌아가는지 설명해 주는 귀한 자료요 ㅋ
+# 2024 LLVM Developers' Meeting - Rust ❤️ LLVM
+- https://youtu.be/Kqz-umsAnk8?si=NLogEP1h-CXUSXPy
+
 # Mentorship Session: Using Clang and LLVM to Build the Linux Kernel | The Linux Foundation
 - https://youtu.be/y458QwEfSsU?si=2BPk9Q2EUfqWYPmP
   - https://nathanchance.dev/
