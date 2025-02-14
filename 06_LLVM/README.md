@@ -1,3 +1,10 @@
+# (cranelift)LLVM때문에 컴파일 더이상 빨라지지 않아 나온 cranelift
+- https://github.com/bytecodealliance/wasmtime/tree/main/cranelift
+- [(241014)Compilers in Rust: Cranelift, the All-Rust Codegen Alternative to LLVM (No C/C++, Part 1) ||regionaltantrums](https://youtu.be/ilhSdmv6bAY?si=-MFAacNFzRw0oQ_j)
+
+
+<hr />
+
 # **[gccrs: Rust를 위한 대체 컴파일러](<https://news.hada.io/topic?id=17681&utm_source=discord&utm_medium=bot&utm_campaign=1480>)**
 - https://blog.rust-lang.org/2024/11/07/gccrs-an-alternative-compiler-for-rust.html
 - `gccrs`는 GCC 프로젝트의 일환으로 개발 중인 대체 Rust 컴파일러입니다.  
