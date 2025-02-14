@@ -1,6 +1,8 @@
 # link
 - [LLVM-IR 컴파일 과정 그림으로 이해하기(HIR, MIRI, Borrow Check, Type Check전 과정 이해](#llvm의-과정)
 
+- [Cranelift과정 그림으로 이해](#cranelift)
+
 <hr />
 
 # (cranelift)LLVM때문에 컴파일 더이상 빨라지지 않아 나온 cranelift[|🔝|](#link)
@@ -133,18 +135,20 @@ flowchart TB
 
 <hr />
 
-- Cranelift
+# Cranelift[|🔝|](#link)
+  - https://cranelift.dev/
+  - https://github.com/bytecodealliance/wasmtime/tree/main/cranelift/docs/
 
 ```mermaid
 flowchart TB
-    Cranelift-->Cranelift_Optimizer
+    Cranelift_IR-->Cranelift_Optimizer
     Cranelift_Optimizer-->Cranelift_IR_
     subgraph Back-End
-    Cranelift_IR_-->Cranelift
-    Cranelift-->x86 & ARM & RISC-V & MIPS & PowerPC
+    Cranelift_IR_-->Cranelift_Static_Compiler
+    Cranelift_Static_Compiler-->x86 & ARM & RISC-V & MIPS & PowerPC
     end
     subgraph Middle-End
-    Cranelift_IR-->LLVM_Optimizer
+    Cranelift_IR-->Cranelift_Optimizer
     Cranelift_Optimizer-->Cranelift_IR_
     end
     subgraph Front-End
