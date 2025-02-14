@@ -15,6 +15,11 @@
 # 2024 LLVM Developers' Meeting - Rust ❤️ LLVM
 - https://youtu.be/Kqz-umsAnk8?si=NLogEP1h-CXUSXPy
 
+# What is LLVM: How It Powers Modern Compilers and Optimizes Code | The Coding Gopher
+- https://youtu.be/3WojCM9r0Ls?si=B6lyo_ABG1ixQozi
+
+<hr />
+
 # Mentorship Session: Using Clang and LLVM to Build the Linux Kernel | The Linux Foundation
 - https://youtu.be/y458QwEfSsU?si=2BPk9Q2EUfqWYPmP
   - https://nathanchance.dev/
