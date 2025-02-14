@@ -37,6 +37,10 @@
 apt install clang lld llvm
 ```
 
+- Arch : `pacman -S clang lld llvm`
+
+- Fedora: `dnf install clang lld llvm`
+
 - or apt.llvm.org for newer releases(https://apt.llvm.org/)
 
 # `clang`
