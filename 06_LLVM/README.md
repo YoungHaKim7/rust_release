@@ -5,6 +5,10 @@
 
 <hr />
 
+- [Cranelift compared to LLVM](https://github.com/bytecodealliance/wasmtime/blob/main/cranelift/docs/compare-llvm.md)
+
+<hr />
+
 # (cranelift)LLVM때문에 컴파일 더이상 빨라지지 않아 나온 cranelift[|🔝|](#link)
 - https://github.com/bytecodealliance/wasmtime/tree/main/cranelift
 - [(241014)Compilers in Rust: Cranelift, the All-Rust Codegen Alternative to LLVM (No C/C++, Part 1) ||regionaltantrums](https://youtu.be/ilhSdmv6bAY?si=-MFAacNFzRw0oQ_j)
