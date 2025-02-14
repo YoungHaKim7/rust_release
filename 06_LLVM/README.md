@@ -5,7 +5,7 @@
 
 <hr />
 
-- [Cranelift compared to LLVM](https://github.com/bytecodealliance/wasmtime/blob/main/cranelift/docs/compare-llvm.md)
+- [(외부 링크)Cranelift compared to LLVM](https://github.com/bytecodealliance/wasmtime/blob/main/cranelift/docs/compare-llvm.md)
 
 <hr />
 
