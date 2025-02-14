@@ -124,6 +124,9 @@ rustup default nightly
 
 
 # crates.io관련 뉴스[|🔝|](#link)
+- crates.io: development update(Feb. 5, 2025)
+  - https://blog.rust-lang.org/2025/02/05/crates-io-development-update.html
+
 - (Official)Improved API tokens for crates.io
   - https://blog.rust-lang.org/2023/06/23/improved-api-tokens-for-crates-io.html
 
