@@ -93,3 +93,35 @@ clang --target=aarch64-linux-gnu-gcc
   - clang과 같은 다중 표적 바이너리
 - Generally faster at linking than GNU Id, especially when debug information is involved
   - 일반적으로 디버그 정보가 포함된 경우 GNU ID보다 빠르게 연결됩니다.
+
+# LLVM의 과정
+<p align="center">
+  <img src="https://github.com/YoungHaKim7/Cpp_Training/assets/67513038/e5308776-06b2-4687-99f2-0e5d6c3af8b2" />
+</p>
+
+- 출처 : https://blog.rust-lang.org/2016/04/19/MIR.html
+
+ 
+```mermaid
+flowchart TB
+    LLVM_IR-->LLVM_Optimizer
+    LLVM_Optimizer-->LLVM_IR_
+    subgraph Back-End
+    LLVM_IR_-->LLVM_Static_Compiler
+    LLVM_Static_Compiler-->x86 & ARM & RISC-V & MIPS & PowerPC
+    end
+    subgraph Middle-End
+    LLVM_IR-->LLVM_Optimizer
+    LLVM_Optimizer-->LLVM_IR_
+    end
+    subgraph Front-End
+    C & C++--> Clang/g++
+    Clang/g++ --> LLVM_IR
+    rust --> rustc
+    rustc --> LLVM_IR
+    zig--> zig_build-exe
+    zig_build-exe --> LLVM_IR
+    mojo --> mojo_build
+    mojo_build --> LLVM_IR
+    end
+```
