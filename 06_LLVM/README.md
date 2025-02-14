@@ -61,6 +61,7 @@ clang --target=aarch64-linux-gnu-gcc
 
 
 # `Id.lld` (8분23초)
+- https://youtu.be/y458QwEfSsU?si=XwFAPoJ2QFdF3bHf&t=505
 - LLVM's linker
 - Advertised as being compatible with the GNU linker (in a similar manner as clang)
   - GNU 링커와 호환된다고 광고되었습니다(클랑과 유사한 방식으로)
