@@ -1,5 +1,6 @@
 # link
 - [LLVM-IR 컴파일 과정 그림으로 이해하기(HIR, MIRI, Borrow Check, Type Check전 과정 이해](#llvm의-과정)
+  - [(외부링크)컴파일과정 더 자세히 그림으로 이해하기advenced](https://github.com/YoungHaKim7/Rust_Tutorial_Full_course/tree/main/23_Rust_LLVM_IR#%EC%BB%B4%ED%8C%8C%EC%9D%BC%EA%B3%BC%EC%A0%95-%EB%8D%94-%EC%9E%90%EC%84%B8%ED%9E%88)
 
 - [Cranelift과정 그림으로 이해](#cranelift)
 
@@ -106,9 +107,12 @@ clang --target=aarch64-linux-gnu-gcc
   - 일반적으로 디버그 정보가 포함된 경우 GNU ID보다 빠르게 연결됩니다.
 
 # LLVM의 과정[|🔝|](#link)
+- [(외부링크)컴파일과정 더 자세히 그림으로 이해하기advenced](https://github.com/YoungHaKim7/Rust_Tutorial_Full_course/tree/main/23_Rust_LLVM_IR#%EC%BB%B4%ED%8C%8C%EC%9D%BC%EA%B3%BC%EC%A0%95-%EB%8D%94-%EC%9E%90%EC%84%B8%ED%9E%88)
+
 <p align="center">
   <img src="https://github.com/YoungHaKim7/Cpp_Training/assets/67513038/e5308776-06b2-4687-99f2-0e5d6c3af8b2" />
 </p>
+
 
 - 출처 : https://blog.rust-lang.org/2016/04/19/MIR.html
 
