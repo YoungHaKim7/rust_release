@@ -291,6 +291,11 @@ cargo add regex
 cargo add --dev trybuild
 ```
 
+```toml
+[dev-dependencies]
+regex = "1.11.1"
+```
+
 - Add an older version of nom as a dependency
 ```bash
 cargo add nom@5
