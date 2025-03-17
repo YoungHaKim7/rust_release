@@ -2,12 +2,20 @@
 
 - [`rustfmt.toml`세팅예시_러스트fmt세팅](https://github.com/taiki-e/pin-project/blob/main/.rustfmt.toml)
 - [gccrs: Rust를 위한 대체 컴파일러_LLVM없이도 된다 신기..](#gccrs-rust를-위한-대체-컴파일러)
+
+- [cargo-tree](#cargo-tree)
+
+<hr />
+
 - This Development-cycle in Cargo
   - [This Development-cycle in Cargo: 1.83](#this-development-cycle-in-cargo-183)
   - [This Development-cycle in Cargo: 1.82](#this-development-cycle-in-cargo-182)
   - [This Development-cycle in Cargo: 1.80](#this-development-cycle-in-cargo-180-1)
 
-- [cargo-tree](#cargo-tree)
+<hr />
+
+- rustup
+  - [Announcing rustup 1.28.1 | Mar. 4, 2025 · The Rustup Team](https://blog.rust-lang.org/2025/03/04/Rustup-1.28.1.html)
 
 <hr />
 
