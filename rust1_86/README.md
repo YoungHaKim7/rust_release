@@ -1,0 +1,1 @@
+- https://blog.rust-lang.org/2025/04/03/Rust-1.86.0/
