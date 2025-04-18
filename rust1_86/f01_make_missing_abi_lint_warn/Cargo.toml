@@ -1,0 +1,6 @@
+[package]
+name = "f01_make_missing_abi_lint_warn"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
