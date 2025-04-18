@@ -54,5 +54,4 @@ mod tests {
 
 But with using downcast-rs where I don't need to upcast to &dyn Any, it seems that such mistakes cannot happen. The crate provides downcast methods on the boxed objects directly. 
   - 여기서 타입 체커는 먼저 t as &dyn Any (마지막 어설션에서)가 틀렸다고 말하며, t를 빌리는 것을 제안합니다. (&t as &dyn Any.is:<S>())를 어설션으로 변경하면 타입 체커가 행복해집니다. 하지만 이는 제가 &dyn Any에게 &Box<_>를 캐스팅하고 있기 때문에 잘못된 것이며, 다운캐스트(is)는 실행 시 실패합니다. 올바른 어설션은 어설션입니다!(&*t as &dyn Any).is:<S>().
-
-하지만 다운캐스트-rs를 사용할 때는 &dyn Any로 업캐스트할 필요가 없기 때문에 이러한 실수는 발생할 수 없는 것 같습니다. 상자는 박스형 객체에 대해 직접 다운캐스트 메서드를 제공합니다.
+    - 하지만 다운캐스트-rs를 사용할 때는 &dyn Any로 업캐스트할 필요가 없기 때문에 이러한 실수는 발생할 수 없는 것 같습니다. 상자는 박스형 객체에 대해 직접 다운캐스트 메서드를 제공합니다.
