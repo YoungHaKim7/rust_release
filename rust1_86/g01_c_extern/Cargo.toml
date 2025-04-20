@@ -1,0 +1,8 @@
+[package]
+name = "g01_c_extern"
+version = "0.1.0"
+edition = "2024"
+build = "build.rs"
+
+[build-dependencies]
+cc = "1.2.19"
