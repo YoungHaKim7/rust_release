@@ -4,6 +4,9 @@
 - https://rust-lang.github.io/rfcs/3513-gen-blocks.html
 
 # gen사용법
+- gen초기 아이디어
+  - https://crates.io/crates/genawaiter
+
 - https://github.com/rust-lang/rust/issues/123731#issuecomment-2053953399
 
 - Throwing some options out there:
