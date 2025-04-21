@@ -6,6 +6,7 @@
 # gen사용법
 - gen초기 아이디어
   - https://crates.io/crates/genawaiter
+    - https://docs.rs/genawaiter/0.99.1/genawaiter/
 
 - https://github.com/rust-lang/rust/issues/123731#issuecomment-2053953399
 
