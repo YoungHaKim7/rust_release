@@ -60,13 +60,9 @@ Here are the differences in table form:
 
 
 |                                       | [`stack::Gen`] | [`rc::Gen`] | [`sync::Gen`] |
-
 |---------------------------------------|----------------|-------------|---------------|
-
 | Allocations per generator            | 0               | 2           | 2             |
-
 | Generator can be moved after created | no              | yes         | yes           |
-
 | Thread-safe                          | no              | no          | yes           |
 
 
@@ -88,30 +84,19 @@ generator using a macro from the `gen` family:
 ```rust
 
 # #[cfg(feature = "proc_macro")]
-
 # fn feature_gate() {
-
 # use genawaiter::{sync::gen, yield_};
-
 #
 
 let count_to_ten = gen!({
-
     for n in 0..10 {
-
         yield_!(n);
-
     }
-
 });
 
-
 # let result: Vec<_> = count_to_ten.into_iter().collect();
-
 # assert_eq!(result, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]);
-
 # }
-
 ```
 
 
@@ -121,42 +106,28 @@ family, and then pass the producer to `Gen::new`.
 
 
 - [`stack_producer!`] and [`let_gen_using!`](stack/macro.let_gen_using.html)
-
 - [`rc_producer!`] and [`Gen::new`](rc::Gen::new)
-
 - [`sync_producer!`] and [`Gen::new`](sync::Gen::new)
 
 
 ```rust
 
 # #[cfg(feature = "proc_macro")]
-
 # fn feature_gate() {
-
 # use genawaiter::{sync::Gen, sync_producer as producer, yield_};
-
 #
 
 let count_producer = producer!({
-
     for n in 0..10 {
-
         yield_!(n);
-
     }
-
 });
-
 
 let count_to_ten = Gen::new(count_producer);
 
-
 # let result: Vec<_> = count_to_ten.into_iter().collect();
-
 # assert_eq!(result, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]);
-
 # }
-
 ```
 
 
@@ -166,26 +137,16 @@ use the low-level API directly:
 
 
 ```rust
-
 # use genawaiter::sync::{Co, Gen};
-
 #
-
 let count_to_ten = Gen::new(|co| async move {
-
     for n in 0..10 {
-
         co.yield_(n).await;
-
     }
-
 });
 
-
 # let result: Vec<_> = count_to_ten.into_iter().collect();
-
 # assert_eq!(result, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]);
-
 ```
 
 
@@ -220,23 +181,16 @@ ways:
   ```rust
 
   # #[cfg(feature = "proc_macro")]
-
   # fn feature_gate() {
-
   # use genawaiter::{sync::gen, yield_, GeneratorState};
-
   #
 
   let mut generator = gen!({
-
       yield_!(10);
-
   });
 
   let ten = generator.resume();
-
   assert_eq!(ten, GeneratorState::Yielded(10));
-
   # }
 
   ```
@@ -250,23 +204,16 @@ ways:
   ```rust
 
   # #[cfg(feature = "proc_macro")]
-
   # fn feature_gate() {
-
   # use genawaiter::{sync::gen, yield_};
-
   #
 
   let generator = gen!({
-
       yield_!(10);
-
   });
 
   let xs: Vec<_> = generator.into_iter().collect();
-
   assert_eq!(xs, [10]);
-
   # }
 
   ```
@@ -283,29 +230,19 @@ receives them from the future returned by `yield_`.
 ```rust
 
 # #[cfg(feature = "proc_macro")]
-
 # fn feature_gate() {
-
 # use genawaiter::{sync::gen, yield_};
-
 #
 
 let mut printer = gen!({
-
     loop {
-
         let string = yield_!(());
-
         println!("{}", string);
-
     }
-
 });
 
 printer.resume_with("hello");
-
 printer.resume_with("world");
-
 # }
 
 ```
@@ -322,25 +259,17 @@ function. The consumer will receive this value as a `GeneratorState::Complete`.
 ```rust
 
 # #[cfg(feature = "proc_macro")]
-
 # fn feature_gate() {
-
 # use genawaiter::{sync::gen, yield_, GeneratorState};
-
 #
 
 let mut generator = gen!({
-
     yield_!(10);
-
     "done"
-
 });
 
 assert_eq!(generator.resume(), GeneratorState::Yielded(10));
-
 assert_eq!(generator.resume(), GeneratorState::Complete("done"));
-
 # }
 
 ```
@@ -361,7 +290,6 @@ to the dependency on `futures` with the `futures03` feature.
 ```toml
 
 [dependencies]
-
 genawaiter = { version = "...", features = ["futures03"] }
 
 ```
@@ -370,38 +298,25 @@ genawaiter = { version = "...", features = ["futures03"] }
 ```rust
 
 # #[cfg(all(feature = "proc_macro", feature = "futures03"))]
-
 # fn feature_gate() {
-
 # use futures::executor::block_on_stream;
-
 # use genawaiter::{sync::gen, yield_};
-
 #
 
 async fn async_one() -> i32 { 1 }
-
 async fn async_two() -> i32 { 2 }
 
 
 let gen = gen!({
-
     let one = async_one().await;
-
     yield_!(one);
-
     let two = async_two().await;
-
     yield_!(two);
-
 });
 
 let stream = block_on_stream(gen);
-
 let items: Vec<_> = stream.collect();
-
 assert_eq!(items, [1, 2]);
-
 # }
 
 ```
@@ -415,31 +330,21 @@ works even without the `futures03` feature.)
 ```rust
 
 # #[cfg(feature = "proc_macro")]
-
 # async fn feature_gate() {
-
 # use genawaiter::{sync::gen, yield_, GeneratorState};
-
 # use std::task::Poll;
-
 #
 
 # let mut gen = gen!({
-
 #     yield_!(10);
-
 # });
-
 #
 
 match gen.async_resume().await {
-
     GeneratorState::Yielded(_) => {}
-
     GeneratorState::Complete(_) => {}
 
 }
-
 # }
 
 ```
