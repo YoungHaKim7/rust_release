@@ -138,3 +138,32 @@ fn iter() -> () yields u32 {} // …or
 - I think `gen {}` as a keyword here is fine, as long as we eventually pair it up with some form of `yields` notation to be able to annotate the yield type. I mostly wanted to make sure it was spelled out why `yields` as a keyword is necessary, and why introducing it without an additional prefix marker for closures and blocks would lead to ambiguity in the parser.
 
 - Basically that's a long way to say that I find myself agreeing with what @tmandry expressed earlier.
+
+<hr />
+
+# 다른 설명
+- I don't think `async fn` was a mistake. The consistency among keywords that affect a function's syntax is definitely useful, at least documentation-wise (`const`, `async`, `unsafe`, etc.). In my opinion, gen affecting the entire function's control flow should keep consistent with keywords like async.
+
+- It feels natural to read `-> T` as, "this produces T", but it is different from the usual meaning. I think this syntax looks confusing when `return` ends the function without a value.
+  It would also make it possible to confuse functions returning single types versus iterator types, just in terms of skimming function return types in documentation or source code. I would prefer anything else like:
+  - `gen fn() -> yield i32` - Could retain -> T as "produces T". e.g. coroutine fn() -> yield i32, return i32.
+  - gen fn() yield i32 - Uses an existing keyword. Slightly awkward to read.
+  - gen fn() yields i32 - Requires a new keyword. Reads very nicely.
+  - gen fn() ^ i32 - Upwards arrow (yields to the caller, may resume later).
+  - gen fn() >> i32 - Two arrows (produces multiple values).
+  - gen fn() => i32 - Is -> meaningfully distinct from =>? I suppose -> is usually for types and => is usually for values.
+
+I can't wait for generator functions, I love generator functions.
+
+- - 저는 비동기 fn이 실수였다고 생각하지 않습니다. 함수의 구문에 영향을 미치는 키워드 간의 일관성은 적어도 문서 측면에서는 유용합니다(const, 비동기, 안전하지 않음 등). 제 생각에는 함수의 전체 제어 흐름에 영향을 미치는 gen은 비동기와 같은 키워드와 일관성을 유지해야 한다고 생각합니다.
+
+- -> T를 "이것이 T를 생성한다"고 읽는 것은 자연스럽게 느껴지지만, 일반적인 의미와는 다릅니다. 반환이 함수를 값 없이 끝낼 때 이 구문이 혼란스러워 보이는 것 같아요.
+또한 문서나 소스 코드에서 함수 반환 유형을 스키밍하는 것만으로도 단일 유형을 반환하는 함수와 반복자 유형을 혼동하는 것이 가능할 것입니다. 저는 다음과 같은 다른 것을 선호합니다:
+- gen fn() -> 수율 i32 - -> T를 "생산 T"로 유지할 수 있습니다. 예를 들어, coroutine fn() -> 수율 i32, 반환 i32.
+- gen fn() 수율 i32 - 기존 키워드를 사용합니다. 읽기가 약간 어색합니다.
+- gen fn()은 i32를 생성합니다 - 새로운 키워드가 필요합니다. 매우 잘 읽힙니다.
+- gen fn() ^ i32 - 위쪽 화살표(호출자에게 양보하며, 나중에 재개될 수 있음).
+- gen fn() >> i32 - 두 개의 화살표(여러 값 생성).
+- gen fn () => i32 - ->는 =>와 의미 있게 구별되나요? ->는 보통 유형을 의미하고 =>는 보통 값을 의미합니다.
+
+발전기 기능이 너무 기대돼요. 발전기 기능이 정말 마음에 들어요.
