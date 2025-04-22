@@ -1,6 +1,31 @@
 # gen 오리지날 crates
 - https://crates.io/crates/genawaiter
 
+<hr />
+
+# 3가지 상태를 기억하자 # A tale of three types
+
+
+A generator can control the flow of up to three types of data:
+
+
+- **Yield** – Each time a generator suspends execution, it can produce a value.
+
+- **Resume** – Each time a generator is resumed, a value can be passed in.
+
+- **Completion** – When a generator completes, it can produce one final value.
+
+
+- 생성기는 최대 세 가지 유형의 데이터 흐름을 제어할 수 있습니다:
+
+수율 – 생성기가 실행을 중단할 때마다 값을 생성할 수 있습니다.
+
+재개 – 생성기가 재개될 때마다 값을 전달할 수 있습니다.
+
+완료 – 발전기가 완료되면 최종 값을 하나 생성할 수 있습니다.
+
+<hr />
+
 # doc
 - https://docs.rs/genawaiter/0.99.1/genawaiter/
 
@@ -162,6 +187,14 @@ A generator can control the flow of up to three types of data:
 
 - **Completion** – When a generator completes, it can produce one final value.
 
+
+- 생성기는 최대 세 가지 유형의 데이터 흐름을 제어할 수 있습니다:
+
+수율 – 생성기가 실행을 중단할 때마다 값을 생성할 수 있습니다.
+
+재개 – 생성기가 재개될 때마다 값을 전달할 수 있습니다.
+
+완료 – 발전기가 완료되면 최종 값을 하나 생성할 수 있습니다.
 
 ## Yield
 
