@@ -1,6 +1,16 @@
+# compiler explorer 에서 러스트 nightly 적용하는 방법
+- https://godbolt.org/z/v8EfrqGfG
+
+- rustc nightly선택 후 뒤에 옵션에 추가
+
+```bash
+-Z unstable-options --edition=2024
+```
+
+<hr />
+
 # Rust 2027로 밀릴 가능성 높은 프로젝트
 - Tracking Issue for RFC 3550: New range types #123741(https://github.com/rust-lang/rust/issues/123741)
-
 
 <hr />
 
