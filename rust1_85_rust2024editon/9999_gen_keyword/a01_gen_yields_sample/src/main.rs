@@ -5,6 +5,7 @@ fn main() {
             yield (n);
         }
     };
-    println!("{:#?}", count_to_ten);
+    let xs: Vec<_> = count_to_ten.into_iter().collect();
+    println!("{:?}", xs);
 }
 
