@@ -1,4 +1,5 @@
-#![feature(coroutines, gen_blocks)]
+// #![feature(coroutines, gen_blocks)]
+#![feature(gen_blocks, yield_expr)]
 fn main() {
     let count_to_ten = gen {
         for n in 0..10 {
