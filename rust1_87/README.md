@@ -8,3 +8,7 @@
 # How to pipe commands in rust?
 
 - https://stackoverflow.com/questions/73469520/how-to-pipe-commands-in-rusthttps://stackoverflow.com/questions/73469520/how-to-pipe-commands-in-rusthttps://stackoverflow.com/questions/73469520/how-to-pipe-commands-in-rusthttps://stackoverflow.com/questions/73469520/how-to-pipe-commands-in-rusthttps://stackoverflow.com/questions/73469520/how-to-pipe-commands-in-rusthttps://stackoverflow.com/questions/73469520/how-to-pipe-commands-in-rusthttps://stackoverflow.com/questions/73469520/how-to-pipe-commands-in-rusthttps://stackoverflow.com/questions/73469520/how-to-pipe-commands-in-rusthttps://stackoverflow.com/questions/73469520/how-to-pipe-commands-in-rust
+
+# Pipe output to another process
+
+- https://users.rust-lang.org/t/pipe-output-to-another-process/114829
