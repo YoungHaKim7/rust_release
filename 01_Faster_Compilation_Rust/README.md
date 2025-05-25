@@ -2,6 +2,17 @@
 
 <hr>
 
+# 디버그 정보 빼서 컴파일 빠르게 만들기
+
+- Cargo.toml
+  - https://kobzol.github.io/rust/rustc/2025/05/20/disable-debuginfo-to-improve-rust-compile-times.html
+  
+```toml
+[profile.dev]
+debug = false
+
+```
+
 # 멀티 쓰레드 숫자가 8이상은 되어야 효과가 있는듯 싶다.
 
 - 여러가지 환경에서 test중..
