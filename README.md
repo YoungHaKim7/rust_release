@@ -30,6 +30,11 @@
 
 <hr />
 
+- [toml파일 이쁘게 정렬시키자`taplo format Cargo.toml`](#toml-fmt)
+  - [외부링크)toml fmt_taplo.tamasfe.dev](https://taplo.tamasfe.dev/cli/installation/binary.html)
+
+<hr />
+
 # 공부할게 많은 버젼별 Rust-clippy[|🔝|](#link)
 
 https://rust-lang.github.io/rust-clippy/
@@ -637,7 +642,7 @@ $ rustup component add rust-analyzer
 ```
 <hr>
 
-# rust install후 PATH설정
+# rust install후 PATH설정[|🔝|](#link)
 
 ```
 Rust is installed now. Great!
@@ -653,4 +658,28 @@ This is usually done by running one of the following (note the leading DOT):
 . "$HOME/.cargo/env"            # For sh/bash/zsh/ash/dash/pdksh
 source "$HOME/.cargo/env.fish"  # For fish
 source "$HOME/.cargo/env.nu"    # For nushell
+```
+
+
+
+# toml Fmt[|🔝|](#link)
+
+```bash
+taplo format Cargo.toml
+```
+
+- `.taplo.toml`
+
+```toml
+# See https://taplo.tamasfe.dev/configuration/file.html
+# and https://taplo.tamasfe.dev/configuration/formatter-options.html
+
+[formatting]
+# Aligning comments with the largest line creates
+# diff noise when neighboring lines are changed.
+align_comments = false
+
+# Matches how rustfmt formats Rust code
+column_width = 100
+indent_string = "    "
 ```
