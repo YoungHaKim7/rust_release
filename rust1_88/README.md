@@ -7,6 +7,9 @@ Language
 --------
 - [Stabilize `#![feature(let_chains)]` in the 2024 edition.](https://github.com/rust-lang/rust/pull/132833)
   This feature allows `&&`-chaining `let` statements inside `if` and `while`, allowing intermixture with boolean expressions. The patterns inside the `let` sub-expressions can be irrefutable or refutable.
+    - Stabilize let_chains in Rust 1.64 #94927 
+      - https://github.com/rust-lang/rust/pull/94927
+
 - [Stabilize `#![feature(naked_functions)]`.](https://github.com/rust-lang/rust/pull/134213)
   Naked functions allow writing functions with no compiler-generated epilogue and prologue, allowing full control over the generated assembly for a particular function.
 - [Stabilize `#![feature(cfg_boolean_literals)]`.](https://github.com/rust-lang/rust/pull/138632)
