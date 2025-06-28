@@ -104,6 +104,9 @@ Compatibility Notes
 
 <hr />
 
+# cfg attribute with arbitrary constant expression
+- https://stackoverflow.com/questions/71368383/cfg-attribute-with-arbitrary-constant-expression
+
 - The answer is not. You have to use something like build script to achieve that.
 
 It cannot work because cfg-expansion occurs at an earlier pass in the compiler than constant evaluation.
