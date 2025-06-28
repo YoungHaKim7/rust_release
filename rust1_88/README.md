@@ -100,3 +100,18 @@ Compatibility Notes
   The borrow checker was overly permissive in some cases, allowing programs that shouldn't have compiled.
 - [Update the minimum external LLVM to 19.](https://github.com/rust-lang/rust/pull/139275)
 - [Make it a hard error to use a vector type with a non-Rust ABI without enabling the required target feature.](https://github.com/rust-lang/rust/pull/139309)
+
+
+<hr />
+
+- The answer is not. You have to use something like build script to achieve that.
+
+It cannot work because cfg-expansion occurs at an earlier pass in the compiler than constant evaluation.
+
+cfg expansion works at the same time as macro expansion. Both can affect name resolution (macros can create new names, which other macros, or even the same macro, can later refer to) which forces us to use a fixed-point algorithm (resolve names, expand macros, resolve names, expand macros... until no more names can be resolved, i.e. a fixed point was reached). const evaluation takes a place after type checking, sometimes (with generic_const_exprs) even during codegen. If it could affect macro expansion, we would have a giant fixed-point loop resolve names - expand macros - resolve names - expand macros... until a fixed point is reached, then lower to HIR - type-check - evaluate constants (or even lower to MIR - monomorphize and evaluate constants) - and back to name resolution. Besides slowing the compiler down a lot, it'll also make it significantly more complex, not really something the rustc team wants.
+
+- 답은 아니다. 이를 달성하기 위해서는 빌드 스크립트와 같은 것을 사용해야 합니다.
+
+Cfg-expansion은 상수 평가보다 컴파일러의 초기 패스에서 발생하기 때문에 작동할 수 없습니다.
+
+Cfg 확장은 매크로 확장과 동시에 작동합니다. 둘 다 이름 해결에 영향을 미칠 수 있습니다(매크로는 새로운 이름을 만들 수 있으며, 다른 매크로 또는 심지어 동일한 매크로가 나중에 참조할 수 있음) 고정점 알고리즘(이름 해결, 매크로 확장, 이름 해결, 매크로 확장... 더 이상 이름이 해결될 수 없을 때까지, 즉 고정점에 도달할 때까지)을 사용하도록 강요합니다. const 평가는 유형 검사 후 이루어지며, 때로는 코드 생성 중에도 (generic_const_exprs와 함께). 만약 그것이 매크로 확장에 영향을 미칠 수 있다면, 우리는 거대한 고정점 루프 해결 이름을 가질 것이다 - 매크로 확장 - 이름 해결 - 고정점에 도달할 때까지 - 매크로를 확장할 것이다... 고정점에 도달할 때까지, 그 다음 HIR - 유형 검사 - 상수 평가로 낮추고 (또는 MIR - 상수 모노모피화 및 평가)로 낮추고 - 그리고 이름 해결로 돌아갈 것이다. 컴파일러 속도를 많이 늦출 뿐만 아니라, rustc 팀이 원하는 것이 아니라 훨씬 더 복잡하게 만들 것입니다.
