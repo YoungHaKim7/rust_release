@@ -19,7 +19,7 @@
 
 - 새로 생긴 기능들
   - [Debug information is not included in build scripts by default anymore(속도 올리려고 1.69에서 디버그 정보 빠짐 다시 넣는 방법](#debug-information-is-not-included-in-build-scripts-by-default-anymore속도-올리려고-169에서-디버그-정보-빠짐-다시-넣는-방법)
-  - [Cargo automatic cache cleaning(rust1.88에 기능 생김)()
+  - [Cargo automatic cache cleaning(rust1.88에 기능 생김)(#cargo-automatic-cache-cleaningrust188에-기능-생김)
 
 <hr />
 
@@ -64,7 +64,7 @@ LLVM version: 16.0.2
 - If you want to debug a build script, you can add this snippet to your ```Cargo.toml``` to emit debug information again:
 - Cargo.toml https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html
 
-```
+```toml
 [profile.dev.build-override]
 debug = true
 [profile.release.build-override]
@@ -108,13 +108,13 @@ channel ="nightly-2024-04-04"
 
 # Rust version Setting[|🔝|](#link)
 
-```
+```bash
 rustup update stable
 ```
 
 - Version control
 
-```
+```bash
 rustup default stable
 rustup default beta
 rustup default nightly
@@ -367,7 +367,7 @@ https://rusty.rs/about.html
 
 # Rustup show[|🔝|](#link)
 
-```
+```bash
 PS D:\rust_toolchain_toml> rustup show
 Default host: x86_64-pc-windows-msvc
 rustup home:  C:\Users\user\.rustup
@@ -389,7 +389,7 @@ rustc 1.68.0 (2c8cc3432 2023-03-06)
 
 # rustup toolchain remove nightly-2023-02-21 1.65.0(필요없는거 지우기)[|🔝|](#link)
 
-```
+```bash
 PS D:\rust_toolchain_toml> rustup toolchain remove nightly-2023-02-21 1.65.0
 
 info: uninstalling toolchain 'nightly-2023-02-21-x86_64-pc-windows-msvc'
@@ -417,7 +417,7 @@ rustc 1.68.0 (2c8cc3432 2023-03-06)
 ```
 
 - rustup show
-```
+```bash
 rustup show
 Default host: x86_64-unknown-linux-gnu
 rustup home:  /home/gy/.rustup
@@ -446,7 +446,7 @@ rustc 1.75.0 (82e1608df 2023-12-21)
 
 - rustup target remove
 
-```
+```bash
 rustup target remove x86_64-apple-ios
 info: removing component 'rust-std' for 'x86_64-apple-ios'
 
@@ -478,7 +478,7 @@ fn main() {
 
   - `cargo build --target wasm32-wasi --release`
 
-```
+```bash
 cargo build --target wasm32-wasi --release
 ```
 
@@ -605,13 +605,13 @@ plateParams: !3989)
 
 # cargo rustc -- --emit dep-info=testrust.depinfo[|🔝|](#link)
 
-```
+```bash
 cargo rustc -- --emit dep-info=testrust.depinfo
 ```
 
 # cargo rustc -- --emit help[|🔝|](#link)
 
-```
+```bash
 cargo rustc -- --emit help
    Compiling testrust01 v0.1.0 (D:\young_linux\11111\testrust01)
 error: unknown emission type: `help` - expected one of:
@@ -637,7 +637,7 @@ error: unknown emission type: `help` - expected one of:
 
 # rust-analyzer LSP설치하기[|🔝|](#link)
   - https://rust-analyzer.github.io/
-```
+```bash
 # rustup
 # rust-analyzer is available in rustup:
 
@@ -647,7 +647,7 @@ $ rustup component add rust-analyzer
 
 # rust install후 PATH설정[|🔝|](#link)
 
-```
+```bash
 Rust is installed now. Great!
 
 To get started you may need to restart your current shell.
