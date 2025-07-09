@@ -16,7 +16,10 @@
 - [WASM-빌드하기target-add](#wasm-빌드하기target-add)
 - [cargo-ructc-mir-hir보는법](#cargo-ructc-mir-hir보는법)
 - [cargo asm사용법_07폴더](/07_cargo_rustc_mir_hir_llvm#cargo-asm-기타-등등)
-- [Debug information is not included in build scripts by default anymore(속도 올리려고 1.69에서 디버그 정보 빠짐 다시 넣는 방법](#debug-information-is-not-included-in-build-scripts-by-default-anymore속도-올리려고-169에서-디버그-정보-빠짐-다시-넣는-방법)
+
+- 새로 생긴 기능들
+  - [Debug information is not included in build scripts by default anymore(속도 올리려고 1.69에서 디버그 정보 빠짐 다시 넣는 방법](#debug-information-is-not-included-in-build-scripts-by-default-anymore속도-올리려고-169에서-디버그-정보-빠짐-다시-넣는-방법)
+  - [Cargo automatic cache cleaning(rust1.88에 기능 생김)()
 
 <hr />
 
@@ -682,4 +685,14 @@ align_comments = false
 # Matches how rustfmt formats Rust code
 column_width = 100
 indent_string = "    "
+```
+
+
+# Cargo automatic cache cleaning(rust1.88에 기능 생김)[|🔝|](#link)
+- 자동으로 cache지우는거 안하려면 밑에 처럼 세팅
+  - https://blog.rust-lang.org/2025/06/26/Rust-1.88.0/#cargo-automatic-cache-cleaning
+
+- Cargo.toml에 추가
+```toml
+cache.auto-clean-frequency = "never"
 ```
