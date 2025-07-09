@@ -1,3 +1,10 @@
+# Announcing Rust 1.88.0
+- June 26, 2025 · The Rust Release Team
+- https://blog.rust-lang.org/2025/06/26/Rust-1.88.0/
+
+
+<hr />
+
 Version 1.88.0 (2025-06-26)
 ==========================
 
