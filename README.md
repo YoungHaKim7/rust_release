@@ -19,7 +19,7 @@
 
 - 새로 생긴 기능들
   - [Debug information is not included in build scripts by default anymore(속도 올리려고 1.69에서 디버그 정보 빠짐 다시 넣는 방법](#debug-information-is-not-included-in-build-scripts-by-default-anymore속도-올리려고-169에서-디버그-정보-빠짐-다시-넣는-방법)
-  - [Cargo automatic cache cleaning(rust1.88에 기능 생김)(#cargo-automatic-cache-cleaningrust188에-기능-생김)
+  - [Cargo automatic cache cleaning(rust1.88에 기능 생김)](#cargo-automatic-cache-cleaningrust188에-기능-생김)
 
 <hr />
 
