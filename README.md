@@ -460,7 +460,8 @@ rustup update nightly
 rustup target add wasm32-unknown-unknown --toolchain nightly
 ```
 
-`wasm32-wasip1`
+- rust 1.88부터는 `wasm32-wasip1` 써야함.
+  - `wasm32-wasip1`
 - https://www.reddit.com/r/rust/comments/1frlvi1/nine_rules_for_running_rust_on_wasm_wasi/
 
 
