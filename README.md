@@ -460,6 +460,10 @@ rustup update nightly
 rustup target add wasm32-unknown-unknown --toolchain nightly
 ```
 
+`wasm32-wasip1`
+- https://www.reddit.com/r/rust/comments/1frlvi1/nine_rules_for_running_rust_on_wasm_wasi/
+
+
 - https://stackoverflow.com/questions/66180416/rust-nightly-not-installed-please-install-it
 
 - A simple main app(러스트 코드를 WASM 빌드하기_확장자명 .wasm)
