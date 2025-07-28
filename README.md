@@ -16,7 +16,7 @@
 
 - [WASM-빌드하기target-add](#wasm-빌드하기target-add)
 - [cargo-ructc-mir-hir보는법](#cargo-ructc-mir-hir보는법)
-- [cargo asm사용법_07폴더](/07_cargo_rustc_mir_hir_llvm#cargo-asm-기타-등등)
+- [cargo asm사용법_07폴더](0001_cargo_rustup_dev_etc_summary/07_cargo_rustc_mir_hir_llvm#cargo-asm-기타-등등)
 
 - 새로 생긴 기능들
   - [Debug information is not included in build scripts by default anymore(속도 올리려고 1.69에서 디버그 정보 빠짐 다시 넣는 방법](#debug-information-is-not-included-in-build-scripts-by-default-anymore속도-올리려고-169에서-디버그-정보-빠짐-다시-넣는-방법)
