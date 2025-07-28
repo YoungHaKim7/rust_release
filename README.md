@@ -4,6 +4,7 @@
 
 # link
 
+- [Cargo.toml_공식eBook](https://doc.rust-lang.org/cargo/index.html)
 - [Version 변경하기 (nightly & 버젼 낮게 만들기)](#강제로-버젼-낮추기-rust-toolchaintoml에서-통제함)
   - [nightly 세팅](./01_Faster_Compilation_Rust)
 - [LLVM-downloads다운로드(LLVM)](#llvm-downloads)
