@@ -15,4 +15,6 @@ fn main() {
     assert!(res.is_err());
     // It short-circuited, so the remaining items are still in the iterator:
     assert_eq!(it.next(), Some("stale_bread.json"));
+    println!("{it:?}");
+    println!("{res:?}");
 }
