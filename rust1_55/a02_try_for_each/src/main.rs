@@ -1,6 +1,8 @@
-use std::fs::rename;
-use std::io::{Write, stdout};
-use std::path::Path;
+use std::{
+    fs::rename,
+    io::{Write, stdout},
+    path::Path,
+};
 
 fn main() {
     let data = ["no_tea.txt", "stale_bread.json", "torrential_rain.png"];
