@@ -2,6 +2,8 @@
 - June 26, 2025 · The Rust Release Team
 - https://blog.rust-lang.org/2025/06/26/Rust-1.88.0/
 
+# Rust 1.88: C++에 대한 도전과 시스템 프로그래밍의 미래 | 반포코더 개발자 TV
+- https://youtu.be/zSATR2q9AsA?si=5c8oY0054ThwjBZD
 
 <hr />
 
