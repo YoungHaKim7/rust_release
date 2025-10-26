@@ -8,4 +8,6 @@ fn main() {
 
     assert_eq!(f16::powf(1.0, f16::NAN), 1.0);
     assert_eq!(f16::powf(f16::NAN, 0.0), 1.0);
+    println!("f16 - MIN : {}", f16::MIN);
+    println!("f16 - Epsilon : {}", f16::EPSILON);
 }
