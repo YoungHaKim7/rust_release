@@ -75,6 +75,7 @@ debug = true
 [profile.release]
 lto = true
 ```
+
 <br>
 
 <hr>
