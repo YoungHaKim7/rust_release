@@ -1,0 +1,6 @@
+[package]
+name = "b01_const_stable_into_inner"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
