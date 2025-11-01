@@ -24,6 +24,7 @@
       - (240812) [(러스트 Blog)Rust Project goals for 2024](https://blog.rust-lang.org/2024/08/12/Project-goals.html)
         - Rust 2024 Edition 
           - https://rust-lang.github.io/rust-project-goals/2024h2/Rust-2024-Edition.html
+          - [(251028) Project goals for 2025H2 · Niko Matsakis on behalf of the Goals team](https://blog.rust-lang.org/2025/10/28/project-goals-2025h2/)
         - Async
           - https://rust-lang.github.io/rust-project-goals/2024h2/async.html
         - Rust for Linux
