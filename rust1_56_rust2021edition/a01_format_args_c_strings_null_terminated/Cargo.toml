@@ -1,0 +1,6 @@
+[package]
+name = "a01_format_args_c_strings_null_terminated"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
