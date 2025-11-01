@@ -1,5 +1,13 @@
 # 로컬 변수에서 매달린 원시 포인터에 보푸라기를 추가합니다:
 
+```rs
+fn f() -> *const u8 {
+    let x = 0;
+    &x
+}
+
+```
+
 ```bash
 warning: a dangling pointer will be produced because the local variable `x` will be dropped
 경고: 로컬 변수 'x'가 떨어지기 때문에 매달린 포인터가 생성됩니다
