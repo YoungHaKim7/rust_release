@@ -105,6 +105,11 @@ channel ="nightly-2024-04-04"
 ```bash
 # macOS
 rustup default 1.81.0-aarch64-apple-darwin && export SDKROOT=$(xcrun --show-sdk-path) && cargo check
+
+
+# 되돌리기 최신 안정버젼으로 변경
+# macOS
+rustup default stable-aarch64-apple-darwin
 ```
 
 # llvm downloads[|🔝|](#link)
