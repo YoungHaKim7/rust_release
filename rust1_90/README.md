@@ -12,3 +12,6 @@
 
 # stabilized-apis
 - https://github.com/rust-lang/rust/blob/1.90.0/RELEASES.md#stabilized-apis
+
+# Function read_volatile 
+- https://doc.rust-lang.org/std/ptr/fn.read_volatile.html
