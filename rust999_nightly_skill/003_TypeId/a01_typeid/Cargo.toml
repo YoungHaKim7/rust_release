@@ -1,0 +1,6 @@
+[package]
+name = "a01_typeid"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
