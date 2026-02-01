@@ -8,6 +8,8 @@
 Check out the announcement:
 - https://x.com/rustlang/status/1864244334880538903?s=46&t=eqXzUZSI8uSaWxT8Lcp3Pw
 
+- https://doc.rust-lang.org/stable/std/mem/fn.replace.html
+
 <hr />
 
 Version 1.83.0 (2024-11-28)
@@ -240,3 +242,5 @@ Compatibility Notes
 - [The ABI-level exception class of a Rust panic is now encoded with native-endian bytes, so it is legible in hex dumps.](https://github.com/rust-lang/rust/pull/130897)
 - [Visual Studio 2013 is no longer supported for MSVC targets.](https://github.com/rust-lang/rust/pull/131070)
 - [The sysroot no longer contains the `std` dynamic library in its top-level `lib/` dir.](https://github.com/rust-lang/rust/pull/131188)
+
+
