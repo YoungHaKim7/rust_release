@@ -112,6 +112,13 @@ rustup default 1.81.0-aarch64-apple-darwin && export SDKROOT=$(xcrun --show-sdk-
 rustup default stable-aarch64-apple-darwin
 ```
 
+- export address쓰고 원래대로 돌려 놓기
+
+```bash
+unset RUSTFLAGS && cargo run
+```
+
+
 # llvm downloads[|🔝|](#link)
 
 - https://releases.llvm.org/
