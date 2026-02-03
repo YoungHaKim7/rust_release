@@ -118,6 +118,14 @@ rustup default stable-aarch64-apple-darwin
 unset RUSTFLAGS && cargo run
 ```
 
+```bash
+  Permanent fix - Remove it from your shell profile (~/.bashrc, ~/.zshrc, or ~/.config/fish/config.fish):
+  # Remove this line or comment it out:
+  # export RUSTFLAGS="-Zsanitizer=address"
+
+  If you need AddressSanitizer, use it per-command instead:
+  RUSTFLAGS="-Zsanitizer=address" cargo +nightly run
+```
 
 # llvm downloads[|🔝|](#link)
 
