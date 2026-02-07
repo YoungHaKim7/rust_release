@@ -1,0 +1,7 @@
+# Result
+
+```bash
+path : "C:\\"
+
+```
+

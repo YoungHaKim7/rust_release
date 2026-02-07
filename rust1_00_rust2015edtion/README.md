@@ -13,3 +13,6 @@
 - https://doc.rust-lang.org/std/str/fn.from_utf8.html
 
 
+# PathBuf
+- https://doc.rust-lang.org/std/path/struct.PathBuf.html
+
