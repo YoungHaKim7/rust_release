@@ -2,6 +2,23 @@
 
 <hr />
 
+# rust1.94부터는 Cargo.toml에서 다른 toml추가 가능 include 참고
+- https://doc.rust-lang.org/nightly/cargo/reference/config.html#including-extra-configuration-files
+
+```toml
+# array of paths
+include = [
+    "frodo.toml",
+    "samwise.toml",
+]
+
+# inline tables for more control
+include = [
+    { path = "required.toml" },
+    { path = "optional.toml", optional = true },
+]
+```
+
 # toml v0.9[|🔝|](#link)
 - https://epage.github.io/blog/2025/07/toml-09/
   - https://github.com/toml-rs/toml/blob/main/crates/toml/CHANGELOG.md#090---2025-07-08
