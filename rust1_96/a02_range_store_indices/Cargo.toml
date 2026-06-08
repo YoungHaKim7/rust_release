@@ -1,0 +1,6 @@
+[package]
+name = "a02_range_store_indices"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
