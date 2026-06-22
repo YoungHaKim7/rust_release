@@ -1,0 +1,1 @@
+- https://rust-analyzer.github.io/thisweek/2026/06/22/changelog-333.html
