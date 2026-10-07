@@ -1,9 +1,27 @@
 # Result
 - check만 가능하고 build는 안되네..
   - WindowsOS에서 build해서 `dll` 나오는지 확인하자
-  - macOS에서 build해서 `dylib` 나오는지 확인
-  - LinuxOS `librust_ffi.so` 나오는것 확인
+  - ✅ macOS에서 build해서 `dylib` 나오는지 확인 
+  - ✅ LinuxOS `librust_ffi.so` 나오는것 확인
 
+# clang --version
+
+```bash
+$ clang++ --version
+
+Homebrew clang version 23.1.2
+Target: arm64-apple-darwin27.0.0
+Thread model: posix
+InstalledDir: /opt/homebrew/Cellar/llvm/23.1.2/bin
+Configuration file: /opt/homebrew/Cellar/llvm/23.1.2/etc/clang/arm64-apple-darwin27.cfg
+
+# gcc
+$ gcc --version
+Apple clang version 21.0.0 (clang-2100.3.34.2)
+Target: arm64-apple-darwin27.0.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+```
 
 ```bash
 $ cargo build --target x86_64-pc-windows-msvc --release
