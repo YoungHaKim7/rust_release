@@ -1,3 +1,10 @@
+# goose언어 신봉자가 쓴글 배울게 많구만 절반이상은 못 알아 듣겠네 ㅋ
+- https://users.rust-lang.org/t/do-you-consider-goose-instead-of-rust/143227/12
+
+- goose가 스택 할당에 겁나게 집착하는 언어구만 ㅎㅎ
+  - 빌어먹을 cpu miss 캐쉬 토나오네 ㅋㅋ
+
+# 러스트 언어 커뮤니티에서 제안하는 기능 
 - https://doc.rust-lang.org/beta/std/vec/struct.Vec.html#method.push_within_capacity
 - Appends an element and returns a reference to it if there is sufficient spare capacity, otherwise an error is returned with the element.
 
