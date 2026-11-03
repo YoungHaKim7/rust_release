@@ -64,16 +64,14 @@ Alternatively, you could implement a double ended arena: place the growable data
 
 # goose 과대광고가 심하네 --
 - I would not consider it as it describes itself as LLM slop
+  - This repo was produced almost entirely with AI, from a human language design. I had designed Goose several years ago
 
-    This repo was produced almost entirely with AI, from a human language design. I had designed Goose several years ago
-
-but if you ignore that part:
-
-    It doesn't have traits, just "generics" (which look more like templates to me) with a (presumably) very large amount of post-monomorphisation errors and/or incorrect behaviour (a generic function may want to call foo on a generic type to do something, but some types may have a method called foo that does something unrelated but has the same name on accident)
-    The return from other functions thing is absolutely horrifying
-    The multithreading system is very limited, it can only do message parsing via channels between different programs, rust can do the exact same if you want, but it can also share data in just about every other way.
-    There being one queue per type is a global state that can easily lead to very difficult to debug bugs.
-    The language generally feels very limiting and incomplete.
+- but if you ignore that part:
+  - It doesn't have traits, just "generics" (which look more like templates to me) with a (presumably) very large amount of post-monomorphisation errors and/or incorrect behaviour (a generic function may want to call foo on a generic type to do something, but some types may have a method called foo that does something unrelated but has the same name on accident)
+  - The return from other functions thing is absolutely horrifying
+  - The multithreading system is very limited, it can only do message parsing via channels between different programs, rust can do the exact same if you want, but it can also share data in just about every other way.
+  - There being one queue per type is a global state that can easily lead to very difficult to debug bugs.
+  - The language generally feels very limiting and incomplete.
 
 The many stacks idea is nice, but it's not enough to make up for all the language's issues,
 
@@ -81,15 +79,14 @@ Although adding compiler support for many stacks to rust would be interesting,
 And much easier than making an entire new language and compiler good enough to compete with rust.
 - 스스로를 LLM 슬롭이라고 표현하고 있어서 그렇게 생각하지 않겠습니다
 
-    이 저장소는 인간의 언어 디자인을 바탕으로 거의 전적으로 AI로 제작되었습니다. 나는 몇 년 전에 구스를 디자인했어요
+- 이 저장소는 인간의 언어 디자인을 바탕으로 거의 전적으로 AI로 제작되었습니다. 나는 몇 년 전에 구스를 디자인했어요
 
-하지만 그 부분을 무시하면:
-
-    특성이 없고, 단지 '제네릭'만 있는데(개인적으로는 템플릿에 더 가깝게 보입니다), (아마도) 모노모피케이션 후에 발생하는 오류나 잘못된 동작이 매우 많습니다. (제네릭 함수가 제네릭 타입에 대해 foo를 호출해서 뭔가를 하려고 할 수 있습니다, 하지만 일부 타입은 foo라는 메서드를 가질 수 있는데, 이 메서드는 관련 없는 일을 하지만 실수로 같은 이름을 갖게 됩니다.)
-    다른 함수들의 반환값 문제는 정말 끔찍합니다
-    멀티스레딩 시스템은 매우 제한적이라, 서로 다른 프로그램 간 채널을 통한 메시지 파싱만 가능합니다. Rust가 똑같이 할 수는 있지만, 거의 모든 다른 방식으로 데이터를 공유할 수 있습니다.
-    타입별로 큐가 하나씩 존재하는 것은 전역 상태가 되어 디버깅이 매우 어려운 버그를 쉽게 유발할 수 있습니다.
-    그 언어는 대체로 매우 제한적이고 불완전하게 느껴집니다.
+- 하지만 그 부분을 무시하면:
+  - 특성이 없고, 단지 '제네릭'만 있는데(개인적으로는 템플릿에 더 가깝게 보입니다), (아마도) 모노모피케이션 후에 발생하는 오류나 잘못된 동작이 매우 많습니다. (제네릭 함수가 제네릭 타입에 대해 foo를 호출해서 뭔가를 하려고 할 수 있습니다, 하지만 일부 타입은 foo라는 메서드를 가질 수 있는데, 이 메서드는 관련 없는 일을 하지만 실수로 같은 이름을 갖게 됩니다.)
+  - 다른 함수들의 반환값 문제는 정말 끔찍합니다
+  - 멀티스레딩 시스템은 매우 제한적이라, 서로 다른 프로그램 간 채널을 통한 메시지 파싱만 가능합니다. Rust가 똑같이 할 수는 있지만, 거의 모든 다른 방식으로 데이터를 공유할 수 있습니다.
+  - 타입별로 큐가 하나씩 존재하는 것은 전역 상태가 되어 디버깅이 매우 어려운 버그를 쉽게 유발할 수 있습니다.
+  - 그 언어는 대체로 매우 제한적이고 불완전하게 느껴집니다.
 
 여러 개의 스택 아이디어는 좋지만, 언어의 모든 문제를 해결하기에는 부족합니다,
 
