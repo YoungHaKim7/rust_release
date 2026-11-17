@@ -64,3 +64,70 @@ fn main() {
     println!("Result: {}", result);
 }
 ```
+
+The error occurs because `!` represents an uninhabited type: **there is no value of type&#x20;**`!`**&#x20;that you can construct.**
+
+Therefore, this is invalid:
+
+```
+Err()
+```
+
+`Err` requires a value of type `!`, but no such value exists.
+
+## **1. Correct implementation**
+
+If your function cannot fail, return `Ok(42)`:
+
+```
+fn successful_operation() -> Result<i32, !> {
+    Ok(42)
+}
+
+fn main() {
+    let result = successful_operation();
+
+    match result {
+        Ok(value) => println!("Value: {}", value),
+    }
+}
+```
+
+Output:
+
+```
+Value: 42
+```
+
+Notice that you don't need an `Err` match arm because `!` has no possible values.
+
+## **2. What if you want an error?**
+
+Use a real error type:
+
+```
+fn operation(success: bool) -> Result<i32, String> {
+    if success {
+        Ok(42)
+    } else {
+        Err("Operation failed".to_string())
+    }
+}
+
+fn main() {
+    match operation(false) {
+        Ok(value) => println!("Value: {}", value),
+        Err(error) => println!("Error: {}", error),
+    }
+}
+```
+
+## **3. Understanding the difference**
+
+| Type                  | Meaning                                      |
+| --------------------- | -------------------------------------------- |
+| `Result<i32, !>`      | Can return `i32`, but cannot return an error |
+| `Result<i32, String>` | Can return `i32` or a `String` error         |
+| `fn() -> !`           | Never returns normally                       |
+
+**Key takeaway:** You cannot construct `Err(!)`. The never type is useful precisely because it represents an impossible value, not an empty error object.
