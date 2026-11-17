@@ -23,3 +23,44 @@ fn infallible_unwrap<T>(res: Result<T, !>) -> T {
   - `Allocator` 트레이트로 사용자 정의 할당자를 구현할 수 있음  
   - `Vec::new_in`, `Box::new_in`으로 객체를 만들 때 사용할 할당자를 지정할 수 있음  
 - **`DropGuard`** 는 스코프…
+
+# 코드 연습
+
+```rust
+use std::process;
+
+fn handle_error(message: &str) -> ! {
+    eprintln!("ERROR: {}", message);
+    process::exit(1);
+}
+
+fn divide(a: i32, b: i32) -> Result<i32, String> {
+    if b == 0 {
+        Err("Division by zero".to_string())
+    } else {
+        Ok(a / b)
+    }
+}
+
+fn execute<F>(callback: F) -> i32
+where
+    F: FnOnce() -> Result<i32, String>,
+{
+    match callback() {
+        Ok(value) => {
+            println!("Success: {}", value);
+            value
+        }
+
+        Err(error) => {
+            handle_error(&error);
+        }
+    }
+}
+
+fn main() {
+    let result = execute(|| divide(100, 10));
+
+    println!("Result: {}", result);
+}
+```
