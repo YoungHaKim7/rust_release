@@ -14,6 +14,10 @@ fn infallible_unwrap<T>(res: Result<T, !>) -> T {
 - @m.ebrahimi12
   - https://youtu.be/mvah0HwIRAE?si=ZPwwxWjDQA4IowT8
 
+# Rust Trends Issue 87 - Rust 1.100 Ships the Never Type
+- Edition 87 · 2026-11-14
+  - https://rust-trends.com/newsletter/rust-1-100-ships-the-never-type/
+
 # **[Rust 1.100.0 - never 타입과 사용자 정의 메모리 할당자 안정화](<https://news.hada.io/topic?id=37070&utm_source=discord&utm_medium=bot&utm_campaign=5116>)**
 - **never 타입 `!` 안정화**  
   - `Result<T, !>`처럼 실패할 수 없는 연산을 표현할 수 있음  
